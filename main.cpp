@@ -9,24 +9,14 @@ int main(){
     //test init
     unsigned pzlSize = 3;
     Puzzle pzlToUse(pzlSize);
+    pzlToUse.moveLeft();
+    pzlToUse.moveLeft();
     cout << pzlToUse << endl;
-    // pzlToUse.editPuzzle(0,0,5);
-    // cout << pzlToUse << endl;
-    // pzlToUse.clearPuzzle();
-    // cout << pzlToUse << endl;   
 
-    pzlToUse.scramblePuzzle();
-    cout << pzlToUse << endl;
-    cout << pzlToUse.zeroPos[0] << ' ' << pzlToUse.zeroPos[1] << endl;
+    cout << "testing using the uniform cost algorithm" << endl;
+    cout << "depth 2\n" << endl;
 
-    Puzzle pzlTwo(pzlToUse);
-    cout << pzlTwo << endl;
-    cout << pzlTwo.zeroPos[0] << ' ' << pzlTwo.zeroPos[1] << endl;
-
-    pzlTwo.moveDown();
-    pzlToUse = pzlTwo;
-    cout << pzlToUse << endl;
-    cout << pzlToUse.zeroPos[0] << ' ' << pzlToUse.zeroPos[1] << endl;
+    uniformCostSearch(pzlToUse);
 
     return 0;
 }
