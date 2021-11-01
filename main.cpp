@@ -22,10 +22,11 @@ int main(){
 
     cout << pzlToUse << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1]<< endl;
 
-    cout << "testing using the uniform cost algorithm" << endl;
+    cout << "testing using AStar" << endl;
     cout << "depth 6\n" << endl;
 
-    uniformCostSearch(pzlToUse);
+    aStar(pzlToUse, 0);
+    aStar(pzlToUse, 1);
 
     return 0;
 }

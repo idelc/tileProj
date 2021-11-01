@@ -103,4 +103,89 @@ void uniformCostSearch(Puzzle& pzl){
     }
 }
 
+
+
+unsigned misplacedTile(Puzzle& currPz){return 0;}
+unsigned manhattan(Puzzle& currPz){return 0;}
+
+
+void aStar(Puzzle& pzl, unsigned mh){
+    priority_queue<Node*, vector<Node*>, std::greater<Node*>> nodes; // min priority queue 
+    nodes.push(new Node(pzl,0,0));
+    bool solved = false; // loop condition
+    // int times = 0;
+    // ofstream write;
+    // write.open("UCtrace.txt");
+    // if(!write.is_open()){
+    //     cout << "error opening file" << endl;
+    // }
+    while(!solved){
+        if(nodes.empty()){
+            cout << "Failed to solve the puzzle" << endl;
+            return;
+        }
+        Node* temp = nodes.top();
+        nodes.pop();
+        // write << temp->nodePzl << "cost: " << temp->cost << " in queue: " << nodes.size() << endl;
+        bool match = true;
+        unsigned nodePzlSize = temp->nodePzl.size;
+        for(unsigned i = 0; i < nodePzlSize; i++){
+            for(unsigned j = 0; j < nodePzlSize; j++){
+                // is the temp node puzzle at the current value the same as the solved puzzle at that value?
+                // asume true, if find one discrepancy set flag to false for remainder of loop
+                if(temp->nodePzl.pzlBoard[i][j] != SOLVED_PUZZLE.pzlBoard[i][j]){
+                    match = false;
+                }
+            }
+        }
+        if(match){
+            cout << "solution found at depth " << temp->cost << endl;
+            return;
+        }
+        else{
+            for(unsigned i = 0; i < 4; i++){
+                Node tempMoves = *temp;
+                switch (i){
+                case 0:
+                    tempMoves.nodePzl.moveUp();
+                    tempMoves.cost++;
+                    tempMoves.heuristic = mh ? manhattan(tempMoves.nodePzl) : misplacedTile(tempMoves.nodePzl);
+                    nodes.push(new Node(tempMoves.nodePzl, tempMoves.cost, tempMoves.heuristic));
+                    //cout << "up" << endl;
+                    break;
+                
+                case 1:
+                    tempMoves.nodePzl.moveLeft();
+                    tempMoves.cost++;
+                    tempMoves.heuristic = mh ? manhattan(tempMoves.nodePzl) : misplacedTile(tempMoves.nodePzl);
+                    nodes.push(new Node(tempMoves.nodePzl, tempMoves.cost, tempMoves.heuristic));
+                    //cout << "left" << endl;
+                    break;
+
+                case 2: 
+                    tempMoves.nodePzl.moveRight();
+                    tempMoves.cost++;
+                    tempMoves.heuristic = mh ? manhattan(tempMoves.nodePzl) : misplacedTile(tempMoves.nodePzl);
+                    nodes.push(new Node(tempMoves.nodePzl, tempMoves.cost, tempMoves.heuristic));
+                    //cout << "right" << endl;
+                    break;
+
+                case 3:
+                    tempMoves.nodePzl.moveDown();
+                    tempMoves.cost++;
+                    tempMoves.heuristic = mh ? manhattan(tempMoves.nodePzl) : misplacedTile(tempMoves.nodePzl);
+                    nodes.push(new Node(tempMoves.nodePzl, tempMoves.cost, tempMoves.heuristic));
+                    //cout << "down" << endl;
+                    break;
+
+                default:
+                    cout << "error in expanding UC children" << endl;
+                    exit(1);
+                    break;
+                }
+            }
+        }
+    }
+}
+
 #endif
