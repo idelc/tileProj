@@ -18,6 +18,7 @@ const Puzzle SOLVED_PUZZLE(3);
 class Node{ // struct to hold node info
  public:
     Node(Puzzle& pzl, unsigned cst, unsigned heu):nodePzl(pzl),cost(cst),heuristic(heu){};
+    ~Node(){}
     Puzzle nodePzl;
     unsigned cost; 
     unsigned heuristic;
@@ -141,7 +142,6 @@ unsigned manhattan(Puzzle& currPz){
             }
         }
     } 
-
     return mhNum;
 }
 
@@ -180,8 +180,9 @@ void aStar(Puzzle& pzl, unsigned mh){
             return;
         }
         else{
+            Node tempMoves = *temp;
             for(unsigned i = 0; i < 4; i++){
-                Node tempMoves = *temp;
+                tempMoves = *temp;
                 switch (i){
                 case 0:
                     tempMoves.nodePzl.moveUp();

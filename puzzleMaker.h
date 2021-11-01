@@ -166,10 +166,11 @@ class Puzzle{
     }
 
     // ~Puzzle(){ //destructor, not in use due to removal of dynamic alloc
-    //     for(int i = 0; i < this->size; i++){
-    //         delete[] this->pzlBoard[i];
+    //     for(unsigned i = 0; i < this->size; i++){
+    //         for(unsigned j = 0; j < this->size; j++){
+    //             delete this->pzlBoard[i][j];
+    //         }
     //     }
-    //     delete[][] pzlBoard;
     // }
     
 
