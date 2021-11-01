@@ -6,10 +6,10 @@ using namespace std;
 
 int main(){
     Puzzle pzlToUse(3);
-    cout << pzlToUse;
+    cout << pzlToUse << endl;
     pzlToUse.editPuzzle(0,0,5);
-    cout << pzlToUse;
+    cout << pzlToUse << endl;
     pzlToUse.clearPuzzle();
-    cout << pzlToUse;    
+    cout << pzlToUse << endl;    
     return 0;
 }
