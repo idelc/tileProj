@@ -2,10 +2,13 @@
 #define PZZLMKR
 
 #include <iostream>
+#include <cstdlib>
 using namespace std;
 
 class Puzzle{
  public:
+
+    //constructor. currently hardcoded to make an 8 puzzle, though minor changes could be made to increase size
     Puzzle(unsigned sz): size(sz){ // pass in 3 for an 8 puzzle, hardcoded for now
         // cout << "filling in puzzle" << endl;
         zeroPos[0] = sz - 1;
@@ -21,6 +24,8 @@ class Puzzle{
         // cout << "done filling in" << endl;
     };
 
+
+    // sets everything to 0
     void clearPuzzle(){
         for(unsigned i = 0; i < this->size; i++){
             for(unsigned j = 0; j < this->size; j++){
@@ -29,6 +34,8 @@ class Puzzle{
         }
     }
 
+
+    // overload of stream operator to easily print the puzzle when needed
     friend ostream& operator<<(ostream& o, const Puzzle& pzl){
         for(unsigned i = 0; i < pzl.size; i++){
             o << "[ ";
@@ -40,12 +47,18 @@ class Puzzle{
         return o;
     }
 
+
+    // will allow any cell to be edited with no verification of validity
     void editPuzzle(unsigned x, unsigned y, unsigned num){
         if(num > ((this->size * this->size) - 1)){return;}
 
         this->pzlBoard[x][y] = num;
     }
 
+
+    // all the movement functions swap the 0 with whatever is in the spot that is being switched to
+    // they all have boundary checking to ensure the movement is legal
+    // the position of the 0 is stored, and they return 0 or 1 depending on wether the move was legal
     unsigned moveUp(){
         if(this->zeroPos[0] == 0){return 0;}
         this->pzlBoard[this->zeroPos[0]][this->zeroPos[1]] = this->pzlBoard[this->zeroPos[0]-1][this->zeroPos[1]];
@@ -78,6 +91,55 @@ class Puzzle{
         return 1;
     }
 
+
+
+    // scramble function. Will take the puzzle and scramble it in a legal way
+    // does not "remove tiles", will simply use the move functions to scramble
+    // so as to avoid switching problem space
+    void scramblePuzzle(){
+        srand(3);
+        unsigned numShifts = (rand() % 10) + 1; // limit to 1-10 moves to avoid making problem too wide
+        unsigned shifts[numShifts];
+        cout << numShifts << " moves" << endl;
+        for(unsigned i = 0; i < numShifts; i++){ // will choose a move at random
+            shifts[i] = rand() % 4;
+            cout << shifts[i] << ' ';
+        }
+        cout << endl;
+
+        unsigned move;
+        for(unsigned i = 0; i < numShifts; i++){ 
+            move = shifts[i];
+            switch (move)
+            {
+            case 0:
+                this->moveUp();
+                cout << "up" << endl;
+                break;
+            
+            case 1:
+                this->moveLeft();
+                cout << "left" << endl;
+                break;
+
+            case 2: 
+                this->moveRight();
+                cout << "right" << endl;
+                break;
+
+            case 3:
+                this->moveDown();
+                cout << "down" << endl;
+                break;
+
+            default:
+                cout << "error in shuffle" << endl;
+                exit(1);
+                break;
+            }
+        }
+    }
+
     // ~Puzzle(){
     //     for(int i = 0; i < this->size; i++){
     //         delete[] this->pzlBoard[i];
@@ -85,6 +147,8 @@ class Puzzle{
     //     delete[][] pzlBoard;
     // }
     
+
+    // variables
     unsigned size; // puzzle of size x size, will test with 8
     unsigned zeroPos[2];
     unsigned pzlBoard [3][3];
