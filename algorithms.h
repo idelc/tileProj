@@ -10,6 +10,7 @@
 #include <queue>
 #include <vector>
 #include <fstream>
+#include <cstdlib>
 #include "puzzleMaker.h"
 
 const Puzzle SOLVED_PUZZLE(3);
@@ -31,13 +32,13 @@ void uniformCostSearch(Puzzle& pzl){
     priority_queue<Node*, vector<Node*>, std::greater<Node*>> nodes; // min priority queue 
     nodes.push(new Node(pzl,0,0));
     bool solved = false; // loop condition
-    int times = 0;
+    // int times = 0;
     // ofstream write;
     // write.open("UCtrace.txt");
     // if(!write.is_open()){
     //     cout << "error opening file" << endl;
     // }
-    while((!solved) && times++ < 500){
+    while(!solved){
         if(nodes.empty()){
             cout << "Failed to solve the puzzle" << endl;
             return;
