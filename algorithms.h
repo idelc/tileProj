@@ -105,7 +105,19 @@ void uniformCostSearch(Puzzle& pzl){
 
 
 
-unsigned misplacedTile(Puzzle& currPz){return 0;}
+unsigned misplacedTile(Puzzle& currPz){
+    unsigned mT = 0;
+    for(unsigned i = 0; i < currPz.size; i++){
+            for(unsigned j = 0; j < currPz.size; j++){
+                // is the temp node puzzle at the current value the same as the solved puzzle at that value?
+                // asume true, if find one discrepancy set flag to false for remainder of loop
+                if(currPz.pzlBoard[i][j] != SOLVED_PUZZLE.pzlBoard[i][j]){
+                    mT++;
+                }
+            }
+        }
+    return mT;    
+}
 unsigned manhattan(Puzzle& currPz){return 0;}
 
 
