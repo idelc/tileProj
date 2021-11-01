@@ -19,12 +19,7 @@ int main(){
     pzlToUse.moveUp();
     cout << pzlToUse << endl;
     cout << "\nZero pos: " << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1] << endl;
-
-    cout << "\nZero pos: " << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1] << endl;
-    pzlToUse.moveUp();
-    cout << pzlToUse << endl;
-    cout << "\nZero pos: " << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1] << endl;
-
+    
     cout << "\nZero pos: " << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1] << endl;
     pzlToUse.moveUp();
     cout << pzlToUse << endl;
@@ -35,6 +30,87 @@ int main(){
     cout << pzlToUse << endl;
     cout << "\nZero pos: " << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1] << endl;
     
+    cout << "\nZero pos: " << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1] << endl;
+    pzlToUse.moveUp();
+    cout << pzlToUse << endl;
+    cout << "\nZero pos: " << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1] << endl;
+
+    cout << "\nZero pos: " << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1] << endl;
+    pzlToUse.moveLeft();
+    cout << pzlToUse << endl;
+    cout << "\nZero pos: " << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1] << endl;
+
+    cout << "\nZero pos: " << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1] << endl;
+    pzlToUse.moveLeft();
+    cout << pzlToUse << endl;
+    cout << "\nZero pos: " << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1] << endl;
+
+    cout << "\nZero pos: " << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1] << endl;
+    pzlToUse.moveLeft();
+    cout << pzlToUse << endl;
+    cout << "\nZero pos: " << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1] << endl;
+
+    cout << "\nZero pos: " << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1] << endl;
+    pzlToUse.moveLeft();
+    cout << pzlToUse << endl;
+    cout << "\nZero pos: " << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1] << endl;
+
+    cout << "\nZero pos: " << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1] << endl;
+    pzlToUse.moveLeft();
+    cout << pzlToUse << endl;
+    cout << "\nZero pos: " << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1] << endl;
+
+
+    cout << "\nZero pos: " << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1] << endl;
+    pzlToUse.moveDown();
+    cout << pzlToUse << endl;
+    cout << "\nZero pos: " << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1] << endl;
+
+    cout << "\nZero pos: " << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1] << endl;
+    pzlToUse.moveDown();
+    cout << pzlToUse << endl;
+    cout << "\nZero pos: " << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1] << endl;
+
+    cout << "\nZero pos: " << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1] << endl;
+    pzlToUse.moveDown();
+    cout << pzlToUse << endl;
+    cout << "\nZero pos: " << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1] << endl;
+
+    cout << "\nZero pos: " << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1] << endl;
+    pzlToUse.moveDown();
+    cout << pzlToUse << endl;
+    cout << "\nZero pos: " << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1] << endl;
+
+    cout << "\nZero pos: " << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1] << endl;
+    pzlToUse.moveDown();
+    cout << pzlToUse << endl;
+    cout << "\nZero pos: " << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1] << endl;
+
+
+    cout << "\nZero pos: " << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1] << endl;
+    pzlToUse.moveRight();
+    cout << pzlToUse << endl;
+    cout << "\nZero pos: " << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1] << endl;
+
+    cout << "\nZero pos: " << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1] << endl;
+    pzlToUse.moveRight();
+    cout << pzlToUse << endl;
+    cout << "\nZero pos: " << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1] << endl;
+
+    cout << "\nZero pos: " << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1] << endl;
+    pzlToUse.moveRight();
+    cout << pzlToUse << endl;
+    cout << "\nZero pos: " << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1] << endl;
+
+    cout << "\nZero pos: " << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1] << endl;
+    pzlToUse.moveRight();
+    cout << pzlToUse << endl;
+    cout << "\nZero pos: " << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1] << endl;
+
+    cout << "\nZero pos: " << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1] << endl;
+    pzlToUse.moveRight();
+    cout << pzlToUse << endl;
+    cout << "\nZero pos: " << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1] << endl;
 
     return 0;
 }

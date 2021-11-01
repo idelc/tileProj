@@ -54,6 +54,30 @@ class Puzzle{
         return 1;
     }
 
+    unsigned moveLeft(){
+        if(this->zeroPos[1] == 0) {return 0;}
+        this->pzlBoard[this->zeroPos[0]][this->zeroPos[1]] = this->pzlBoard[this->zeroPos[0]][this->zeroPos[1]-1];
+        this->pzlBoard[this->zeroPos[0]][this->zeroPos[1]-1] = 0;
+        this->zeroPos[1] = this->zeroPos[1] - 1;
+        return 1;
+    }
+
+    unsigned moveDown(){
+        if(this->zeroPos[0] == (this->size - 1)){return 0;}
+        this->pzlBoard[this->zeroPos[0]][this->zeroPos[1]] = this->pzlBoard[this->zeroPos[0]+1][this->zeroPos[1]];
+        this->pzlBoard[this->zeroPos[0]+1][this->zeroPos[1]] = 0;
+        this->zeroPos[0] = this->zeroPos[0] + 1;
+        return 1;
+    }
+
+    unsigned moveRight(){
+        if(this->zeroPos[1] == (this->size - 1)) {return 0;}
+        this->pzlBoard[this->zeroPos[0]][this->zeroPos[1]] = this->pzlBoard[this->zeroPos[0]][this->zeroPos[1]+1];
+        this->pzlBoard[this->zeroPos[0]][this->zeroPos[1]+1] = 0;
+        this->zeroPos[1] = this->zeroPos[1] + 1;
+        return 1;
+    }
+
     // ~Puzzle(){
     //     for(int i = 0; i < this->size; i++){
     //         delete[] this->pzlBoard[i];
