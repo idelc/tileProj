@@ -32,11 +32,11 @@ void uniformCostSearch(Puzzle& pzl){
     nodes.push(new Node(pzl,0,0));
     bool solved = false; // loop condition
     int times = 0;
-    ofstream write;
-    write.open("UCtrace.txt");
-    if(!write.is_open()){
-        cout << "error opening file" << endl;
-    }
+    // ofstream write;
+    // write.open("UCtrace.txt");
+    // if(!write.is_open()){
+    //     cout << "error opening file" << endl;
+    // }
     while((!solved) && times++ < 500){
         if(nodes.empty()){
             cout << "Failed to solve the puzzle" << endl;
@@ -44,7 +44,7 @@ void uniformCostSearch(Puzzle& pzl){
         }
         Node* temp = nodes.top();
         nodes.pop();
-        write << temp->nodePzl << "cost: " << temp->cost << " in queue: " << nodes.size() << endl;
+        // write << temp->nodePzl << "cost: " << temp->cost << " in queue: " << nodes.size() << endl;
         bool match = true;
         unsigned nodePzlSize = temp->nodePzl.size;
         for(unsigned i = 0; i < nodePzlSize; i++){
