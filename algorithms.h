@@ -118,7 +118,32 @@ unsigned misplacedTile(Puzzle& currPz){
         }
     return mT;    
 }
-unsigned manhattan(Puzzle& currPz){return 0;}
+
+unsigned manhattan(Puzzle& currPz){
+    unsigned sz = currPz.size;
+    unsigned manhArr [(sz*sz)][2];
+    unsigned arrPnt = 1;
+    manhArr[0][0] = sz-1;
+    manhArr[0][1] = sz-1;
+    for(unsigned i = 0; i < sz; i++){ //initialize "right possition array"
+        for(unsigned j = 0; j < sz; j++){
+            manhArr[arrPnt][0] = i;
+            manhArr[arrPnt++][1] = j;
+        }
+    } 
+
+    unsigned tempNum1, mhNum = 0;
+    for(unsigned i = 0; i < sz; i++){ //check curr array pos
+        for(unsigned j = 0; j < sz; j++){
+            tempNum1 = currPz.pzlBoard[i][j]; 
+            if(tempNum1){
+                mhNum = mhNum + abs(static_cast<int>(manhArr[tempNum1][0]) - static_cast<int>(i)) + abs(static_cast<int>(manhArr[tempNum1][1]) - static_cast<int>(j));
+            }
+        }
+    } 
+
+    return mhNum;
+}
 
 
 void aStar(Puzzle& pzl, unsigned mh){
