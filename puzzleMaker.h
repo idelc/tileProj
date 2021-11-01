@@ -24,6 +24,31 @@ class Puzzle{
         // cout << "done filling in" << endl;
     };
 
+    // the copy constructor. Performs deep copy of all arrays.
+    Puzzle(const Puzzle &cpy): size(cpy.size){
+        for(unsigned i = 0; i < this->size; i++){
+            for(unsigned j = 0; j < this->size; j++){
+                this->pzlBoard[i][j] = cpy.pzlBoard[i][j];
+            }
+        }
+        this->zeroPos[0] = cpy.zeroPos[0];
+        this->zeroPos[1] = cpy.zeroPos[1];
+    }; 
+
+	// the overloaded assignment operator. This performs deep copy.
+    // Takes in puzzle, makes constant, and edits puzzle on lhs of operator
+    Puzzle & operator=(const Puzzle &rhs){
+        if(this->size != rhs.size) {exit(1);} // do not copy to mismatched sizes.
+
+        for(unsigned i = 0; i < this->size; i++){
+            for(unsigned j = 0; j < this->size; j++){
+                this->pzlBoard[i][j] = rhs.pzlBoard[i][j];
+            }
+        }
+        this->zeroPos[0] = rhs.zeroPos[0];
+        this->zeroPos[1] = rhs.zeroPos[1];
+        return *this;
+    }
 
     // sets everything to 0
     void clearPuzzle(){
@@ -100,12 +125,12 @@ class Puzzle{
         srand(3);
         unsigned numShifts = (rand() % 10) + 1; // limit to 1-10 moves to avoid making problem too wide
         unsigned shifts[numShifts];
-        cout << numShifts << " moves" << endl;
+        //cout << numShifts << " moves" << endl;
         for(unsigned i = 0; i < numShifts; i++){ // will choose a move at random
             shifts[i] = rand() % 4;
-            cout << shifts[i] << ' ';
+            //cout << shifts[i] << ' ';
         }
-        cout << endl;
+        //cout << endl;
 
         unsigned move;
         for(unsigned i = 0; i < numShifts; i++){ 
@@ -114,22 +139,22 @@ class Puzzle{
             {
             case 0:
                 this->moveUp();
-                cout << "up" << endl;
+                //cout << "up" << endl;
                 break;
             
             case 1:
                 this->moveLeft();
-                cout << "left" << endl;
+                //cout << "left" << endl;
                 break;
 
             case 2: 
                 this->moveRight();
-                cout << "right" << endl;
+                //cout << "right" << endl;
                 break;
 
             case 3:
                 this->moveDown();
-                cout << "down" << endl;
+                //cout << "down" << endl;
                 break;
 
             default:
@@ -140,7 +165,7 @@ class Puzzle{
         }
     }
 
-    // ~Puzzle(){
+    // ~Puzzle(){ //destructor, not in use due to removal of dynamic alloc
     //     for(int i = 0; i < this->size; i++){
     //         delete[] this->pzlBoard[i];
     //     }
@@ -150,8 +175,8 @@ class Puzzle{
 
     // variables
     unsigned size; // puzzle of size x size, will test with 8
-    unsigned zeroPos[2];
-    unsigned pzlBoard [3][3];
+    unsigned zeroPos[2]; //position of "0"
+    unsigned pzlBoard [3][3]; // size of board, hardcoded for now
 };
 
 
