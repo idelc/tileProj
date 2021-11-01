@@ -26,8 +26,7 @@ int main(){
     cout << "testing using AStar" << endl;
     cout << "depth 16\n" << endl;
 
-    aStar(pzlToUse, 0);
-    // aStar(pzlToUse, 1);
+    aStar(pzlToUse, 1);
 
     return 0;
 }
