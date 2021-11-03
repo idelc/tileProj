@@ -27,6 +27,6 @@ int main(){
     cout << "depth 16\n" << endl;
 
     aStar(pzlToUse, 1);
-
+    
     return 0;
 }

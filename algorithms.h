@@ -18,10 +18,12 @@ const Puzzle SOLVED_PUZZLE(3);
 class Node{ // struct to hold node info
  public:
     Node(Puzzle& pzl, unsigned cst, unsigned heu):nodePzl(pzl),cost(cst),heuristic(heu){};
+    Node(const Node& nd): nodePzl(nd.nodePzl), cost(nd.cost), heuristic(nd.heuristic), lastMove(nd.lastMove){};
     ~Node(){}
     Puzzle nodePzl;
     unsigned cost; 
     unsigned heuristic;
+    unsigned lastMove; // store last move and dont make a node undoing it
     bool operator>(const Node&); //overloading comparitor
 };
 
@@ -145,10 +147,13 @@ unsigned manhattan(Puzzle& currPz){
     return mhNum;
 }
 
-
+// URGENT TODO: Note that if a move is invalid, no node should be created
+// in node, store last move made to avoid undoing move
 void aStar(Puzzle& pzl, unsigned mh){
     priority_queue<Node*, vector<Node*>, std::greater<Node*>> nodes; // min priority queue 
-    nodes.push(new Node(pzl,0,0));
+    Node* firstNode = new Node(pzl,0,0);
+    firstNode->lastMove = 4; // set so that nothing is excluded from first expansion
+    nodes.push(firstNode);
     bool solved = false; // loop condition
     // int times = 0;
     // ofstream write;
@@ -163,6 +168,7 @@ void aStar(Puzzle& pzl, unsigned mh){
         }
         Node* temp = nodes.top();
         nodes.pop();
+        
         // write << temp->nodePzl << "cost: " << temp->cost << " in queue: " << nodes.size() << endl;
         bool match = true;
         unsigned nodePzlSize = temp->nodePzl.size;
@@ -181,38 +187,47 @@ void aStar(Puzzle& pzl, unsigned mh){
         }
         else{
             Node tempMoves = *temp;
+            bool validMove = false;
             for(unsigned i = 0; i < 4; i++){
                 tempMoves = *temp;
                 switch (i){
                 case 0:
-                    tempMoves.nodePzl.moveUp();
+                    if(tempMoves.lastMove == 3) {break;}
+                    tempMoves.lastMove = 0;
+                    validMove = tempMoves.nodePzl.moveUp();
                     tempMoves.cost++;
                     tempMoves.heuristic = mh ? manhattan(tempMoves.nodePzl) : misplacedTile(tempMoves.nodePzl);
-                    nodes.push(new Node(tempMoves.nodePzl, tempMoves.cost, tempMoves.heuristic));
+                    if(validMove){nodes.push(new Node(tempMoves.nodePzl, tempMoves.cost, tempMoves.heuristic));}
                     //cout << "up" << endl;
                     break;
                 
                 case 1:
-                    tempMoves.nodePzl.moveLeft();
+                    if(tempMoves.lastMove == 2) {break;}
+                    tempMoves.lastMove = 1;
+                    validMove = tempMoves.nodePzl.moveLeft();
                     tempMoves.cost++;
                     tempMoves.heuristic = mh ? manhattan(tempMoves.nodePzl) : misplacedTile(tempMoves.nodePzl);
-                    nodes.push(new Node(tempMoves.nodePzl, tempMoves.cost, tempMoves.heuristic));
+                    if(validMove){nodes.push(new Node(tempMoves.nodePzl, tempMoves.cost, tempMoves.heuristic));}
                     //cout << "left" << endl;
                     break;
 
                 case 2: 
-                    tempMoves.nodePzl.moveRight();
+                    if(tempMoves.lastMove == 1) {break;}
+                    tempMoves.lastMove = 2;
+                    validMove = tempMoves.nodePzl.moveRight();
                     tempMoves.cost++;
                     tempMoves.heuristic = mh ? manhattan(tempMoves.nodePzl) : misplacedTile(tempMoves.nodePzl);
-                    nodes.push(new Node(tempMoves.nodePzl, tempMoves.cost, tempMoves.heuristic));
+                    if(validMove){nodes.push(new Node(tempMoves.nodePzl, tempMoves.cost, tempMoves.heuristic));}
                     //cout << "right" << endl;
                     break;
 
                 case 3:
-                    tempMoves.nodePzl.moveDown();
+                    if(tempMoves.lastMove == 0) {break;}
+                    tempMoves.lastMove = 3;
+                    validMove = tempMoves.nodePzl.moveDown();
                     tempMoves.cost++;
                     tempMoves.heuristic = mh ? manhattan(tempMoves.nodePzl) : misplacedTile(tempMoves.nodePzl);
-                    nodes.push(new Node(tempMoves.nodePzl, tempMoves.cost, tempMoves.heuristic));
+                    if(validMove){nodes.push(new Node(tempMoves.nodePzl, tempMoves.cost, tempMoves.heuristic));}
                     //cout << "down" << endl;
                     break;
 
