@@ -24,11 +24,12 @@ class Node{ // struct to hold node info
     unsigned cost; 
     unsigned heuristic;
     unsigned lastMove; // store last move and dont make a node undoing it
-    bool operator>(const Node&); //overloading comparitor
 };
 
-bool Node::operator>(const Node& node) { //overload comparison to allow priority queue to sort properly
-        return (this->cost + this->heuristic) > (node.cost + node.heuristic);
+bool operator<(const Node& p1, const Node& p2){ //overload comparison to allow priority queue to sort properly
+        int f1 = (p1.cost + p1.heuristic); 
+        int f2 = (p2.cost + p2.heuristic);
+        return f1 < f2;
 }
 
 void uniformCostSearch(Puzzle& pzl){
@@ -150,46 +151,46 @@ unsigned manhattan(Puzzle& currPz){
 // URGENT TODO: Note that if a move is invalid, no node should be created
 // in node, store last move made to avoid undoing move
 void aStar(Puzzle& pzl, unsigned mh){
-    priority_queue<Node*, vector<Node*>, std::greater<Node*>> nodes; // min priority queue 
+    priority_queue<Node*> nodes; // min priority queue 
     Node* firstNode = new Node(pzl,0,0);
     firstNode->lastMove = 4; // set so that nothing is excluded from first expansion
     nodes.push(firstNode);
     bool solved = false; // loop condition
     // int times = 0;
-    // ofstream write;
-    // write.open("UCtrace.txt");
-    // if(!write.is_open()){
-    //     cout << "error opening file" << endl;
-    // }
+    ofstream write;
+    write.open("Manhtrace.txt");
+    if(!write.is_open()){
+        cout << "error opening file" << endl;
+    }
     while(!solved){
         if(nodes.empty()){
             cout << "Failed to solve the puzzle" << endl;
             return;
         }
-        Node* temp = nodes.top();
+        Node temp = *nodes.top();
         nodes.pop();
         
-        // write << temp->nodePzl << "cost: " << temp->cost << " in queue: " << nodes.size() << endl;
+        write << "\n\n" << temp.nodePzl << "cost: " << temp.cost << " heu: " << temp.heuristic <<" in queue: " << nodes.size() << "\n" << endl;
         bool match = true;
-        unsigned nodePzlSize = temp->nodePzl.size;
+        unsigned nodePzlSize = temp.nodePzl.size;
         for(unsigned i = 0; i < nodePzlSize; i++){
             for(unsigned j = 0; j < nodePzlSize; j++){
                 // is the temp node puzzle at the current value the same as the solved puzzle at that value?
                 // asume true, if find one discrepancy set flag to false for remainder of loop
-                if(temp->nodePzl.pzlBoard[i][j] != SOLVED_PUZZLE.pzlBoard[i][j]){
+                if(temp.nodePzl.pzlBoard[i][j] != SOLVED_PUZZLE.pzlBoard[i][j]){
                     match = false;
                 }
             }
         }
         if(match){
-            cout << "solution found at depth " << temp->cost << endl;
+            cout << "solution found at depth " << temp.cost << endl;
             return;
         }
         else{
-            Node tempMoves = *temp;
+            Node tempMoves = temp;
             bool validMove = false;
             for(unsigned i = 0; i < 4; i++){
-                tempMoves = *temp;
+                tempMoves = temp;
                 switch (i){
                 case 0:
                     if(tempMoves.lastMove == 3) {break;}
@@ -197,8 +198,10 @@ void aStar(Puzzle& pzl, unsigned mh){
                     validMove = tempMoves.nodePzl.moveUp();
                     tempMoves.cost++;
                     tempMoves.heuristic = mh ? manhattan(tempMoves.nodePzl) : misplacedTile(tempMoves.nodePzl);
-                    if(validMove){nodes.push(new Node(tempMoves.nodePzl, tempMoves.cost, tempMoves.heuristic));}
-                    //cout << "up" << endl;
+                    if(validMove){
+                        nodes.push(new Node(tempMoves.nodePzl, tempMoves.cost, tempMoves.heuristic));
+                        write << "up\n" << tempMoves.nodePzl << "cost: " << tempMoves.cost << " heu: " << tempMoves.heuristic << " in queue: " << nodes.size() << endl;
+                    }
                     break;
                 
                 case 1:
@@ -207,8 +210,10 @@ void aStar(Puzzle& pzl, unsigned mh){
                     validMove = tempMoves.nodePzl.moveLeft();
                     tempMoves.cost++;
                     tempMoves.heuristic = mh ? manhattan(tempMoves.nodePzl) : misplacedTile(tempMoves.nodePzl);
-                    if(validMove){nodes.push(new Node(tempMoves.nodePzl, tempMoves.cost, tempMoves.heuristic));}
-                    //cout << "left" << endl;
+                    if(validMove){
+                        nodes.push(new Node(tempMoves.nodePzl, tempMoves.cost, tempMoves.heuristic));
+                        write << "left\n" << tempMoves.nodePzl << "cost: " << tempMoves.cost << " heu: " << tempMoves.heuristic << " in queue: " << nodes.size() << endl;
+                    }
                     break;
 
                 case 2: 
@@ -217,8 +222,10 @@ void aStar(Puzzle& pzl, unsigned mh){
                     validMove = tempMoves.nodePzl.moveRight();
                     tempMoves.cost++;
                     tempMoves.heuristic = mh ? manhattan(tempMoves.nodePzl) : misplacedTile(tempMoves.nodePzl);
-                    if(validMove){nodes.push(new Node(tempMoves.nodePzl, tempMoves.cost, tempMoves.heuristic));}
-                    //cout << "right" << endl;
+                    if(validMove){
+                        nodes.push(new Node(tempMoves.nodePzl, tempMoves.cost, tempMoves.heuristic));
+                        write << "right\n" << tempMoves.nodePzl << "cost: " << tempMoves.cost << " heu: " << tempMoves.heuristic << " in queue: " << nodes.size() << endl;
+                    }
                     break;
 
                 case 3:
@@ -227,8 +234,10 @@ void aStar(Puzzle& pzl, unsigned mh){
                     validMove = tempMoves.nodePzl.moveDown();
                     tempMoves.cost++;
                     tempMoves.heuristic = mh ? manhattan(tempMoves.nodePzl) : misplacedTile(tempMoves.nodePzl);
-                    if(validMove){nodes.push(new Node(tempMoves.nodePzl, tempMoves.cost, tempMoves.heuristic));}
-                    //cout << "down" << endl;
+                    if(validMove){
+                        nodes.push(new Node(tempMoves.nodePzl, tempMoves.cost, tempMoves.heuristic));
+                        write << "down\n" << tempMoves.nodePzl << "cost: " << tempMoves.cost << " heu: " << tempMoves.heuristic << " in queue: " << nodes.size() << endl;
+                    }
                     break;
 
                 default:
