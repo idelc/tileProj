@@ -72,7 +72,7 @@ unsigned manhattan(const Puzzle& currPz){
 }
 
 
-void generalSearch(Puzzle& pzl, unsigned heu){
+void generalSearch(Puzzle& pzl, const unsigned heu){
     priority_queue<Node*, vector <Node*>, std::greater<Node*> > nodes; // min priority queue 
     nodes.push(new Node(pzl,0,0,4)); //First node, no cost, no heuristic, last move is invalid
     bool solved = false; // loop condition
@@ -104,7 +104,7 @@ void generalSearch(Puzzle& pzl, unsigned heu){
             }
         }
         if(match){
-            cout << "solution found at depth " << temp.cost << endl;
+            cout << "Solution found at depth: " << temp.cost << endl;
             return;
         }
         else{
