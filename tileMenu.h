@@ -22,19 +22,19 @@ void testCaseManager(){
                 Puzzle pzlToUse(depthZeroInit);
                 cout << endl << pzlToUse << "Zero at: " << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1]<< endl;
                 cout << "Testing Depth 0 using: Uniform Cost Search\n" << endl;
-                generalSearch(pzlToUse, 2);
+                generalSearch(pzlToUse, 2, false);
             }
             {
                 Puzzle pzlToUse(depthZeroInit);
                 cout << endl << pzlToUse << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1]<< endl;
                 cout << "Testing Depth 0 using: A* Misplaced Tile\n" << endl;
-                generalSearch(pzlToUse, 0);
+                generalSearch(pzlToUse, 0, false);
             }
             {
                 Puzzle pzlToUse(depthZeroInit);
                 cout << endl << pzlToUse << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1]<< endl;
                 cout << "Testing Depth 0 using: A* Manhattan\n" << endl;
-                generalSearch(pzlToUse, 1);
+                generalSearch(pzlToUse, 1, false);
             }
             }
             break;
@@ -47,19 +47,19 @@ void testCaseManager(){
                 Puzzle pzlToUse(depthTwoInit);
                 cout << endl << pzlToUse << "Zero at: " << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1]<< endl;
                 cout << "Testing Depth 2 using: Uniform Cost Search\n" << endl;
-                generalSearch(pzlToUse, 2);
+                generalSearch(pzlToUse, 2, false);
             }
             {
                 Puzzle pzlToUse(depthTwoInit);
                 cout << endl << pzlToUse << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1]<< endl;
                 cout << "Testing Depth 2 using: A* Misplaced Tile\n" << endl;
-                generalSearch(pzlToUse, 0);
+                generalSearch(pzlToUse, 0, false);
             }
             {
                 Puzzle pzlToUse(depthTwoInit);
                 cout << endl << pzlToUse << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1]<< endl;
                 cout << "Testing Depth 2 using: A* Manhattan\n" << endl;
-                generalSearch(pzlToUse, 1);
+                generalSearch(pzlToUse, 1, false);
             }
             }
             break;
@@ -72,19 +72,19 @@ void testCaseManager(){
                 Puzzle pzlToUse(depthFourInit);
                 cout << endl << pzlToUse << "Zero at: " << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1]<< endl;
                 cout << "Testing Depth 4 using: Uniform Cost Search\n" << endl;
-                generalSearch(pzlToUse, 2);
+                generalSearch(pzlToUse, 2, false);
             }
             {
                 Puzzle pzlToUse(depthFourInit);
                 cout << endl << pzlToUse << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1]<< endl;
                 cout << "Testing Depth 4 using: A* Misplaced Tile\n" << endl;
-                generalSearch(pzlToUse, 0);
+                generalSearch(pzlToUse, 0, false);
             }
             {
                 Puzzle pzlToUse(depthFourInit);
                 cout << endl << pzlToUse << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1]<< endl;
                 cout << "Testing Depth 4 using: A* Manhattan\n" << endl;
-                generalSearch(pzlToUse, 1);
+                generalSearch(pzlToUse, 1, false);
             }
             }
             break;
@@ -97,19 +97,19 @@ void testCaseManager(){
                 Puzzle pzlToUse(depthEightInit);
                 cout << endl << pzlToUse << "Zero at: " << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1]<< endl;
                 cout << "Testing Depth 8 using: Uniform Cost Search\n" << endl;
-                generalSearch(pzlToUse, 2);
+                generalSearch(pzlToUse, 2, false);
             }
             {
                 Puzzle pzlToUse(depthEightInit);
                 cout << endl << pzlToUse << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1]<< endl;
                 cout << "Testing Depth 8 using: A* Misplaced Tile\n" << endl;
-                generalSearch(pzlToUse, 0);
+                generalSearch(pzlToUse, 0, false);
             }
             {
                 Puzzle pzlToUse(depthEightInit);
                 cout << endl << pzlToUse << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1]<< endl;
                 cout << "Testing Depth 8 using: A* Manhattan\n" << endl;
-                generalSearch(pzlToUse, 1);
+                generalSearch(pzlToUse, 1, false);
             }
             }
             break;
@@ -122,19 +122,19 @@ void testCaseManager(){
                 Puzzle pzlToUse(depthTwelveInit);
                 cout << endl << pzlToUse << "Zero at: " << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1]<< endl;
                 cout << "Testing Depth 12 using: Uniform Cost Search\n" << endl;
-                generalSearch(pzlToUse, 2);
+                generalSearch(pzlToUse, 2, false);
             }
             {
                 Puzzle pzlToUse(depthTwelveInit);
                 cout << endl << pzlToUse << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1]<< endl;
                 cout << "Testing Depth 12 using: A* Misplaced Tile\n" << endl;
-                generalSearch(pzlToUse, 0);
+                generalSearch(pzlToUse, 0, false);
             }
             {
                 Puzzle pzlToUse(depthTwelveInit);
                 cout << endl << pzlToUse << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1]<< endl;
                 cout << "Testing Depth 12 using: A* Manhattan\n" << endl;
-                generalSearch(pzlToUse, 1);
+                generalSearch(pzlToUse, 1, false);
             }
             }
             break;
@@ -148,13 +148,13 @@ void testCaseManager(){
                 Puzzle pzlToUse(depthSixteenInit);
                 cout << endl << pzlToUse << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1]<< endl;
                 cout << "Testing Depth 16 using: A* Misplaced Tile\n" << endl;
-                generalSearch(pzlToUse, 0);
+                generalSearch(pzlToUse, 0, false);
             }
             {
                 Puzzle pzlToUse(depthSixteenInit);
                 cout << endl << pzlToUse << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1]<< endl;
                 cout << "Testing Depth 16 using: A* Manhattan\n" << endl;
-                generalSearch(pzlToUse, 1);
+                generalSearch(pzlToUse, 1, false);
             }
             }
             break;
@@ -168,7 +168,7 @@ void testCaseManager(){
                 Puzzle pzlToUse(depthTwentyInit);
                 cout << endl << pzlToUse << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1]<< endl;
                 cout << "Testing Depth 20 using: A* Manhattan\n" << endl;
-                generalSearch(pzlToUse, 1);
+                generalSearch(pzlToUse, 1, false);
             }
             }
             break;
@@ -182,7 +182,7 @@ void testCaseManager(){
                 Puzzle pzlToUse(depthTwFrInit);
                 cout << endl << pzlToUse << pzlToUse.zeroPos[0] << ", " << pzlToUse.zeroPos[1]<< endl;
                 cout << "Testing Depth 24 using: A* Manhattan\n" << endl;
-                generalSearch(pzlToUse, 1);
+                generalSearch(pzlToUse, 1, false);
             }
             }
             break;
@@ -195,7 +195,7 @@ void testCaseManager(){
     }
 }
 
-void customTest(){
+void customTest(bool printOut){
     cout << "Please enter a string of 9 values, from 0 to 8.\nIncorrect configurations will be discarded\n" << endl;
     char n = 'a';
     unsigned initArr[9];
@@ -223,15 +223,15 @@ void customTest(){
     cin.ignore(10000, '\n');
     switch (type){
     case 0:
-        generalSearch(customPuzzle, 0);
+        generalSearch(customPuzzle, 0, printOut);
         break;
 
     case 1:
-        generalSearch(customPuzzle, 1);
+        generalSearch(customPuzzle, 1, printOut);
         break;
     
     case 2:
-        generalSearch(customPuzzle, 2);
+        generalSearch(customPuzzle, 2, printOut);
         break;
     
     default:
@@ -247,6 +247,7 @@ void mainMenu(){
         cout << "Main Menu" << endl;
         cout << "1. Use Test Cases\n";
         cout << "2. Custom Input String\n";
+        cout << "3. Custom Input String, with printout to Trace.txt\n";
         cout << "0. Exit\n" << endl;
         cin >> menuIn;
         cout << endl;
@@ -260,9 +261,13 @@ void mainMenu(){
                 break;
 
             case 2:
-                customTest();
+                customTest(false);
                 break;
-            
+
+            case 3:
+                customTest(true);
+                break;
+
             default:
                 cout << "Unrecognized input, please try again" << endl;
                 menuIn = -1;

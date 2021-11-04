@@ -72,17 +72,16 @@ unsigned manhattan(const Puzzle& currPz){
 }
 
 
-void generalSearch(Puzzle& pzl, const unsigned heu){
+void generalSearch(Puzzle& pzl, const unsigned heu, bool print){
     priority_queue<Node*, vector <Node*>, std::greater<Node*> > nodes; // min priority queue 
     nodes.push(new Node(pzl,0,0,4)); //First node, no cost, no heuristic, last move is invalid
     bool solved = false; // loop condition
-    // int times = 0;
-    // ofstream write;
-    // write.open("Manhtrace.txt");
-    // if(!write.is_open()){
-    //     cout << "error opening file" << endl;
-    //     exit(1);
-    // }
+    ofstream write;
+    write.open("Trace.txt");
+    if(!write.is_open()){
+        cout << "error opening file" << endl;
+        exit(1);
+    }
     while(!solved){
         if(nodes.empty()){
             cout << "Failed to solve the puzzle" << endl;
@@ -91,7 +90,7 @@ void generalSearch(Puzzle& pzl, const unsigned heu){
         Node temp = *nodes.top(); // make a copy so as to not need top directly
         nodes.pop(); // delete top
         
-        // write << "\n\n" << temp.nodePzl << "cost: " << temp.cost << " heu: " << temp.heuristic <<" in queue: " << nodes.size() << "\n" << endl;
+        if(print){ write << "\n\n" << temp.nodePzl << "cost: " << temp.cost << " heu: " << temp.heuristic <<" in queue: " << nodes.size() << "\n" << endl;}
         bool match = true;
         unsigned nodePzlSize = temp.nodePzl.size;
         for(unsigned i = 0; i < nodePzlSize; i++){
