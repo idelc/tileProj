@@ -7,8 +7,8 @@ using namespace std;
 #include "tileMenu.h"
 
 int main(){
-    
-    testDepthZero();
+
+    mainMenu();
     
     return 0;
 }

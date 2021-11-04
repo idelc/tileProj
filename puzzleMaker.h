@@ -24,6 +24,20 @@ class Puzzle{
         // cout << "done filling in" << endl;
     };
 
+    Puzzle(unsigned initArr[9]): size(3){
+        unsigned n = 0;
+        for(unsigned i = 0; i < this->size; i++){
+            for(unsigned j = 0; j < this->size; j++){
+                // cout << "assigning " << i << ", " << j << " = " << initArr[n] << endl;
+                this->pzlBoard[i][j] = initArr[n];
+                if(!(initArr[n++])){
+                    zeroPos[0] = i;
+                    zeroPos[1] = j;
+                }
+            }
+        }
+    };
+
     // the copy constructor. Performs deep copy of all arrays.
     Puzzle(const Puzzle &cpy): size(cpy.size){
         for(unsigned i = 0; i < this->size; i++){
