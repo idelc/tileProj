@@ -18,7 +18,7 @@
 #include <cstdlib>
 #include "puzzleMaker.h"
 
-const Puzzle SOLVED_PUZZLE(3);
+Puzzle SOLVED_PUZZLE(3);
 
 class Node{ // struct to hold node info
  public:
@@ -36,13 +36,13 @@ bool smallerNode(const Node& node1, const Node& node2){
     return ((node1.cost+node1.heuristic)<(node2.cost+node2.heuristic));
 }
 
-unsigned misplacedTile(Puzzle& currPz){
+unsigned misplacedTile(Puzzle& currPz, Puzzle& otherPz){
     unsigned mT = 0;
     for(unsigned i = 0; i < currPz.size; i++){
             for(unsigned j = 0; j < currPz.size; j++){
                 // is the temp node puzzle at the current value the same as the solved puzzle at that value?
                 // asume true, if find one discrepancy set flag to false for remainder of loop
-                if(currPz.pzlBoard[i][j] != SOLVED_PUZZLE.pzlBoard[i][j]){
+                if(currPz.pzlBoard[i][j] != otherPz.pzlBoard[i][j]){
                     mT++;
                 }
             }
@@ -79,6 +79,8 @@ unsigned manhattan(const Puzzle& currPz){
 void generalSearch(Puzzle& pzl, const unsigned heu, bool print){
     // priority_queue<Node*, vector <Node*>, std::greater<Node*> > nodes; // min priority queue 
     list<Node*> nodes;
+    unsigned mostExpanded = 0;
+    unsigned sizeTemp = 0;
     nodes.push_front(new Node(pzl,0,0,4)); //First node, no cost, no heuristic, last move is invalid
     bool solved = false; // loop condition
     ofstream write;
@@ -95,7 +97,9 @@ void generalSearch(Puzzle& pzl, const unsigned heu, bool print){
         nodes.sort(smallerNode);
         Node temp = *nodes.front(); // make a copy so as to not need top directly
         nodes.pop_front(); // delete top
-        
+        sizeTemp = nodes.size();
+        mostExpanded = max(mostExpanded, sizeTemp);
+
         if(print){ write << "\n\n" << temp.nodePzl << "cost: " << temp.cost << " heu: " << temp.heuristic <<" in queue: " << nodes.size() << "\n" << endl;}
         bool match = true;
         unsigned nodePzlSize = temp.nodePzl.size;
@@ -109,7 +113,8 @@ void generalSearch(Puzzle& pzl, const unsigned heu, bool print){
             }
         }
         if(match){
-            cout << "Solution found at depth: " << temp.cost << endl;
+            cout << "Solution found at depth: " << temp.cost << "\nMost nodes expanded: " << mostExpanded << endl;
+            write.close();
             return;
         }
         else{
@@ -127,7 +132,7 @@ void generalSearch(Puzzle& pzl, const unsigned heu, bool print){
                         switch (heu){
                             case 0:
                                 // misplaced tile
-                                tempMoves.heuristic = misplacedTile(tempMoves.nodePzl);
+                                tempMoves.heuristic = misplacedTile(tempMoves.nodePzl, SOLVED_PUZZLE);
                                 break;
 
                             case 1:
@@ -141,7 +146,7 @@ void generalSearch(Puzzle& pzl, const unsigned heu, bool print){
                                 break;
                         }
                         nodes.push_front(new Node(tempMoves.nodePzl, tempMoves.cost, tempMoves.heuristic, tempMoves.lastMove));
-                        write << "up\n" << tempMoves.nodePzl << "cost: " << tempMoves.cost << " heu: " << tempMoves.heuristic << " in queue: " << nodes.size() << endl;
+                        // write << "up\n" << tempMoves.nodePzl << "cost: " << tempMoves.cost << " heu: " << tempMoves.heuristic << " in queue: " << nodes.size() << endl;
                         break;
                     
                     case 1:
@@ -152,7 +157,7 @@ void generalSearch(Puzzle& pzl, const unsigned heu, bool print){
                         switch (heu){
                             case 0:
                                 // misplaced tile
-                                tempMoves.heuristic = misplacedTile(tempMoves.nodePzl);
+                                tempMoves.heuristic = misplacedTile(tempMoves.nodePzl, SOLVED_PUZZLE);
                                 break;
 
                             case 1:
@@ -166,7 +171,7 @@ void generalSearch(Puzzle& pzl, const unsigned heu, bool print){
                                 break;
                         }
                         nodes.push_front(new Node(tempMoves.nodePzl, tempMoves.cost, tempMoves.heuristic, tempMoves.lastMove));
-                        write << "left\n" << tempMoves.nodePzl << "cost: " << tempMoves.cost << " heu: " << tempMoves.heuristic << " in queue: " << nodes.size() << endl;
+                        // write << "left\n" << tempMoves.nodePzl << "cost: " << tempMoves.cost << " heu: " << tempMoves.heuristic << " in queue: " << nodes.size() << endl;
                         break;
 
                     case 2: 
@@ -177,7 +182,7 @@ void generalSearch(Puzzle& pzl, const unsigned heu, bool print){
                         switch (heu){
                             case 0:
                                 // misplaced tile
-                                tempMoves.heuristic = misplacedTile(tempMoves.nodePzl);
+                                tempMoves.heuristic = misplacedTile(tempMoves.nodePzl, SOLVED_PUZZLE);
                                 break;
 
                             case 1:
@@ -191,7 +196,7 @@ void generalSearch(Puzzle& pzl, const unsigned heu, bool print){
                                 break;
                         }
                         nodes.push_front(new Node(tempMoves.nodePzl, tempMoves.cost, tempMoves.heuristic, tempMoves.lastMove));
-                        write << "right\n" << tempMoves.nodePzl << "cost: " << tempMoves.cost << " heu: " << tempMoves.heuristic << " in queue: " << nodes.size() << endl;
+                        // write << "right\n" << tempMoves.nodePzl << "cost: " << tempMoves.cost << " heu: " << tempMoves.heuristic << " in queue: " << nodes.size() << endl;
                         break;
 
                     case 3:
@@ -202,7 +207,7 @@ void generalSearch(Puzzle& pzl, const unsigned heu, bool print){
                         switch (heu){
                             case 0:
                                 // misplaced tile
-                                tempMoves.heuristic = misplacedTile(tempMoves.nodePzl);
+                                tempMoves.heuristic = misplacedTile(tempMoves.nodePzl, SOLVED_PUZZLE);
                                 break;
 
                             case 1:
@@ -216,7 +221,7 @@ void generalSearch(Puzzle& pzl, const unsigned heu, bool print){
                                 break;
                         }
                         nodes.push_front(new Node(tempMoves.nodePzl, tempMoves.cost, tempMoves.heuristic, tempMoves.lastMove));
-                        write << "down\n" << tempMoves.nodePzl << "cost: " << tempMoves.cost << " heu: " << tempMoves.heuristic << " in queue: " << nodes.size() << endl;
+                        // write << "down\n" << tempMoves.nodePzl << "cost: " << tempMoves.cost << " heu: " << tempMoves.heuristic << " in queue: " << nodes.size() << endl;
                         break;
 
                     default:
