@@ -3,11 +3,16 @@
 
 // https://www.geeksforgeeks.org/implement-min-heap-using-stl/
 // https://en.cppreference.com/w/cpp/container/priority_queue
+// https://www.cplusplus.com/reference/list/list/sort/
 // used these two sites to review the way priority queues are defined in c++
 // and used that to properly set up the code needed to sort Nodes
+// ended up switching to a list because the min heap was not working
+// as well as I hoped, but now I have optimal behavior at the cost of sorting speed
+
 
 #include <iostream>
 #include <queue>
+#include <list>
 #include <vector>
 #include <fstream>
 #include <cstdlib>
@@ -19,6 +24,7 @@ class Node{ // struct to hold node info
  public:
     Node(Puzzle& pzl, unsigned cst, unsigned heu, unsigned lastM):nodePzl(pzl),cost(cst),heuristic(heu), lastMove(lastM){};
     Node(const Node& nd): nodePzl(nd.nodePzl), cost(nd.cost), heuristic(nd.heuristic), lastMove(nd.lastMove){};
+    Node(Node* nd): nodePzl(nd->nodePzl), cost(nd->cost), heuristic(nd->heuristic), lastMove(nd->lastMove){};
     ~Node(){}
     Puzzle nodePzl;
     unsigned cost; 
@@ -26,10 +32,8 @@ class Node{ // struct to hold node info
     unsigned lastMove; // store last move and dont make a node undoing it
 };
 
-bool operator>(const Node& p1, const Node& p2){ //overload comparison to allow priority queue to sort properly
-        int f1 = (p1.cost + p1.heuristic); 
-        int f2 = (p2.cost + p2.heuristic);
-        return f1 > f2;
+bool smallerNode(const Node& node1, const Node& node2){
+    return ((node1.cost+node1.heuristic)<(node2.cost+node2.heuristic));
 }
 
 unsigned misplacedTile(Puzzle& currPz){
@@ -73,8 +77,9 @@ unsigned manhattan(const Puzzle& currPz){
 
 
 void generalSearch(Puzzle& pzl, const unsigned heu, bool print){
-    priority_queue<Node*, vector <Node*>, std::greater<Node*> > nodes; // min priority queue 
-    nodes.push(new Node(pzl,0,0,4)); //First node, no cost, no heuristic, last move is invalid
+    // priority_queue<Node*, vector <Node*>, std::greater<Node*> > nodes; // min priority queue 
+    list<Node*> nodes;
+    nodes.push_front(new Node(pzl,0,0,4)); //First node, no cost, no heuristic, last move is invalid
     bool solved = false; // loop condition
     ofstream write;
     write.open("Trace.txt");
@@ -87,8 +92,9 @@ void generalSearch(Puzzle& pzl, const unsigned heu, bool print){
             cout << "Failed to solve the puzzle" << endl;
             return;
         }
-        Node temp = *nodes.top(); // make a copy so as to not need top directly
-        nodes.pop(); // delete top
+        nodes.sort(smallerNode);
+        Node temp = *nodes.front(); // make a copy so as to not need top directly
+        nodes.pop_front(); // delete top
         
         if(print){ write << "\n\n" << temp.nodePzl << "cost: " << temp.cost << " heu: " << temp.heuristic <<" in queue: " << nodes.size() << "\n" << endl;}
         bool match = true;
@@ -134,8 +140,8 @@ void generalSearch(Puzzle& pzl, const unsigned heu, bool print){
                                 tempMoves.heuristic = 0;
                                 break;
                         }
-                        nodes.push(new Node(tempMoves.nodePzl, tempMoves.cost, tempMoves.heuristic, tempMoves.lastMove));
-                        // write << "up\n" << tempMoves.nodePzl << "cost: " << tempMoves.cost << " heu: " << tempMoves.heuristic << " in queue: " << nodes.size() << endl;
+                        nodes.push_front(new Node(tempMoves.nodePzl, tempMoves.cost, tempMoves.heuristic, tempMoves.lastMove));
+                        write << "up\n" << tempMoves.nodePzl << "cost: " << tempMoves.cost << " heu: " << tempMoves.heuristic << " in queue: " << nodes.size() << endl;
                         break;
                     
                     case 1:
@@ -159,8 +165,8 @@ void generalSearch(Puzzle& pzl, const unsigned heu, bool print){
                                 tempMoves.heuristic = 0;
                                 break;
                         }
-                        nodes.push(new Node(tempMoves.nodePzl, tempMoves.cost, tempMoves.heuristic, tempMoves.lastMove));
-                        // write << "left\n" << tempMoves.nodePzl << "cost: " << tempMoves.cost << " heu: " << tempMoves.heuristic << " in queue: " << nodes.size() << endl;
+                        nodes.push_front(new Node(tempMoves.nodePzl, tempMoves.cost, tempMoves.heuristic, tempMoves.lastMove));
+                        write << "left\n" << tempMoves.nodePzl << "cost: " << tempMoves.cost << " heu: " << tempMoves.heuristic << " in queue: " << nodes.size() << endl;
                         break;
 
                     case 2: 
@@ -184,8 +190,8 @@ void generalSearch(Puzzle& pzl, const unsigned heu, bool print){
                                 tempMoves.heuristic = 0;
                                 break;
                         }
-                        nodes.push(new Node(tempMoves.nodePzl, tempMoves.cost, tempMoves.heuristic, tempMoves.lastMove));
-                        // write << "right\n" << tempMoves.nodePzl << "cost: " << tempMoves.cost << " heu: " << tempMoves.heuristic << " in queue: " << nodes.size() << endl;
+                        nodes.push_front(new Node(tempMoves.nodePzl, tempMoves.cost, tempMoves.heuristic, tempMoves.lastMove));
+                        write << "right\n" << tempMoves.nodePzl << "cost: " << tempMoves.cost << " heu: " << tempMoves.heuristic << " in queue: " << nodes.size() << endl;
                         break;
 
                     case 3:
@@ -209,8 +215,8 @@ void generalSearch(Puzzle& pzl, const unsigned heu, bool print){
                                 tempMoves.heuristic = 0;
                                 break;
                         }
-                        nodes.push(new Node(tempMoves.nodePzl, tempMoves.cost, tempMoves.heuristic, tempMoves.lastMove));
-                        // write << "down\n" << tempMoves.nodePzl << "cost: " << tempMoves.cost << " heu: " << tempMoves.heuristic << " in queue: " << nodes.size() << endl;
+                        nodes.push_front(new Node(tempMoves.nodePzl, tempMoves.cost, tempMoves.heuristic, tempMoves.lastMove));
+                        write << "down\n" << tempMoves.nodePzl << "cost: " << tempMoves.cost << " heu: " << tempMoves.heuristic << " in queue: " << nodes.size() << endl;
                         break;
 
                     default:
