@@ -240,6 +240,19 @@ void customTest(bool printOut){
     cout << "\nDone." << endl;
 }
 
+void reportData(){
+    ofstream wrt;
+    wrt.open("reportData.txt");
+    if(!wrt.is_open()){
+        cout << "error opening file" << endl;
+        exit(1);
+    }
+
+
+
+    wrt.close();
+}
+
 void mainMenu(){    
     int menuIn = -1;
     while (menuIn){
@@ -248,6 +261,7 @@ void mainMenu(){
         cout << "1. Use Test Cases\n";
         cout << "2. Custom Input String\n";
         cout << "3. Custom Input String, with printout to Trace.txt\n";
+        //cout << "4. Simulate data generation for report\n";
         cout << "0. Exit\n" << endl;
         cin >> menuIn;
         cout << endl;
@@ -266,6 +280,10 @@ void mainMenu(){
 
             case 3:
                 customTest(true);
+                break;
+
+            case 4:
+                reportData();
                 break;
 
             default:

@@ -137,7 +137,7 @@ class Puzzle{
     // so as to avoid switching problem space
     void scramblePuzzle(){
         srand(3);
-        unsigned numShifts = (rand() % 10) + 1; // limit to 1-10 moves to avoid making problem too wide
+        unsigned numShifts = (rand() % 24) + 1; // limit to 1-24 moves to avoid making problem too wide
         unsigned shifts[numShifts];
         //cout << numShifts << " moves" << endl;
         for(unsigned i = 0; i < numShifts; i++){ // will choose a move at random

@@ -4,11 +4,12 @@
 // https://www.geeksforgeeks.org/implement-min-heap-using-stl/
 // https://en.cppreference.com/w/cpp/container/priority_queue
 // https://www.cplusplus.com/reference/list/list/sort/
-// used these two sites to review the way priority queues are defined in c++
+// https://stackoverflow.com/questions/20167685/measuring-cpu-time-in-c
+// used the first two sites to review the way priority queues are defined in c++
 // and used that to properly set up the code needed to sort Nodes
 // ended up switching to a list because the min heap was not working
 // as well as I hoped, but now I have optimal behavior at the cost of sorting speed
-
+// last site is used to measure cpu time in linux only
 
 #include <iostream>
 #include <queue>
@@ -16,6 +17,7 @@
 #include <vector>
 #include <fstream>
 #include <cstdlib>
+#include <ctime>
 #include "puzzleMaker.h"
 
 Puzzle SOLVED_PUZZLE(3);
@@ -78,6 +80,7 @@ unsigned manhattan(const Puzzle& currPz){
 
 void generalSearch(Puzzle& pzl, const unsigned heu, bool print){
     // priority_queue<Node*, vector <Node*>, std::greater<Node*> > nodes; // min priority queue 
+    clock_t timeS = clock();
     list<Node*> nodes;
     unsigned mostExpanded = 0;
     unsigned sizeTemp = 0;
@@ -113,7 +116,10 @@ void generalSearch(Puzzle& pzl, const unsigned heu, bool print){
             }
         }
         if(match){
-            cout << "Solution found at depth: " << temp.cost << "\nMost nodes expanded: " << mostExpanded << endl;
+            cout << "Solution found at depth: " << temp.cost; 
+            cout << "\nMost nodes expanded: " << mostExpanded;
+            cout << "\nNodes in frontier: "<< nodes.size();
+            cout << "\nCPU time (linux only): " << clock()-timeS << endl;
             write.close();
             return;
         }
