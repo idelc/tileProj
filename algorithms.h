@@ -84,6 +84,7 @@ void generalSearch(Puzzle& pzl, const unsigned heu, bool print){
     list<Node*> nodes;
     unsigned mostExpanded = 0;
     unsigned sizeTemp = 0;
+    unsigned totalExp = 0; 
     nodes.push_front(new Node(pzl,0,0,4)); //First node, no cost, no heuristic, last move is invalid
     bool solved = false; // loop condition
     ofstream write;
@@ -101,6 +102,7 @@ void generalSearch(Puzzle& pzl, const unsigned heu, bool print){
         Node temp = *nodes.front(); // make a copy so as to not need top directly
         nodes.pop_front(); // delete top
         sizeTemp = nodes.size();
+        totalExp++;
         mostExpanded = max(mostExpanded, sizeTemp);
 
         if(print){ write << "\n\n" << temp.nodePzl << "cost: " << temp.cost << " heu: " << temp.heuristic <<" in queue: " << nodes.size() << "\n" << endl;}
@@ -117,9 +119,10 @@ void generalSearch(Puzzle& pzl, const unsigned heu, bool print){
         }
         if(match){
             cout << "Solution found at depth: " << temp.cost; 
-            cout << "\nMost nodes expanded: " << mostExpanded;
-            cout << "\nNodes in frontier: "<< nodes.size();
-            cout << "\nCPU time (linux only): " << clock()-timeS << endl;
+            cout << "\nTotal nodes expanded: " << totalExp;
+            cout << "\nMax size of queue: "<< mostExpanded;
+            cout << "\nCPU time (linux only): " << static_cast<double>((clock()-timeS))/CLOCKS_PER_SEC << " seconds";
+            cout << "\nNodes at frontier: " << nodes.size() << endl;
             write.close();
             return;
         }
