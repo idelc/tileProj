@@ -1,0 +1,9422 @@
+
+
+[ 0 7 2 ]
+[ 4 6 1 ]
+[ 3 5 8 ]
+cost: 0 heu: 0 in queue: 0
+
+
+
+[ 7 0 2 ]
+[ 4 6 1 ]
+[ 3 5 8 ]
+cost: 1 heu: 13 in queue: 1
+
+
+
+[ 7 2 0 ]
+[ 4 6 1 ]
+[ 3 5 8 ]
+cost: 2 heu: 12 in queue: 2
+
+
+
+[ 7 2 1 ]
+[ 4 6 0 ]
+[ 3 5 8 ]
+cost: 3 heu: 11 in queue: 2
+
+
+
+[ 7 2 1 ]
+[ 4 0 6 ]
+[ 3 5 8 ]
+cost: 4 heu: 10 in queue: 3
+
+
+
+[ 7 2 1 ]
+[ 4 5 6 ]
+[ 3 0 8 ]
+cost: 5 heu: 9 in queue: 5
+
+
+
+[ 7 2 1 ]
+[ 4 5 6 ]
+[ 3 8 0 ]
+cost: 6 heu: 8 in queue: 6
+
+
+
+[ 7 2 1 ]
+[ 4 5 6 ]
+[ 0 3 8 ]
+cost: 6 heu: 8 in queue: 6
+
+
+
+[ 7 2 1 ]
+[ 0 5 6 ]
+[ 4 3 8 ]
+cost: 7 heu: 9 in queue: 6
+
+
+
+[ 0 2 1 ]
+[ 7 5 6 ]
+[ 4 3 8 ]
+cost: 8 heu: 8 in queue: 7
+
+
+
+[ 7 2 1 ]
+[ 4 5 0 ]
+[ 3 8 6 ]
+cost: 7 heu: 9 in queue: 7
+
+
+
+[ 7 2 1 ]
+[ 0 4 6 ]
+[ 3 5 8 ]
+cost: 5 heu: 11 in queue: 8
+
+
+
+[ 7 2 1 ]
+[ 3 4 6 ]
+[ 0 5 8 ]
+cost: 6 heu: 10 in queue: 9
+
+
+
+[ 0 2 1 ]
+[ 7 4 6 ]
+[ 3 5 8 ]
+cost: 6 heu: 10 in queue: 9
+
+
+
+[ 7 0 1 ]
+[ 4 2 6 ]
+[ 3 5 8 ]
+cost: 5 heu: 11 in queue: 9
+
+
+
+[ 7 1 0 ]
+[ 4 2 6 ]
+[ 3 5 8 ]
+cost: 6 heu: 10 in queue: 10
+
+
+
+[ 7 2 1 ]
+[ 4 6 8 ]
+[ 3 5 0 ]
+cost: 4 heu: 12 in queue: 10
+
+
+
+[ 7 6 2 ]
+[ 4 0 1 ]
+[ 3 5 8 ]
+cost: 2 heu: 14 in queue: 10
+
+
+
+[ 7 6 2 ]
+[ 4 5 1 ]
+[ 3 0 8 ]
+cost: 3 heu: 13 in queue: 12
+
+
+
+[ 7 6 2 ]
+[ 4 5 1 ]
+[ 3 8 0 ]
+cost: 4 heu: 12 in queue: 13
+
+
+
+[ 7 6 2 ]
+[ 4 5 1 ]
+[ 0 3 8 ]
+cost: 4 heu: 12 in queue: 13
+
+
+
+[ 7 6 2 ]
+[ 4 1 0 ]
+[ 3 5 8 ]
+cost: 3 heu: 13 in queue: 13
+
+
+
+[ 4 7 2 ]
+[ 0 6 1 ]
+[ 3 5 8 ]
+cost: 1 heu: 15 in queue: 14
+
+
+
+[ 4 7 2 ]
+[ 3 6 1 ]
+[ 0 5 8 ]
+cost: 2 heu: 14 in queue: 15
+
+
+
+[ 4 7 2 ]
+[ 3 6 1 ]
+[ 5 0 8 ]
+cost: 3 heu: 15 in queue: 15
+
+
+
+[ 4 7 2 ]
+[ 3 6 1 ]
+[ 5 8 0 ]
+cost: 4 heu: 14 in queue: 16
+
+
+
+[ 4 7 2 ]
+[ 6 0 1 ]
+[ 3 5 8 ]
+cost: 2 heu: 16 in queue: 16
+
+
+
+[ 4 7 2 ]
+[ 6 5 1 ]
+[ 3 0 8 ]
+cost: 3 heu: 15 in queue: 18
+
+
+
+[ 4 7 2 ]
+[ 6 5 1 ]
+[ 3 8 0 ]
+cost: 4 heu: 14 in queue: 19
+
+
+
+[ 4 7 2 ]
+[ 6 5 1 ]
+[ 0 3 8 ]
+cost: 4 heu: 14 in queue: 19
+
+
+
+[ 4 7 2 ]
+[ 6 1 0 ]
+[ 3 5 8 ]
+cost: 3 heu: 15 in queue: 19
+
+
+
+[ 4 0 2 ]
+[ 6 7 1 ]
+[ 3 5 8 ]
+cost: 3 heu: 15 in queue: 20
+
+
+
+[ 4 2 0 ]
+[ 6 7 1 ]
+[ 3 5 8 ]
+cost: 4 heu: 14 in queue: 21
+
+
+
+[ 4 2 1 ]
+[ 6 7 0 ]
+[ 3 5 8 ]
+cost: 5 heu: 13 in queue: 21
+
+
+
+[ 7 6 2 ]
+[ 4 1 8 ]
+[ 3 5 0 ]
+cost: 4 heu: 14 in queue: 22
+
+
+
+[ 7 6 0 ]
+[ 4 1 2 ]
+[ 3 5 8 ]
+cost: 4 heu: 14 in queue: 22
+
+
+
+[ 7 0 6 ]
+[ 4 1 2 ]
+[ 3 5 8 ]
+cost: 5 heu: 13 in queue: 22
+
+
+
+[ 7 1 6 ]
+[ 4 0 2 ]
+[ 3 5 8 ]
+cost: 6 heu: 12 in queue: 23
+
+
+
+[ 7 1 6 ]
+[ 4 5 2 ]
+[ 3 0 8 ]
+cost: 7 heu: 11 in queue: 25
+
+
+
+[ 7 1 6 ]
+[ 4 5 2 ]
+[ 3 8 0 ]
+cost: 8 heu: 10 in queue: 26
+
+
+
+[ 7 1 6 ]
+[ 4 5 2 ]
+[ 0 3 8 ]
+cost: 8 heu: 10 in queue: 26
+
+
+
+[ 7 1 6 ]
+[ 4 2 0 ]
+[ 3 5 8 ]
+cost: 7 heu: 11 in queue: 26
+
+
+
+[ 7 1 0 ]
+[ 4 2 6 ]
+[ 3 5 8 ]
+cost: 8 heu: 10 in queue: 27
+
+
+
+[ 7 6 2 ]
+[ 0 5 1 ]
+[ 4 3 8 ]
+cost: 5 heu: 13 in queue: 27
+
+
+
+[ 0 6 2 ]
+[ 7 5 1 ]
+[ 4 3 8 ]
+cost: 6 heu: 12 in queue: 28
+
+
+
+[ 7 6 2 ]
+[ 4 5 0 ]
+[ 3 8 1 ]
+cost: 5 heu: 13 in queue: 28
+
+
+
+[ 7 6 2 ]
+[ 0 4 1 ]
+[ 3 5 8 ]
+cost: 3 heu: 15 in queue: 29
+
+
+
+[ 7 6 2 ]
+[ 3 4 1 ]
+[ 0 5 8 ]
+cost: 4 heu: 14 in queue: 30
+
+
+
+[ 0 6 2 ]
+[ 7 4 1 ]
+[ 3 5 8 ]
+cost: 4 heu: 14 in queue: 30
+
+
+
+[ 7 2 1 ]
+[ 4 6 8 ]
+[ 3 0 5 ]
+cost: 5 heu: 13 in queue: 30
+
+
+
+[ 7 2 1 ]
+[ 4 6 8 ]
+[ 0 3 5 ]
+cost: 6 heu: 12 in queue: 31
+
+
+
+[ 7 1 6 ]
+[ 4 2 0 ]
+[ 3 5 8 ]
+cost: 7 heu: 11 in queue: 31
+
+
+
+[ 0 7 1 ]
+[ 4 2 6 ]
+[ 3 5 8 ]
+cost: 6 heu: 12 in queue: 32
+
+
+
+[ 2 0 1 ]
+[ 7 4 6 ]
+[ 3 5 8 ]
+cost: 7 heu: 11 in queue: 32
+
+
+
+[ 2 1 0 ]
+[ 7 4 6 ]
+[ 3 5 8 ]
+cost: 8 heu: 10 in queue: 33
+
+
+
+[ 7 2 1 ]
+[ 3 4 6 ]
+[ 5 0 8 ]
+cost: 7 heu: 11 in queue: 33
+
+
+
+[ 7 2 1 ]
+[ 3 4 6 ]
+[ 5 8 0 ]
+cost: 8 heu: 10 in queue: 34
+
+
+
+[ 7 2 1 ]
+[ 4 0 5 ]
+[ 3 8 6 ]
+cost: 8 heu: 10 in queue: 34
+
+
+
+[ 7 2 0 ]
+[ 4 5 1 ]
+[ 3 8 6 ]
+cost: 8 heu: 10 in queue: 36
+
+
+
+[ 2 0 1 ]
+[ 7 5 6 ]
+[ 4 3 8 ]
+cost: 9 heu: 9 in queue: 36
+
+
+
+[ 2 1 0 ]
+[ 7 5 6 ]
+[ 4 3 8 ]
+cost: 10 heu: 8 in queue: 37
+
+
+
+[ 7 2 1 ]
+[ 5 0 6 ]
+[ 4 3 8 ]
+cost: 8 heu: 10 in queue: 37
+
+
+
+[ 7 2 1 ]
+[ 5 3 6 ]
+[ 4 0 8 ]
+cost: 9 heu: 9 in queue: 39
+
+
+
+[ 7 2 1 ]
+[ 5 3 6 ]
+[ 4 8 0 ]
+cost: 10 heu: 8 in queue: 40
+
+
+
+[ 7 2 1 ]
+[ 5 3 0 ]
+[ 4 8 6 ]
+cost: 11 heu: 9 in queue: 40
+
+
+
+[ 7 2 1 ]
+[ 5 0 3 ]
+[ 4 8 6 ]
+cost: 12 heu: 8 in queue: 41
+
+
+
+[ 7 2 1 ]
+[ 0 5 3 ]
+[ 4 8 6 ]
+cost: 13 heu: 7 in queue: 43
+
+
+
+[ 7 2 1 ]
+[ 4 5 3 ]
+[ 0 8 6 ]
+cost: 14 heu: 6 in queue: 44
+
+
+
+[ 0 2 1 ]
+[ 7 5 3 ]
+[ 4 8 6 ]
+cost: 14 heu: 6 in queue: 44
+
+
+
+[ 7 2 1 ]
+[ 5 3 6 ]
+[ 0 4 8 ]
+cost: 10 heu: 10 in queue: 44
+
+
+
+[ 7 2 1 ]
+[ 5 6 0 ]
+[ 4 3 8 ]
+cost: 9 heu: 11 in queue: 44
+
+
+
+[ 7 0 1 ]
+[ 5 2 6 ]
+[ 4 3 8 ]
+cost: 9 heu: 11 in queue: 45
+
+
+
+[ 7 1 0 ]
+[ 5 2 6 ]
+[ 4 3 8 ]
+cost: 10 heu: 10 in queue: 46
+
+
+
+[ 2 1 6 ]
+[ 7 5 0 ]
+[ 4 3 8 ]
+cost: 11 heu: 9 in queue: 46
+
+
+
+[ 2 5 1 ]
+[ 7 0 6 ]
+[ 4 3 8 ]
+cost: 10 heu: 10 in queue: 47
+
+
+
+[ 2 5 1 ]
+[ 7 3 6 ]
+[ 4 0 8 ]
+cost: 11 heu: 9 in queue: 49
+
+
+
+[ 2 5 1 ]
+[ 7 3 6 ]
+[ 4 8 0 ]
+cost: 12 heu: 8 in queue: 50
+
+
+
+[ 7 0 2 ]
+[ 4 5 1 ]
+[ 3 8 6 ]
+cost: 9 heu: 11 in queue: 50
+
+
+
+[ 7 2 1 ]
+[ 4 8 5 ]
+[ 3 0 6 ]
+cost: 9 heu: 11 in queue: 51
+
+
+
+[ 7 2 1 ]
+[ 4 8 5 ]
+[ 0 3 6 ]
+cost: 10 heu: 10 in queue: 52
+
+
+
+[ 7 2 1 ]
+[ 0 4 5 ]
+[ 3 8 6 ]
+cost: 9 heu: 11 in queue: 52
+
+
+
+[ 7 2 1 ]
+[ 3 4 5 ]
+[ 0 8 6 ]
+cost: 10 heu: 10 in queue: 53
+
+
+
+[ 0 2 1 ]
+[ 7 4 5 ]
+[ 3 8 6 ]
+cost: 10 heu: 10 in queue: 53
+
+
+
+[ 7 0 1 ]
+[ 4 2 5 ]
+[ 3 8 6 ]
+cost: 9 heu: 11 in queue: 53
+
+
+
+[ 7 1 0 ]
+[ 4 2 5 ]
+[ 3 8 6 ]
+cost: 10 heu: 10 in queue: 54
+
+
+
+[ 7 2 1 ]
+[ 3 4 0 ]
+[ 5 8 6 ]
+cost: 9 heu: 11 in queue: 54
+
+
+
+[ 7 2 1 ]
+[ 3 0 6 ]
+[ 5 4 8 ]
+cost: 8 heu: 12 in queue: 55
+
+
+
+[ 7 2 1 ]
+[ 0 3 6 ]
+[ 5 4 8 ]
+cost: 9 heu: 11 in queue: 57
+
+
+
+[ 7 2 1 ]
+[ 5 3 6 ]
+[ 0 4 8 ]
+cost: 10 heu: 10 in queue: 58
+
+
+
+[ 7 2 1 ]
+[ 5 3 6 ]
+[ 4 0 8 ]
+cost: 11 heu: 9 in queue: 58
+
+
+
+[ 7 2 1 ]
+[ 5 3 6 ]
+[ 4 8 0 ]
+cost: 12 heu: 8 in queue: 59
+
+
+
+[ 0 2 1 ]
+[ 7 3 6 ]
+[ 5 4 8 ]
+cost: 10 heu: 10 in queue: 59
+
+
+
+[ 2 1 6 ]
+[ 7 4 0 ]
+[ 3 5 8 ]
+cost: 9 heu: 11 in queue: 59
+
+
+
+[ 2 4 1 ]
+[ 7 0 6 ]
+[ 3 5 8 ]
+cost: 8 heu: 12 in queue: 60
+
+
+
+[ 2 4 1 ]
+[ 7 5 6 ]
+[ 3 0 8 ]
+cost: 9 heu: 11 in queue: 62
+
+
+
+[ 2 4 1 ]
+[ 7 5 6 ]
+[ 3 8 0 ]
+cost: 10 heu: 10 in queue: 63
+
+
+
+[ 2 4 1 ]
+[ 7 5 6 ]
+[ 0 3 8 ]
+cost: 10 heu: 10 in queue: 63
+
+
+
+[ 2 4 1 ]
+[ 0 5 6 ]
+[ 7 3 8 ]
+cost: 11 heu: 9 in queue: 63
+
+
+
+[ 4 7 1 ]
+[ 0 2 6 ]
+[ 3 5 8 ]
+cost: 7 heu: 13 in queue: 64
+
+
+
+[ 4 7 1 ]
+[ 3 2 6 ]
+[ 0 5 8 ]
+cost: 8 heu: 12 in queue: 65
+
+
+
+[ 7 1 6 ]
+[ 4 2 8 ]
+[ 3 5 0 ]
+cost: 8 heu: 12 in queue: 65
+
+
+
+[ 7 1 6 ]
+[ 4 0 2 ]
+[ 3 5 8 ]
+cost: 8 heu: 12 in queue: 65
+
+
+
+[ 7 1 6 ]
+[ 4 5 2 ]
+[ 3 0 8 ]
+cost: 9 heu: 11 in queue: 67
+
+
+
+[ 7 1 6 ]
+[ 4 5 2 ]
+[ 3 8 0 ]
+cost: 10 heu: 10 in queue: 68
+
+
+
+[ 7 1 6 ]
+[ 4 5 2 ]
+[ 0 3 8 ]
+cost: 10 heu: 10 in queue: 68
+
+
+
+[ 7 2 1 ]
+[ 0 6 8 ]
+[ 4 3 5 ]
+cost: 7 heu: 13 in queue: 68
+
+
+
+[ 0 2 1 ]
+[ 7 6 8 ]
+[ 4 3 5 ]
+cost: 8 heu: 12 in queue: 69
+
+
+
+[ 7 2 1 ]
+[ 4 0 8 ]
+[ 3 6 5 ]
+cost: 6 heu: 14 in queue: 69
+
+
+
+[ 7 2 1 ]
+[ 4 8 0 ]
+[ 3 6 5 ]
+cost: 7 heu: 13 in queue: 71
+
+
+
+[ 7 2 1 ]
+[ 4 8 5 ]
+[ 3 6 0 ]
+cost: 8 heu: 12 in queue: 72
+
+
+
+[ 7 2 1 ]
+[ 4 8 5 ]
+[ 3 0 6 ]
+cost: 9 heu: 11 in queue: 72
+
+
+
+[ 7 2 1 ]
+[ 4 8 5 ]
+[ 0 3 6 ]
+cost: 10 heu: 10 in queue: 73
+
+
+
+[ 7 2 1 ]
+[ 4 0 5 ]
+[ 3 8 6 ]
+cost: 10 heu: 10 in queue: 73
+
+
+
+[ 7 2 1 ]
+[ 4 5 0 ]
+[ 3 8 6 ]
+cost: 11 heu: 9 in queue: 75
+
+
+
+[ 7 2 1 ]
+[ 4 5 6 ]
+[ 3 8 0 ]
+cost: 12 heu: 8 in queue: 76
+
+
+
+[ 6 0 2 ]
+[ 7 4 1 ]
+[ 3 5 8 ]
+cost: 5 heu: 15 in queue: 76
+
+
+
+[ 6 2 0 ]
+[ 7 4 1 ]
+[ 3 5 8 ]
+cost: 6 heu: 14 in queue: 77
+
+
+
+[ 6 2 1 ]
+[ 7 4 0 ]
+[ 3 5 8 ]
+cost: 7 heu: 13 in queue: 77
+
+
+
+[ 7 6 2 ]
+[ 3 4 1 ]
+[ 5 0 8 ]
+cost: 5 heu: 15 in queue: 78
+
+
+
+[ 7 6 2 ]
+[ 3 4 1 ]
+[ 5 8 0 ]
+cost: 6 heu: 14 in queue: 79
+
+
+
+[ 7 6 2 ]
+[ 4 0 5 ]
+[ 3 8 1 ]
+cost: 6 heu: 14 in queue: 79
+
+
+
+[ 7 0 2 ]
+[ 4 6 5 ]
+[ 3 8 1 ]
+cost: 7 heu: 13 in queue: 81
+
+
+
+[ 7 2 0 ]
+[ 4 6 5 ]
+[ 3 8 1 ]
+cost: 8 heu: 12 in queue: 82
+
+
+
+[ 7 6 0 ]
+[ 4 5 2 ]
+[ 3 8 1 ]
+cost: 6 heu: 14 in queue: 82
+
+
+
+[ 7 0 6 ]
+[ 4 5 2 ]
+[ 3 8 1 ]
+cost: 7 heu: 13 in queue: 82
+
+
+
+[ 6 0 2 ]
+[ 7 5 1 ]
+[ 4 3 8 ]
+cost: 7 heu: 13 in queue: 83
+
+
+
+[ 6 2 0 ]
+[ 7 5 1 ]
+[ 4 3 8 ]
+cost: 8 heu: 12 in queue: 84
+
+
+
+[ 6 2 1 ]
+[ 7 5 0 ]
+[ 4 3 8 ]
+cost: 9 heu: 11 in queue: 84
+
+
+
+[ 7 6 2 ]
+[ 5 0 1 ]
+[ 4 3 8 ]
+cost: 6 heu: 14 in queue: 85
+
+
+
+[ 7 6 2 ]
+[ 5 3 1 ]
+[ 4 0 8 ]
+cost: 7 heu: 13 in queue: 87
+
+
+
+[ 7 6 2 ]
+[ 5 3 1 ]
+[ 4 8 0 ]
+cost: 8 heu: 12 in queue: 88
+
+
+
+[ 7 6 2 ]
+[ 5 1 0 ]
+[ 4 3 8 ]
+cost: 7 heu: 13 in queue: 88
+
+
+
+[ 7 0 2 ]
+[ 5 6 1 ]
+[ 4 3 8 ]
+cost: 7 heu: 13 in queue: 89
+
+
+
+[ 7 2 0 ]
+[ 5 6 1 ]
+[ 4 3 8 ]
+cost: 8 heu: 12 in queue: 90
+
+
+
+[ 7 2 1 ]
+[ 5 6 0 ]
+[ 4 3 8 ]
+cost: 9 heu: 11 in queue: 90
+
+
+
+[ 7 2 1 ]
+[ 5 0 6 ]
+[ 4 3 8 ]
+cost: 10 heu: 10 in queue: 91
+
+
+
+[ 7 2 1 ]
+[ 5 3 6 ]
+[ 4 0 8 ]
+cost: 11 heu: 9 in queue: 93
+
+
+
+[ 7 2 1 ]
+[ 5 3 6 ]
+[ 4 8 0 ]
+cost: 12 heu: 8 in queue: 94
+
+
+
+[ 7 2 1 ]
+[ 0 5 6 ]
+[ 4 3 8 ]
+cost: 11 heu: 9 in queue: 94
+
+
+
+[ 7 2 1 ]
+[ 4 5 6 ]
+[ 0 3 8 ]
+cost: 12 heu: 8 in queue: 95
+
+
+
+[ 0 2 1 ]
+[ 7 5 6 ]
+[ 4 3 8 ]
+cost: 12 heu: 8 in queue: 95
+
+
+
+[ 7 0 1 ]
+[ 4 2 6 ]
+[ 3 5 8 ]
+cost: 9 heu: 11 in queue: 95
+
+
+
+[ 7 2 1 ]
+[ 4 0 6 ]
+[ 3 5 8 ]
+cost: 10 heu: 10 in queue: 96
+
+
+
+[ 7 2 1 ]
+[ 4 5 6 ]
+[ 3 0 8 ]
+cost: 11 heu: 9 in queue: 98
+
+
+
+[ 7 2 1 ]
+[ 4 5 6 ]
+[ 3 8 0 ]
+cost: 12 heu: 8 in queue: 99
+
+
+
+[ 7 2 1 ]
+[ 4 5 6 ]
+[ 0 3 8 ]
+cost: 12 heu: 8 in queue: 99
+
+
+
+[ 7 1 6 ]
+[ 4 2 8 ]
+[ 3 5 0 ]
+cost: 8 heu: 12 in queue: 99
+
+
+
+[ 7 1 6 ]
+[ 0 5 2 ]
+[ 4 3 8 ]
+cost: 9 heu: 11 in queue: 99
+
+
+
+[ 0 1 6 ]
+[ 7 5 2 ]
+[ 4 3 8 ]
+cost: 10 heu: 10 in queue: 100
+
+
+
+[ 1 0 6 ]
+[ 7 5 2 ]
+[ 4 3 8 ]
+cost: 11 heu: 9 in queue: 100
+
+
+
+[ 7 1 6 ]
+[ 4 5 0 ]
+[ 3 8 2 ]
+cost: 9 heu: 11 in queue: 101
+
+
+
+[ 7 1 0 ]
+[ 4 5 6 ]
+[ 3 8 2 ]
+cost: 10 heu: 10 in queue: 102
+
+
+
+[ 7 1 6 ]
+[ 0 4 2 ]
+[ 3 5 8 ]
+cost: 7 heu: 13 in queue: 102
+
+
+
+[ 7 1 6 ]
+[ 3 4 2 ]
+[ 0 5 8 ]
+cost: 8 heu: 12 in queue: 103
+
+
+
+[ 0 1 6 ]
+[ 7 4 2 ]
+[ 3 5 8 ]
+cost: 8 heu: 12 in queue: 103
+
+
+
+[ 1 0 6 ]
+[ 7 4 2 ]
+[ 3 5 8 ]
+cost: 9 heu: 11 in queue: 103
+
+
+
+[ 0 7 6 ]
+[ 4 1 2 ]
+[ 3 5 8 ]
+cost: 6 heu: 14 in queue: 104
+
+
+
+[ 7 6 2 ]
+[ 4 1 8 ]
+[ 3 0 5 ]
+cost: 5 heu: 15 in queue: 104
+
+
+
+[ 7 6 2 ]
+[ 4 1 8 ]
+[ 0 3 5 ]
+cost: 6 heu: 14 in queue: 105
+
+
+
+[ 4 2 1 ]
+[ 6 7 8 ]
+[ 3 5 0 ]
+cost: 6 heu: 14 in queue: 105
+
+
+
+[ 4 2 1 ]
+[ 6 0 7 ]
+[ 3 5 8 ]
+cost: 6 heu: 14 in queue: 105
+
+
+
+[ 4 2 1 ]
+[ 6 5 7 ]
+[ 3 0 8 ]
+cost: 7 heu: 13 in queue: 107
+
+
+
+[ 4 2 1 ]
+[ 6 5 7 ]
+[ 3 8 0 ]
+cost: 8 heu: 12 in queue: 108
+
+
+
+[ 4 2 1 ]
+[ 6 5 0 ]
+[ 3 8 7 ]
+cost: 9 heu: 11 in queue: 108
+
+
+
+[ 4 2 1 ]
+[ 6 5 7 ]
+[ 0 3 8 ]
+cost: 8 heu: 12 in queue: 109
+
+
+
+[ 4 2 1 ]
+[ 0 6 7 ]
+[ 3 5 8 ]
+cost: 7 heu: 13 in queue: 109
+
+
+
+[ 4 2 1 ]
+[ 3 6 7 ]
+[ 0 5 8 ]
+cost: 8 heu: 12 in queue: 110
+
+
+
+[ 0 2 1 ]
+[ 4 6 7 ]
+[ 3 5 8 ]
+cost: 8 heu: 12 in queue: 110
+
+
+
+[ 0 4 2 ]
+[ 6 7 1 ]
+[ 3 5 8 ]
+cost: 4 heu: 16 in queue: 110
+
+
+
+[ 4 7 2 ]
+[ 6 1 8 ]
+[ 3 5 0 ]
+cost: 4 heu: 16 in queue: 110
+
+
+
+[ 4 7 0 ]
+[ 6 1 2 ]
+[ 3 5 8 ]
+cost: 4 heu: 16 in queue: 110
+
+
+
+[ 4 7 2 ]
+[ 0 5 1 ]
+[ 6 3 8 ]
+cost: 5 heu: 15 in queue: 110
+
+
+
+[ 0 7 2 ]
+[ 4 5 1 ]
+[ 6 3 8 ]
+cost: 6 heu: 14 in queue: 111
+
+
+
+[ 7 0 2 ]
+[ 4 5 1 ]
+[ 6 3 8 ]
+cost: 7 heu: 13 in queue: 111
+
+
+
+[ 7 2 0 ]
+[ 4 5 1 ]
+[ 6 3 8 ]
+cost: 8 heu: 12 in queue: 112
+
+
+
+[ 7 2 1 ]
+[ 4 5 0 ]
+[ 6 3 8 ]
+cost: 9 heu: 11 in queue: 112
+
+
+
+[ 4 7 2 ]
+[ 6 5 0 ]
+[ 3 8 1 ]
+cost: 5 heu: 15 in queue: 113
+
+
+
+[ 4 7 2 ]
+[ 3 6 0 ]
+[ 5 8 1 ]
+cost: 5 heu: 15 in queue: 114
+
+
+
+[ 4 7 2 ]
+[ 3 0 6 ]
+[ 5 8 1 ]
+cost: 6 heu: 14 in queue: 115
+
+
+
+[ 4 7 2 ]
+[ 0 3 6 ]
+[ 5 8 1 ]
+cost: 7 heu: 13 in queue: 117
+
+
+
+[ 4 7 2 ]
+[ 5 3 6 ]
+[ 0 8 1 ]
+cost: 8 heu: 12 in queue: 118
+
+
+
+[ 0 7 2 ]
+[ 4 3 6 ]
+[ 5 8 1 ]
+cost: 8 heu: 12 in queue: 118
+
+
+
+[ 7 0 2 ]
+[ 4 3 6 ]
+[ 5 8 1 ]
+cost: 9 heu: 11 in queue: 118
+
+
+
+[ 7 3 2 ]
+[ 4 0 6 ]
+[ 5 8 1 ]
+cost: 10 heu: 10 in queue: 119
+
+
+
+[ 7 2 0 ]
+[ 4 3 6 ]
+[ 5 8 1 ]
+cost: 10 heu: 10 in queue: 121
+
+
+
+[ 4 0 2 ]
+[ 3 7 6 ]
+[ 5 8 1 ]
+cost: 7 heu: 13 in queue: 121
+
+
+
+[ 4 2 0 ]
+[ 3 7 6 ]
+[ 5 8 1 ]
+cost: 8 heu: 12 in queue: 122
+
+
+
+[ 4 7 2 ]
+[ 3 0 1 ]
+[ 5 6 8 ]
+cost: 4 heu: 16 in queue: 122
+
+
+
+[ 4 7 2 ]
+[ 3 1 0 ]
+[ 5 6 8 ]
+cost: 5 heu: 15 in queue: 124
+
+
+
+[ 4 7 2 ]
+[ 0 3 1 ]
+[ 5 6 8 ]
+cost: 5 heu: 15 in queue: 125
+
+
+
+[ 4 7 2 ]
+[ 5 3 1 ]
+[ 0 6 8 ]
+cost: 6 heu: 14 in queue: 126
+
+
+
+[ 0 7 2 ]
+[ 4 3 1 ]
+[ 5 6 8 ]
+cost: 6 heu: 14 in queue: 126
+
+
+
+[ 7 0 2 ]
+[ 4 3 1 ]
+[ 5 6 8 ]
+cost: 7 heu: 13 in queue: 126
+
+
+
+[ 7 3 2 ]
+[ 4 0 1 ]
+[ 5 6 8 ]
+cost: 8 heu: 12 in queue: 127
+
+
+
+[ 7 3 2 ]
+[ 4 6 1 ]
+[ 5 0 8 ]
+cost: 9 heu: 11 in queue: 129
+
+
+
+[ 7 3 2 ]
+[ 4 6 1 ]
+[ 5 8 0 ]
+cost: 10 heu: 10 in queue: 130
+
+
+
+[ 7 3 2 ]
+[ 4 6 1 ]
+[ 0 5 8 ]
+cost: 10 heu: 10 in queue: 130
+
+
+
+[ 7 3 2 ]
+[ 4 1 0 ]
+[ 5 6 8 ]
+cost: 9 heu: 11 in queue: 130
+
+
+
+[ 7 2 0 ]
+[ 4 3 1 ]
+[ 5 6 8 ]
+cost: 8 heu: 12 in queue: 131
+
+
+
+[ 7 2 1 ]
+[ 4 3 0 ]
+[ 5 6 8 ]
+cost: 9 heu: 11 in queue: 131
+
+
+
+[ 7 2 1 ]
+[ 4 0 3 ]
+[ 5 6 8 ]
+cost: 10 heu: 10 in queue: 132
+
+
+
+[ 7 2 1 ]
+[ 4 6 3 ]
+[ 5 0 8 ]
+cost: 11 heu: 9 in queue: 134
+
+
+
+[ 7 2 1 ]
+[ 4 6 3 ]
+[ 5 8 0 ]
+cost: 12 heu: 8 in queue: 135
+
+
+
+[ 7 2 1 ]
+[ 4 6 3 ]
+[ 0 5 8 ]
+cost: 12 heu: 8 in queue: 135
+
+
+
+[ 4 0 2 ]
+[ 3 7 1 ]
+[ 5 6 8 ]
+cost: 5 heu: 15 in queue: 135
+
+
+
+[ 4 2 0 ]
+[ 3 7 1 ]
+[ 5 6 8 ]
+cost: 6 heu: 14 in queue: 136
+
+
+
+[ 4 2 1 ]
+[ 3 7 0 ]
+[ 5 6 8 ]
+cost: 7 heu: 13 in queue: 136
+
+
+
+[ 4 2 1 ]
+[ 3 7 8 ]
+[ 5 6 0 ]
+cost: 8 heu: 14 in queue: 137
+
+
+
+[ 4 2 1 ]
+[ 3 7 8 ]
+[ 5 0 6 ]
+cost: 9 heu: 13 in queue: 137
+
+
+
+[ 4 2 1 ]
+[ 3 7 8 ]
+[ 0 5 6 ]
+cost: 10 heu: 12 in queue: 138
+
+
+
+[ 4 2 1 ]
+[ 3 0 8 ]
+[ 5 7 6 ]
+cost: 10 heu: 12 in queue: 138
+
+
+
+[ 4 2 1 ]
+[ 3 8 0 ]
+[ 5 7 6 ]
+cost: 11 heu: 11 in queue: 140
+
+
+
+[ 4 2 1 ]
+[ 3 8 6 ]
+[ 5 7 0 ]
+cost: 12 heu: 10 in queue: 141
+
+
+
+[ 4 2 1 ]
+[ 0 3 8 ]
+[ 5 7 6 ]
+cost: 11 heu: 11 in queue: 141
+
+
+
+[ 4 2 1 ]
+[ 5 3 8 ]
+[ 0 7 6 ]
+cost: 12 heu: 10 in queue: 142
+
+
+
+[ 4 2 1 ]
+[ 5 3 8 ]
+[ 7 0 6 ]
+cost: 13 heu: 9 in queue: 142
+
+
+
+[ 0 2 1 ]
+[ 4 3 8 ]
+[ 5 7 6 ]
+cost: 12 heu: 10 in queue: 143
+
+
+
+[ 4 2 1 ]
+[ 3 0 7 ]
+[ 5 6 8 ]
+cost: 8 heu: 14 in queue: 143
+
+
+
+[ 4 2 1 ]
+[ 3 6 7 ]
+[ 5 0 8 ]
+cost: 9 heu: 13 in queue: 145
+
+
+
+[ 4 2 1 ]
+[ 3 6 7 ]
+[ 5 8 0 ]
+cost: 10 heu: 12 in queue: 146
+
+
+
+[ 4 2 1 ]
+[ 3 6 0 ]
+[ 5 8 7 ]
+cost: 11 heu: 11 in queue: 146
+
+
+
+[ 4 2 1 ]
+[ 3 0 6 ]
+[ 5 8 7 ]
+cost: 12 heu: 10 in queue: 147
+
+
+
+[ 4 2 1 ]
+[ 0 3 6 ]
+[ 5 8 7 ]
+cost: 13 heu: 9 in queue: 149
+
+
+
+[ 4 2 1 ]
+[ 5 3 6 ]
+[ 0 8 7 ]
+cost: 14 heu: 8 in queue: 150
+
+
+
+[ 0 2 1 ]
+[ 4 3 6 ]
+[ 5 8 7 ]
+cost: 14 heu: 8 in queue: 150
+
+
+
+[ 4 2 1 ]
+[ 3 6 7 ]
+[ 0 5 8 ]
+cost: 10 heu: 12 in queue: 150
+
+
+
+[ 4 2 1 ]
+[ 0 3 7 ]
+[ 5 6 8 ]
+cost: 9 heu: 13 in queue: 150
+
+
+
+[ 4 2 1 ]
+[ 5 3 7 ]
+[ 0 6 8 ]
+cost: 10 heu: 12 in queue: 151
+
+
+
+[ 0 2 1 ]
+[ 4 3 7 ]
+[ 5 6 8 ]
+cost: 10 heu: 12 in queue: 151
+
+
+
+[ 0 4 2 ]
+[ 3 7 1 ]
+[ 5 6 8 ]
+cost: 6 heu: 16 in queue: 151
+
+
+
+[ 3 4 2 ]
+[ 0 7 1 ]
+[ 5 6 8 ]
+cost: 7 heu: 15 in queue: 151
+
+
+
+[ 3 4 2 ]
+[ 5 7 1 ]
+[ 0 6 8 ]
+cost: 8 heu: 14 in queue: 152
+
+
+
+[ 3 4 2 ]
+[ 7 0 1 ]
+[ 5 6 8 ]
+cost: 8 heu: 14 in queue: 152
+
+
+
+[ 3 4 2 ]
+[ 7 6 1 ]
+[ 5 0 8 ]
+cost: 9 heu: 13 in queue: 154
+
+
+
+[ 3 4 2 ]
+[ 7 6 1 ]
+[ 5 8 0 ]
+cost: 10 heu: 12 in queue: 155
+
+
+
+[ 3 4 2 ]
+[ 7 6 1 ]
+[ 0 5 8 ]
+cost: 10 heu: 12 in queue: 155
+
+
+
+[ 3 4 2 ]
+[ 0 6 1 ]
+[ 7 5 8 ]
+cost: 11 heu: 11 in queue: 155
+
+
+
+[ 3 4 2 ]
+[ 7 1 0 ]
+[ 5 6 8 ]
+cost: 9 heu: 13 in queue: 156
+
+
+
+[ 3 0 2 ]
+[ 7 4 1 ]
+[ 5 6 8 ]
+cost: 9 heu: 13 in queue: 157
+
+
+
+[ 3 2 0 ]
+[ 7 4 1 ]
+[ 5 6 8 ]
+cost: 10 heu: 12 in queue: 158
+
+
+
+[ 3 2 1 ]
+[ 7 4 0 ]
+[ 5 6 8 ]
+cost: 11 heu: 11 in queue: 158
+
+
+
+[ 0 3 2 ]
+[ 7 4 1 ]
+[ 5 6 8 ]
+cost: 10 heu: 12 in queue: 159
+
+
+
+[ 7 2 1 ]
+[ 0 6 3 ]
+[ 4 5 8 ]
+cost: 13 heu: 9 in queue: 159
+
+
+
+[ 0 2 1 ]
+[ 7 6 3 ]
+[ 4 5 8 ]
+cost: 14 heu: 8 in queue: 160
+
+
+
+[ 7 2 1 ]
+[ 4 6 0 ]
+[ 5 8 3 ]
+cost: 13 heu: 9 in queue: 160
+
+
+
+[ 7 2 1 ]
+[ 4 0 6 ]
+[ 5 8 3 ]
+cost: 14 heu: 8 in queue: 161
+
+
+
+[ 7 2 1 ]
+[ 0 4 3 ]
+[ 5 6 8 ]
+cost: 11 heu: 11 in queue: 163
+
+
+
+[ 7 2 1 ]
+[ 5 4 3 ]
+[ 0 6 8 ]
+cost: 12 heu: 10 in queue: 164
+
+
+
+[ 0 2 1 ]
+[ 7 4 3 ]
+[ 5 6 8 ]
+cost: 12 heu: 10 in queue: 164
+
+
+
+[ 7 0 1 ]
+[ 4 2 3 ]
+[ 5 6 8 ]
+cost: 11 heu: 11 in queue: 164
+
+
+
+[ 7 1 0 ]
+[ 4 2 3 ]
+[ 5 6 8 ]
+cost: 12 heu: 10 in queue: 165
+
+
+
+[ 7 1 3 ]
+[ 4 2 0 ]
+[ 5 6 8 ]
+cost: 13 heu: 9 in queue: 165
+
+
+
+[ 7 2 1 ]
+[ 4 3 8 ]
+[ 5 6 0 ]
+cost: 10 heu: 12 in queue: 166
+
+
+
+[ 7 2 1 ]
+[ 4 3 8 ]
+[ 5 0 6 ]
+cost: 11 heu: 11 in queue: 166
+
+
+
+[ 7 2 1 ]
+[ 4 3 8 ]
+[ 0 5 6 ]
+cost: 12 heu: 10 in queue: 167
+
+
+
+[ 7 3 2 ]
+[ 4 1 8 ]
+[ 5 6 0 ]
+cost: 10 heu: 12 in queue: 167
+
+
+
+[ 7 3 2 ]
+[ 4 1 8 ]
+[ 5 0 6 ]
+cost: 11 heu: 11 in queue: 167
+
+
+
+[ 7 3 2 ]
+[ 4 1 8 ]
+[ 0 5 6 ]
+cost: 12 heu: 10 in queue: 168
+
+
+
+[ 7 3 0 ]
+[ 4 1 2 ]
+[ 5 6 8 ]
+cost: 10 heu: 12 in queue: 168
+
+
+
+[ 7 0 3 ]
+[ 4 1 2 ]
+[ 5 6 8 ]
+cost: 11 heu: 11 in queue: 168
+
+
+
+[ 7 1 3 ]
+[ 4 0 2 ]
+[ 5 6 8 ]
+cost: 12 heu: 10 in queue: 169
+
+
+
+[ 7 1 3 ]
+[ 4 6 2 ]
+[ 5 0 8 ]
+cost: 13 heu: 9 in queue: 171
+
+
+
+[ 7 1 3 ]
+[ 4 6 2 ]
+[ 5 8 0 ]
+cost: 14 heu: 8 in queue: 172
+
+
+
+[ 7 1 3 ]
+[ 4 6 2 ]
+[ 0 5 8 ]
+cost: 14 heu: 8 in queue: 172
+
+
+
+[ 7 1 3 ]
+[ 4 2 0 ]
+[ 5 6 8 ]
+cost: 13 heu: 9 in queue: 172
+
+
+
+[ 7 3 2 ]
+[ 0 6 1 ]
+[ 4 5 8 ]
+cost: 11 heu: 11 in queue: 173
+
+
+
+[ 0 3 2 ]
+[ 7 6 1 ]
+[ 4 5 8 ]
+cost: 12 heu: 10 in queue: 174
+
+
+
+[ 7 3 2 ]
+[ 4 6 0 ]
+[ 5 8 1 ]
+cost: 11 heu: 11 in queue: 174
+
+
+
+[ 7 3 2 ]
+[ 4 0 6 ]
+[ 5 8 1 ]
+cost: 12 heu: 10 in queue: 175
+
+
+
+[ 7 3 2 ]
+[ 0 4 1 ]
+[ 5 6 8 ]
+cost: 9 heu: 13 in queue: 177
+
+
+
+[ 7 3 2 ]
+[ 5 4 1 ]
+[ 0 6 8 ]
+cost: 10 heu: 12 in queue: 178
+
+
+
+[ 0 3 2 ]
+[ 7 4 1 ]
+[ 5 6 8 ]
+cost: 10 heu: 12 in queue: 178
+
+
+
+[ 4 7 2 ]
+[ 5 3 1 ]
+[ 6 0 8 ]
+cost: 7 heu: 15 in queue: 178
+
+
+
+[ 4 7 2 ]
+[ 5 3 1 ]
+[ 6 8 0 ]
+cost: 8 heu: 14 in queue: 179
+
+
+
+[ 4 7 2 ]
+[ 3 1 8 ]
+[ 5 6 0 ]
+cost: 6 heu: 16 in queue: 179
+
+
+
+[ 4 7 2 ]
+[ 3 1 8 ]
+[ 5 0 6 ]
+cost: 7 heu: 15 in queue: 179
+
+
+
+[ 4 7 2 ]
+[ 3 1 8 ]
+[ 0 5 6 ]
+cost: 8 heu: 14 in queue: 180
+
+
+
+[ 4 7 0 ]
+[ 3 1 2 ]
+[ 5 6 8 ]
+cost: 6 heu: 16 in queue: 180
+
+
+
+[ 4 2 6 ]
+[ 3 7 0 ]
+[ 5 8 1 ]
+cost: 9 heu: 13 in queue: 180
+
+
+
+[ 4 2 6 ]
+[ 3 7 1 ]
+[ 5 8 0 ]
+cost: 10 heu: 12 in queue: 181
+
+
+
+[ 0 4 2 ]
+[ 3 7 6 ]
+[ 5 8 1 ]
+cost: 8 heu: 14 in queue: 181
+
+
+
+[ 3 4 2 ]
+[ 0 7 6 ]
+[ 5 8 1 ]
+cost: 9 heu: 13 in queue: 181
+
+
+
+[ 3 4 2 ]
+[ 5 7 6 ]
+[ 0 8 1 ]
+cost: 10 heu: 12 in queue: 182
+
+
+
+[ 3 4 2 ]
+[ 7 0 6 ]
+[ 5 8 1 ]
+cost: 10 heu: 12 in queue: 182
+
+
+
+[ 3 0 2 ]
+[ 7 4 6 ]
+[ 5 8 1 ]
+cost: 11 heu: 11 in queue: 184
+
+
+
+[ 3 2 0 ]
+[ 7 4 6 ]
+[ 5 8 1 ]
+cost: 12 heu: 10 in queue: 185
+
+
+
+[ 0 3 2 ]
+[ 7 4 6 ]
+[ 5 8 1 ]
+cost: 12 heu: 10 in queue: 185
+
+
+
+[ 7 2 6 ]
+[ 4 3 0 ]
+[ 5 8 1 ]
+cost: 11 heu: 11 in queue: 185
+
+
+
+[ 7 2 6 ]
+[ 4 3 1 ]
+[ 5 8 0 ]
+cost: 12 heu: 10 in queue: 186
+
+
+
+[ 7 2 6 ]
+[ 4 0 3 ]
+[ 5 8 1 ]
+cost: 12 heu: 10 in queue: 186
+
+
+
+[ 7 3 2 ]
+[ 4 8 6 ]
+[ 5 0 1 ]
+cost: 11 heu: 11 in queue: 188
+
+
+
+[ 7 3 2 ]
+[ 4 8 6 ]
+[ 5 1 0 ]
+cost: 12 heu: 10 in queue: 189
+
+
+
+[ 7 3 2 ]
+[ 4 8 6 ]
+[ 0 5 1 ]
+cost: 12 heu: 10 in queue: 189
+
+
+
+[ 7 3 2 ]
+[ 4 6 0 ]
+[ 5 8 1 ]
+cost: 11 heu: 11 in queue: 189
+
+
+
+[ 7 3 2 ]
+[ 4 6 1 ]
+[ 5 8 0 ]
+cost: 12 heu: 10 in queue: 190
+
+
+
+[ 7 3 2 ]
+[ 0 4 6 ]
+[ 5 8 1 ]
+cost: 11 heu: 11 in queue: 190
+
+
+
+[ 7 3 2 ]
+[ 5 4 6 ]
+[ 0 8 1 ]
+cost: 12 heu: 10 in queue: 191
+
+
+
+[ 0 3 2 ]
+[ 7 4 6 ]
+[ 5 8 1 ]
+cost: 12 heu: 10 in queue: 191
+
+
+
+[ 4 7 2 ]
+[ 5 3 6 ]
+[ 8 0 1 ]
+cost: 9 heu: 13 in queue: 191
+
+
+
+[ 4 7 2 ]
+[ 5 3 6 ]
+[ 8 1 0 ]
+cost: 10 heu: 12 in queue: 192
+
+
+
+[ 4 7 2 ]
+[ 3 8 6 ]
+[ 5 0 1 ]
+cost: 7 heu: 15 in queue: 192
+
+
+
+[ 4 7 2 ]
+[ 3 8 6 ]
+[ 5 1 0 ]
+cost: 8 heu: 14 in queue: 193
+
+
+
+[ 4 7 2 ]
+[ 3 8 6 ]
+[ 0 5 1 ]
+cost: 8 heu: 14 in queue: 193
+
+
+
+[ 4 7 0 ]
+[ 3 6 2 ]
+[ 5 8 1 ]
+cost: 6 heu: 16 in queue: 193
+
+
+
+[ 4 7 2 ]
+[ 6 0 5 ]
+[ 3 8 1 ]
+cost: 6 heu: 16 in queue: 193
+
+
+
+[ 4 7 2 ]
+[ 0 6 5 ]
+[ 3 8 1 ]
+cost: 7 heu: 15 in queue: 195
+
+
+
+[ 4 7 2 ]
+[ 3 6 5 ]
+[ 0 8 1 ]
+cost: 8 heu: 14 in queue: 196
+
+
+
+[ 0 7 2 ]
+[ 4 6 5 ]
+[ 3 8 1 ]
+cost: 8 heu: 14 in queue: 196
+
+
+
+[ 7 0 2 ]
+[ 4 6 5 ]
+[ 3 8 1 ]
+cost: 9 heu: 13 in queue: 196
+
+
+
+[ 7 2 0 ]
+[ 4 6 5 ]
+[ 3 8 1 ]
+cost: 10 heu: 12 in queue: 197
+
+
+
+[ 4 0 2 ]
+[ 6 7 5 ]
+[ 3 8 1 ]
+cost: 7 heu: 15 in queue: 197
+
+
+
+[ 4 2 0 ]
+[ 6 7 5 ]
+[ 3 8 1 ]
+cost: 8 heu: 14 in queue: 198
+
+
+
+[ 4 7 0 ]
+[ 6 5 2 ]
+[ 3 8 1 ]
+cost: 6 heu: 16 in queue: 198
+
+
+
+[ 7 2 1 ]
+[ 4 5 8 ]
+[ 6 3 0 ]
+cost: 10 heu: 12 in queue: 198
+
+
+
+[ 7 2 1 ]
+[ 4 5 8 ]
+[ 6 0 3 ]
+cost: 11 heu: 11 in queue: 198
+
+
+
+[ 7 2 1 ]
+[ 4 5 8 ]
+[ 0 6 3 ]
+cost: 12 heu: 10 in queue: 199
+
+
+
+[ 7 2 1 ]
+[ 4 0 5 ]
+[ 6 3 8 ]
+cost: 10 heu: 12 in queue: 199
+
+
+
+[ 7 2 1 ]
+[ 4 3 5 ]
+[ 6 0 8 ]
+cost: 11 heu: 11 in queue: 201
+
+
+
+[ 7 2 1 ]
+[ 4 3 5 ]
+[ 6 8 0 ]
+cost: 12 heu: 10 in queue: 202
+
+
+
+[ 7 2 1 ]
+[ 4 3 5 ]
+[ 0 6 8 ]
+cost: 12 heu: 10 in queue: 202
+
+
+
+[ 7 5 2 ]
+[ 4 0 1 ]
+[ 6 3 8 ]
+cost: 8 heu: 14 in queue: 202
+
+
+
+[ 7 5 2 ]
+[ 4 3 1 ]
+[ 6 0 8 ]
+cost: 9 heu: 13 in queue: 204
+
+
+
+[ 7 5 2 ]
+[ 4 3 1 ]
+[ 6 8 0 ]
+cost: 10 heu: 12 in queue: 205
+
+
+
+[ 7 5 2 ]
+[ 4 3 1 ]
+[ 0 6 8 ]
+cost: 10 heu: 12 in queue: 205
+
+
+
+[ 7 5 2 ]
+[ 4 1 0 ]
+[ 6 3 8 ]
+cost: 9 heu: 13 in queue: 205
+
+
+
+[ 4 7 2 ]
+[ 5 0 1 ]
+[ 6 3 8 ]
+cost: 6 heu: 16 in queue: 206
+
+
+
+[ 4 7 2 ]
+[ 5 3 1 ]
+[ 6 0 8 ]
+cost: 7 heu: 15 in queue: 208
+
+
+
+[ 4 7 2 ]
+[ 5 3 1 ]
+[ 6 8 0 ]
+cost: 8 heu: 14 in queue: 209
+
+
+
+[ 4 7 2 ]
+[ 5 3 1 ]
+[ 0 6 8 ]
+cost: 8 heu: 14 in queue: 209
+
+
+
+[ 4 7 2 ]
+[ 5 1 0 ]
+[ 6 3 8 ]
+cost: 7 heu: 15 in queue: 209
+
+
+
+[ 4 0 2 ]
+[ 5 7 1 ]
+[ 6 3 8 ]
+cost: 7 heu: 15 in queue: 210
+
+
+
+[ 4 2 0 ]
+[ 5 7 1 ]
+[ 6 3 8 ]
+cost: 8 heu: 14 in queue: 211
+
+
+
+[ 4 2 1 ]
+[ 5 7 0 ]
+[ 6 3 8 ]
+cost: 9 heu: 13 in queue: 211
+
+
+
+[ 4 0 7 ]
+[ 6 1 2 ]
+[ 3 5 8 ]
+cost: 5 heu: 17 in queue: 212
+
+
+
+[ 4 1 7 ]
+[ 6 0 2 ]
+[ 3 5 8 ]
+cost: 6 heu: 16 in queue: 213
+
+
+
+[ 4 1 7 ]
+[ 6 5 2 ]
+[ 3 0 8 ]
+cost: 7 heu: 15 in queue: 215
+
+
+
+[ 4 1 7 ]
+[ 6 5 2 ]
+[ 3 8 0 ]
+cost: 8 heu: 14 in queue: 216
+
+
+
+[ 4 1 7 ]
+[ 6 5 2 ]
+[ 0 3 8 ]
+cost: 8 heu: 14 in queue: 216
+
+
+
+[ 4 1 7 ]
+[ 6 2 0 ]
+[ 3 5 8 ]
+cost: 7 heu: 15 in queue: 216
+
+
+
+[ 4 1 0 ]
+[ 6 2 7 ]
+[ 3 5 8 ]
+cost: 8 heu: 14 in queue: 217
+
+
+
+[ 4 1 7 ]
+[ 0 6 2 ]
+[ 3 5 8 ]
+cost: 7 heu: 15 in queue: 217
+
+
+
+[ 4 1 7 ]
+[ 3 6 2 ]
+[ 0 5 8 ]
+cost: 8 heu: 14 in queue: 218
+
+
+
+[ 0 1 7 ]
+[ 4 6 2 ]
+[ 3 5 8 ]
+cost: 8 heu: 14 in queue: 218
+
+
+
+[ 1 0 7 ]
+[ 4 6 2 ]
+[ 3 5 8 ]
+cost: 9 heu: 13 in queue: 218
+
+
+
+[ 1 7 0 ]
+[ 4 6 2 ]
+[ 3 5 8 ]
+cost: 10 heu: 12 in queue: 219
+
+
+
+[ 1 7 2 ]
+[ 4 6 0 ]
+[ 3 5 8 ]
+cost: 11 heu: 11 in queue: 219
+
+
+
+[ 1 7 2 ]
+[ 4 0 6 ]
+[ 3 5 8 ]
+cost: 12 heu: 10 in queue: 220
+
+
+
+[ 1 7 2 ]
+[ 4 5 6 ]
+[ 3 0 8 ]
+cost: 13 heu: 9 in queue: 222
+
+
+
+[ 1 7 2 ]
+[ 4 5 6 ]
+[ 3 8 0 ]
+cost: 14 heu: 8 in queue: 223
+
+
+
+[ 1 7 2 ]
+[ 4 5 6 ]
+[ 0 3 8 ]
+cost: 14 heu: 8 in queue: 223
+
+
+
+[ 1 0 2 ]
+[ 4 7 6 ]
+[ 3 5 8 ]
+cost: 13 heu: 9 in queue: 223
+
+
+
+[ 1 2 0 ]
+[ 4 7 6 ]
+[ 3 5 8 ]
+cost: 14 heu: 8 in queue: 224
+
+
+
+[ 4 7 2 ]
+[ 6 1 8 ]
+[ 3 0 5 ]
+cost: 5 heu: 17 in queue: 224
+
+
+
+[ 4 7 2 ]
+[ 6 1 8 ]
+[ 0 3 5 ]
+cost: 6 heu: 16 in queue: 225
+
+
+
+[ 6 4 2 ]
+[ 0 7 1 ]
+[ 3 5 8 ]
+cost: 5 heu: 17 in queue: 225
+
+
+
+[ 6 4 2 ]
+[ 3 7 1 ]
+[ 0 5 8 ]
+cost: 6 heu: 16 in queue: 226
+
+
+
+[ 6 4 2 ]
+[ 7 0 1 ]
+[ 3 5 8 ]
+cost: 6 heu: 16 in queue: 226
+
+
+
+[ 6 4 2 ]
+[ 7 5 1 ]
+[ 3 0 8 ]
+cost: 7 heu: 15 in queue: 228
+
+
+
+[ 6 4 2 ]
+[ 7 5 1 ]
+[ 3 8 0 ]
+cost: 8 heu: 14 in queue: 229
+
+
+
+[ 6 4 2 ]
+[ 7 5 1 ]
+[ 0 3 8 ]
+cost: 8 heu: 14 in queue: 229
+
+
+
+[ 6 4 2 ]
+[ 0 5 1 ]
+[ 7 3 8 ]
+cost: 9 heu: 13 in queue: 229
+
+
+
+[ 0 4 2 ]
+[ 6 5 1 ]
+[ 7 3 8 ]
+cost: 10 heu: 12 in queue: 230
+
+
+
+[ 4 0 2 ]
+[ 6 5 1 ]
+[ 7 3 8 ]
+cost: 11 heu: 11 in queue: 230
+
+
+
+[ 4 2 0 ]
+[ 6 5 1 ]
+[ 7 3 8 ]
+cost: 12 heu: 10 in queue: 231
+
+
+
+[ 4 2 1 ]
+[ 6 5 0 ]
+[ 7 3 8 ]
+cost: 13 heu: 9 in queue: 231
+
+
+
+[ 6 4 2 ]
+[ 7 1 0 ]
+[ 3 5 8 ]
+cost: 7 heu: 15 in queue: 232
+
+
+
+[ 6 0 2 ]
+[ 7 4 1 ]
+[ 3 5 8 ]
+cost: 7 heu: 15 in queue: 233
+
+
+
+[ 6 2 0 ]
+[ 7 4 1 ]
+[ 3 5 8 ]
+cost: 8 heu: 14 in queue: 234
+
+
+
+[ 6 2 1 ]
+[ 7 4 0 ]
+[ 3 5 8 ]
+cost: 9 heu: 13 in queue: 234
+
+
+
+[ 0 6 2 ]
+[ 7 4 1 ]
+[ 3 5 8 ]
+cost: 8 heu: 14 in queue: 235
+
+
+
+[ 2 0 1 ]
+[ 4 6 7 ]
+[ 3 5 8 ]
+cost: 9 heu: 13 in queue: 235
+
+
+
+[ 2 1 0 ]
+[ 4 6 7 ]
+[ 3 5 8 ]
+cost: 10 heu: 12 in queue: 236
+
+
+
+[ 4 2 1 ]
+[ 3 6 7 ]
+[ 5 0 8 ]
+cost: 9 heu: 13 in queue: 236
+
+
+
+[ 4 2 1 ]
+[ 3 6 7 ]
+[ 5 8 0 ]
+cost: 10 heu: 12 in queue: 237
+
+
+
+[ 4 2 1 ]
+[ 3 6 0 ]
+[ 5 8 7 ]
+cost: 11 heu: 11 in queue: 237
+
+
+
+[ 4 2 1 ]
+[ 3 0 6 ]
+[ 5 8 7 ]
+cost: 12 heu: 10 in queue: 238
+
+
+
+[ 4 2 1 ]
+[ 0 3 6 ]
+[ 5 8 7 ]
+cost: 13 heu: 9 in queue: 240
+
+
+
+[ 4 2 1 ]
+[ 5 3 6 ]
+[ 0 8 7 ]
+cost: 14 heu: 8 in queue: 241
+
+
+
+[ 0 2 1 ]
+[ 4 3 6 ]
+[ 5 8 7 ]
+cost: 14 heu: 8 in queue: 241
+
+
+
+[ 4 2 1 ]
+[ 0 5 7 ]
+[ 6 3 8 ]
+cost: 9 heu: 13 in queue: 241
+
+
+
+[ 0 2 1 ]
+[ 4 5 7 ]
+[ 6 3 8 ]
+cost: 10 heu: 12 in queue: 242
+
+
+
+[ 4 2 1 ]
+[ 6 0 5 ]
+[ 3 8 7 ]
+cost: 10 heu: 12 in queue: 242
+
+
+
+[ 4 2 1 ]
+[ 0 6 5 ]
+[ 3 8 7 ]
+cost: 11 heu: 11 in queue: 244
+
+
+
+[ 4 2 1 ]
+[ 3 6 5 ]
+[ 0 8 7 ]
+cost: 12 heu: 10 in queue: 245
+
+
+
+[ 0 2 1 ]
+[ 4 6 5 ]
+[ 3 8 7 ]
+cost: 12 heu: 10 in queue: 245
+
+
+
+[ 4 2 0 ]
+[ 6 5 1 ]
+[ 3 8 7 ]
+cost: 10 heu: 12 in queue: 245
+
+
+
+[ 4 0 1 ]
+[ 6 2 7 ]
+[ 3 5 8 ]
+cost: 7 heu: 15 in queue: 245
+
+
+
+[ 4 1 0 ]
+[ 6 2 7 ]
+[ 3 5 8 ]
+cost: 8 heu: 14 in queue: 246
+
+
+
+[ 4 2 1 ]
+[ 6 7 8 ]
+[ 3 0 5 ]
+cost: 7 heu: 15 in queue: 246
+
+
+
+[ 4 2 1 ]
+[ 6 7 8 ]
+[ 0 3 5 ]
+cost: 8 heu: 14 in queue: 247
+
+
+
+[ 4 2 1 ]
+[ 6 0 8 ]
+[ 3 7 5 ]
+cost: 8 heu: 14 in queue: 247
+
+
+
+[ 4 2 1 ]
+[ 6 8 0 ]
+[ 3 7 5 ]
+cost: 9 heu: 13 in queue: 249
+
+
+
+[ 4 2 1 ]
+[ 6 8 5 ]
+[ 3 7 0 ]
+cost: 10 heu: 12 in queue: 250
+
+
+
+[ 4 2 1 ]
+[ 0 6 8 ]
+[ 3 7 5 ]
+cost: 9 heu: 13 in queue: 250
+
+
+
+[ 4 2 1 ]
+[ 3 6 8 ]
+[ 0 7 5 ]
+cost: 10 heu: 12 in queue: 251
+
+
+
+[ 4 2 1 ]
+[ 3 6 8 ]
+[ 7 0 5 ]
+cost: 11 heu: 11 in queue: 251
+
+
+
+[ 4 2 1 ]
+[ 3 6 8 ]
+[ 7 5 0 ]
+cost: 12 heu: 10 in queue: 252
+
+
+
+[ 4 2 1 ]
+[ 3 6 0 ]
+[ 7 5 8 ]
+cost: 13 heu: 9 in queue: 252
+
+
+
+[ 4 2 1 ]
+[ 3 0 6 ]
+[ 7 5 8 ]
+cost: 14 heu: 8 in queue: 253
+
+
+
+[ 4 2 1 ]
+[ 3 5 6 ]
+[ 7 0 8 ]
+cost: 15 heu: 7 in queue: 255
+
+
+
+[ 4 2 1 ]
+[ 3 5 6 ]
+[ 7 8 0 ]
+cost: 16 heu: 6 in queue: 256
+
+
+
+[ 4 2 1 ]
+[ 0 3 6 ]
+[ 7 5 8 ]
+cost: 15 heu: 7 in queue: 256
+
+
+
+[ 0 2 1 ]
+[ 4 3 6 ]
+[ 7 5 8 ]
+cost: 16 heu: 6 in queue: 257
+
+
+
+[ 0 2 1 ]
+[ 4 6 8 ]
+[ 3 7 5 ]
+cost: 10 heu: 12 in queue: 257
+
+
+
+[ 7 6 2 ]
+[ 0 1 8 ]
+[ 4 3 5 ]
+cost: 7 heu: 15 in queue: 257
+
+
+
+[ 7 6 2 ]
+[ 1 0 8 ]
+[ 4 3 5 ]
+cost: 8 heu: 14 in queue: 258
+
+
+
+[ 7 6 2 ]
+[ 1 3 8 ]
+[ 4 0 5 ]
+cost: 9 heu: 13 in queue: 260
+
+
+
+[ 7 6 2 ]
+[ 1 3 8 ]
+[ 4 5 0 ]
+cost: 10 heu: 12 in queue: 261
+
+
+
+[ 7 6 2 ]
+[ 1 3 0 ]
+[ 4 5 8 ]
+cost: 11 heu: 11 in queue: 261
+
+
+
+[ 7 6 2 ]
+[ 1 0 3 ]
+[ 4 5 8 ]
+cost: 12 heu: 10 in queue: 262
+
+
+
+[ 7 6 2 ]
+[ 1 5 3 ]
+[ 4 0 8 ]
+cost: 13 heu: 9 in queue: 264
+
+
+
+[ 7 6 2 ]
+[ 1 5 3 ]
+[ 4 8 0 ]
+cost: 14 heu: 8 in queue: 265
+
+
+
+[ 7 0 2 ]
+[ 1 6 3 ]
+[ 4 5 8 ]
+cost: 13 heu: 9 in queue: 265
+
+
+
+[ 7 2 0 ]
+[ 1 6 3 ]
+[ 4 5 8 ]
+cost: 14 heu: 8 in queue: 266
+
+
+
+[ 7 2 3 ]
+[ 1 6 0 ]
+[ 4 5 8 ]
+cost: 15 heu: 7 in queue: 266
+
+
+
+[ 7 2 3 ]
+[ 1 0 6 ]
+[ 4 5 8 ]
+cost: 16 heu: 6 in queue: 267
+
+
+
+[ 7 2 3 ]
+[ 1 5 6 ]
+[ 4 0 8 ]
+cost: 17 heu: 5 in queue: 269
+
+
+
+[ 7 2 3 ]
+[ 1 5 6 ]
+[ 4 8 0 ]
+cost: 18 heu: 4 in queue: 270
+
+
+
+[ 7 6 2 ]
+[ 1 8 0 ]
+[ 4 3 5 ]
+cost: 9 heu: 13 in queue: 270
+
+
+
+[ 7 6 2 ]
+[ 1 8 5 ]
+[ 4 3 0 ]
+cost: 10 heu: 12 in queue: 271
+
+
+
+[ 7 6 2 ]
+[ 1 8 5 ]
+[ 4 0 3 ]
+cost: 11 heu: 11 in queue: 271
+
+
+
+[ 7 6 2 ]
+[ 1 0 5 ]
+[ 4 8 3 ]
+cost: 12 heu: 10 in queue: 272
+
+
+
+[ 7 6 2 ]
+[ 1 5 0 ]
+[ 4 8 3 ]
+cost: 13 heu: 9 in queue: 274
+
+
+
+[ 7 6 2 ]
+[ 1 5 3 ]
+[ 4 8 0 ]
+cost: 14 heu: 8 in queue: 275
+
+
+
+[ 7 0 2 ]
+[ 1 6 5 ]
+[ 4 8 3 ]
+cost: 13 heu: 9 in queue: 275
+
+
+
+[ 7 2 0 ]
+[ 1 6 5 ]
+[ 4 8 3 ]
+cost: 14 heu: 8 in queue: 276
+
+
+
+[ 7 0 2 ]
+[ 1 6 8 ]
+[ 4 3 5 ]
+cost: 9 heu: 13 in queue: 276
+
+
+
+[ 7 2 0 ]
+[ 1 6 8 ]
+[ 4 3 5 ]
+cost: 10 heu: 12 in queue: 277
+
+
+
+[ 0 6 2 ]
+[ 7 1 8 ]
+[ 4 3 5 ]
+cost: 8 heu: 14 in queue: 277
+
+
+
+[ 7 6 2 ]
+[ 4 0 8 ]
+[ 3 1 5 ]
+cost: 6 heu: 16 in queue: 277
+
+
+
+[ 7 6 2 ]
+[ 4 8 0 ]
+[ 3 1 5 ]
+cost: 7 heu: 15 in queue: 279
+
+
+
+[ 7 6 2 ]
+[ 4 8 5 ]
+[ 3 1 0 ]
+cost: 8 heu: 14 in queue: 280
+
+
+
+[ 7 0 2 ]
+[ 4 6 8 ]
+[ 3 1 5 ]
+cost: 7 heu: 15 in queue: 280
+
+
+
+[ 7 2 0 ]
+[ 4 6 8 ]
+[ 3 1 5 ]
+cost: 8 heu: 14 in queue: 281
+
+
+
+[ 4 7 6 ]
+[ 0 1 2 ]
+[ 3 5 8 ]
+cost: 7 heu: 15 in queue: 281
+
+
+
+[ 4 7 6 ]
+[ 3 1 2 ]
+[ 0 5 8 ]
+cost: 8 heu: 14 in queue: 282
+
+
+
+[ 4 7 6 ]
+[ 1 0 2 ]
+[ 3 5 8 ]
+cost: 8 heu: 14 in queue: 282
+
+
+
+[ 4 7 6 ]
+[ 1 5 2 ]
+[ 3 0 8 ]
+cost: 9 heu: 13 in queue: 284
+
+
+
+[ 4 7 6 ]
+[ 1 5 2 ]
+[ 3 8 0 ]
+cost: 10 heu: 12 in queue: 285
+
+
+
+[ 4 7 6 ]
+[ 1 5 2 ]
+[ 0 3 8 ]
+cost: 10 heu: 12 in queue: 285
+
+
+
+[ 4 7 6 ]
+[ 1 2 0 ]
+[ 3 5 8 ]
+cost: 9 heu: 13 in queue: 285
+
+
+
+[ 4 7 0 ]
+[ 1 2 6 ]
+[ 3 5 8 ]
+cost: 10 heu: 12 in queue: 286
+
+
+
+[ 4 0 6 ]
+[ 1 7 2 ]
+[ 3 5 8 ]
+cost: 9 heu: 13 in queue: 286
+
+
+
+[ 1 4 6 ]
+[ 7 0 2 ]
+[ 3 5 8 ]
+cost: 10 heu: 12 in queue: 287
+
+
+
+[ 1 4 6 ]
+[ 7 5 2 ]
+[ 3 0 8 ]
+cost: 11 heu: 11 in queue: 289
+
+
+
+[ 1 4 6 ]
+[ 7 5 2 ]
+[ 3 8 0 ]
+cost: 12 heu: 10 in queue: 290
+
+
+
+[ 1 4 6 ]
+[ 7 5 2 ]
+[ 0 3 8 ]
+cost: 12 heu: 10 in queue: 290
+
+
+
+[ 1 4 6 ]
+[ 0 5 2 ]
+[ 7 3 8 ]
+cost: 13 heu: 9 in queue: 290
+
+
+
+[ 1 4 6 ]
+[ 7 2 0 ]
+[ 3 5 8 ]
+cost: 11 heu: 11 in queue: 291
+
+
+
+[ 1 4 0 ]
+[ 7 2 6 ]
+[ 3 5 8 ]
+cost: 12 heu: 10 in queue: 292
+
+
+
+[ 1 6 0 ]
+[ 7 4 2 ]
+[ 3 5 8 ]
+cost: 10 heu: 12 in queue: 292
+
+
+
+[ 1 6 2 ]
+[ 7 4 0 ]
+[ 3 5 8 ]
+cost: 11 heu: 11 in queue: 292
+
+
+
+[ 7 1 6 ]
+[ 3 4 2 ]
+[ 5 0 8 ]
+cost: 9 heu: 13 in queue: 293
+
+
+
+[ 7 1 6 ]
+[ 3 4 2 ]
+[ 5 8 0 ]
+cost: 10 heu: 12 in queue: 294
+
+
+
+[ 7 0 1 ]
+[ 4 5 6 ]
+[ 3 8 2 ]
+cost: 11 heu: 11 in queue: 294
+
+
+
+[ 7 1 6 ]
+[ 4 0 5 ]
+[ 3 8 2 ]
+cost: 10 heu: 12 in queue: 295
+
+
+
+[ 1 5 6 ]
+[ 7 0 2 ]
+[ 4 3 8 ]
+cost: 12 heu: 10 in queue: 297
+
+
+
+[ 1 5 6 ]
+[ 7 3 2 ]
+[ 4 0 8 ]
+cost: 13 heu: 9 in queue: 299
+
+
+
+[ 1 5 6 ]
+[ 7 3 2 ]
+[ 4 8 0 ]
+cost: 14 heu: 8 in queue: 300
+
+
+
+[ 1 5 6 ]
+[ 7 2 0 ]
+[ 4 3 8 ]
+cost: 13 heu: 9 in queue: 300
+
+
+
+[ 1 5 0 ]
+[ 7 2 6 ]
+[ 4 3 8 ]
+cost: 14 heu: 8 in queue: 301
+
+
+
+[ 1 6 0 ]
+[ 7 5 2 ]
+[ 4 3 8 ]
+cost: 12 heu: 10 in queue: 301
+
+
+
+[ 1 6 2 ]
+[ 7 5 0 ]
+[ 4 3 8 ]
+cost: 13 heu: 9 in queue: 301
+
+
+
+[ 7 1 6 ]
+[ 5 0 2 ]
+[ 4 3 8 ]
+cost: 10 heu: 12 in queue: 302
+
+
+
+[ 7 1 6 ]
+[ 5 3 2 ]
+[ 4 0 8 ]
+cost: 11 heu: 11 in queue: 304
+
+
+
+[ 7 1 6 ]
+[ 5 3 2 ]
+[ 4 8 0 ]
+cost: 12 heu: 10 in queue: 305
+
+
+
+[ 7 1 6 ]
+[ 5 2 0 ]
+[ 4 3 8 ]
+cost: 11 heu: 11 in queue: 305
+
+
+
+[ 7 1 0 ]
+[ 5 2 6 ]
+[ 4 3 8 ]
+cost: 12 heu: 10 in queue: 306
+
+
+
+[ 7 1 6 ]
+[ 4 2 8 ]
+[ 3 0 5 ]
+cost: 9 heu: 13 in queue: 306
+
+
+
+[ 7 1 6 ]
+[ 4 2 8 ]
+[ 0 3 5 ]
+cost: 10 heu: 12 in queue: 307
+
+
+
+[ 7 2 1 ]
+[ 0 5 6 ]
+[ 4 3 8 ]
+cost: 13 heu: 9 in queue: 307
+
+
+
+[ 0 2 1 ]
+[ 7 5 6 ]
+[ 4 3 8 ]
+cost: 14 heu: 8 in queue: 308
+
+
+
+[ 7 2 1 ]
+[ 4 5 0 ]
+[ 3 8 6 ]
+cost: 13 heu: 9 in queue: 308
+
+
+
+[ 7 2 1 ]
+[ 4 6 0 ]
+[ 3 5 8 ]
+cost: 11 heu: 11 in queue: 309
+
+
+
+[ 7 2 1 ]
+[ 0 4 6 ]
+[ 3 5 8 ]
+cost: 11 heu: 11 in queue: 310
+
+
+
+[ 7 2 1 ]
+[ 3 4 6 ]
+[ 0 5 8 ]
+cost: 12 heu: 10 in queue: 311
+
+
+
+[ 0 2 1 ]
+[ 7 4 6 ]
+[ 3 5 8 ]
+cost: 12 heu: 10 in queue: 311
+
+
+
+[ 0 7 1 ]
+[ 4 2 6 ]
+[ 3 5 8 ]
+cost: 10 heu: 12 in queue: 311
+
+
+
+[ 2 0 1 ]
+[ 7 5 6 ]
+[ 4 3 8 ]
+cost: 13 heu: 9 in queue: 311
+
+
+
+[ 2 1 0 ]
+[ 7 5 6 ]
+[ 4 3 8 ]
+cost: 14 heu: 8 in queue: 312
+
+
+
+[ 7 2 1 ]
+[ 4 5 6 ]
+[ 3 0 8 ]
+cost: 13 heu: 9 in queue: 312
+
+
+
+[ 7 2 1 ]
+[ 4 5 6 ]
+[ 3 8 0 ]
+cost: 14 heu: 8 in queue: 313
+
+
+
+[ 7 2 1 ]
+[ 5 3 0 ]
+[ 4 8 6 ]
+cost: 13 heu: 9 in queue: 313
+
+
+
+[ 7 2 1 ]
+[ 5 0 3 ]
+[ 4 8 6 ]
+cost: 14 heu: 8 in queue: 314
+
+
+
+[ 7 2 1 ]
+[ 0 5 3 ]
+[ 4 8 6 ]
+cost: 15 heu: 7 in queue: 316
+
+
+
+[ 7 2 1 ]
+[ 4 5 3 ]
+[ 0 8 6 ]
+cost: 16 heu: 6 in queue: 317
+
+
+
+[ 0 2 1 ]
+[ 7 5 3 ]
+[ 4 8 6 ]
+cost: 16 heu: 6 in queue: 317
+
+
+
+[ 7 2 1 ]
+[ 5 3 6 ]
+[ 0 4 8 ]
+cost: 12 heu: 10 in queue: 317
+
+
+
+[ 7 0 1 ]
+[ 5 2 6 ]
+[ 4 3 8 ]
+cost: 11 heu: 11 in queue: 317
+
+
+
+[ 7 1 0 ]
+[ 5 2 6 ]
+[ 4 3 8 ]
+cost: 12 heu: 10 in queue: 318
+
+
+
+[ 7 2 1 ]
+[ 5 6 8 ]
+[ 4 3 0 ]
+cost: 10 heu: 12 in queue: 318
+
+
+
+[ 7 2 1 ]
+[ 5 6 8 ]
+[ 4 0 3 ]
+cost: 11 heu: 11 in queue: 318
+
+
+
+[ 0 7 2 ]
+[ 5 6 1 ]
+[ 4 3 8 ]
+cost: 8 heu: 14 in queue: 319
+
+
+
+[ 7 6 2 ]
+[ 5 1 8 ]
+[ 4 3 0 ]
+cost: 8 heu: 14 in queue: 319
+
+
+
+[ 7 6 2 ]
+[ 5 1 8 ]
+[ 4 0 3 ]
+cost: 9 heu: 13 in queue: 319
+
+
+
+[ 7 6 0 ]
+[ 5 1 2 ]
+[ 4 3 8 ]
+cost: 8 heu: 14 in queue: 320
+
+
+
+[ 7 0 6 ]
+[ 5 1 2 ]
+[ 4 3 8 ]
+cost: 9 heu: 13 in queue: 320
+
+
+
+[ 7 1 6 ]
+[ 5 0 2 ]
+[ 4 3 8 ]
+cost: 10 heu: 12 in queue: 321
+
+
+
+[ 7 1 6 ]
+[ 5 3 2 ]
+[ 4 0 8 ]
+cost: 11 heu: 11 in queue: 323
+
+
+
+[ 7 1 6 ]
+[ 5 3 2 ]
+[ 4 8 0 ]
+cost: 12 heu: 10 in queue: 324
+
+
+
+[ 7 1 6 ]
+[ 5 2 0 ]
+[ 4 3 8 ]
+cost: 11 heu: 11 in queue: 324
+
+
+
+[ 7 1 0 ]
+[ 5 2 6 ]
+[ 4 3 8 ]
+cost: 12 heu: 10 in queue: 325
+
+
+
+[ 7 1 6 ]
+[ 0 5 2 ]
+[ 4 3 8 ]
+cost: 11 heu: 11 in queue: 325
+
+
+
+[ 7 1 6 ]
+[ 4 5 2 ]
+[ 0 3 8 ]
+cost: 12 heu: 10 in queue: 326
+
+
+
+[ 0 1 6 ]
+[ 7 5 2 ]
+[ 4 3 8 ]
+cost: 12 heu: 10 in queue: 326
+
+
+
+[ 1 0 6 ]
+[ 7 5 2 ]
+[ 4 3 8 ]
+cost: 13 heu: 9 in queue: 326
+
+
+
+[ 7 6 2 ]
+[ 5 3 0 ]
+[ 4 8 1 ]
+cost: 9 heu: 13 in queue: 327
+
+
+
+[ 7 6 2 ]
+[ 5 0 3 ]
+[ 4 8 1 ]
+cost: 10 heu: 12 in queue: 328
+
+
+
+[ 7 6 2 ]
+[ 0 5 3 ]
+[ 4 8 1 ]
+cost: 11 heu: 11 in queue: 330
+
+
+
+[ 7 6 2 ]
+[ 4 5 3 ]
+[ 0 8 1 ]
+cost: 12 heu: 10 in queue: 331
+
+
+
+[ 0 6 2 ]
+[ 7 5 3 ]
+[ 4 8 1 ]
+cost: 12 heu: 10 in queue: 331
+
+
+
+[ 7 0 2 ]
+[ 5 6 3 ]
+[ 4 8 1 ]
+cost: 11 heu: 11 in queue: 331
+
+
+
+[ 7 2 0 ]
+[ 5 6 3 ]
+[ 4 8 1 ]
+cost: 12 heu: 10 in queue: 332
+
+
+
+[ 7 2 3 ]
+[ 5 6 0 ]
+[ 4 8 1 ]
+cost: 13 heu: 9 in queue: 332
+
+
+
+[ 7 2 3 ]
+[ 5 6 1 ]
+[ 4 8 0 ]
+cost: 14 heu: 8 in queue: 333
+
+
+
+[ 7 2 3 ]
+[ 5 0 6 ]
+[ 4 8 1 ]
+cost: 14 heu: 8 in queue: 333
+
+
+
+[ 7 2 3 ]
+[ 0 5 6 ]
+[ 4 8 1 ]
+cost: 15 heu: 7 in queue: 335
+
+
+
+[ 7 2 3 ]
+[ 4 5 6 ]
+[ 0 8 1 ]
+cost: 16 heu: 6 in queue: 336
+
+
+
+[ 0 2 3 ]
+[ 7 5 6 ]
+[ 4 8 1 ]
+cost: 16 heu: 6 in queue: 336
+
+
+
+[ 7 6 2 ]
+[ 5 3 1 ]
+[ 0 4 8 ]
+cost: 8 heu: 14 in queue: 336
+
+
+
+[ 6 2 1 ]
+[ 7 5 8 ]
+[ 4 3 0 ]
+cost: 10 heu: 12 in queue: 336
+
+
+
+[ 6 2 1 ]
+[ 7 5 8 ]
+[ 4 0 3 ]
+cost: 11 heu: 11 in queue: 336
+
+
+
+[ 6 2 1 ]
+[ 7 0 5 ]
+[ 4 3 8 ]
+cost: 10 heu: 12 in queue: 337
+
+
+
+[ 6 2 1 ]
+[ 7 3 5 ]
+[ 4 0 8 ]
+cost: 11 heu: 11 in queue: 339
+
+
+
+[ 6 2 1 ]
+[ 7 3 5 ]
+[ 4 8 0 ]
+cost: 12 heu: 10 in queue: 340
+
+
+
+[ 6 5 2 ]
+[ 7 0 1 ]
+[ 4 3 8 ]
+cost: 8 heu: 14 in queue: 340
+
+
+
+[ 6 5 2 ]
+[ 7 3 1 ]
+[ 4 0 8 ]
+cost: 9 heu: 13 in queue: 342
+
+
+
+[ 6 5 2 ]
+[ 7 3 1 ]
+[ 4 8 0 ]
+cost: 10 heu: 12 in queue: 343
+
+
+
+[ 6 5 2 ]
+[ 7 1 0 ]
+[ 4 3 8 ]
+cost: 9 heu: 13 in queue: 343
+
+
+
+[ 7 5 6 ]
+[ 4 0 2 ]
+[ 3 8 1 ]
+cost: 8 heu: 14 in queue: 344
+
+
+
+[ 7 5 6 ]
+[ 4 2 0 ]
+[ 3 8 1 ]
+cost: 9 heu: 13 in queue: 346
+
+
+
+[ 7 5 6 ]
+[ 4 2 1 ]
+[ 3 8 0 ]
+cost: 10 heu: 12 in queue: 347
+
+
+
+[ 7 5 0 ]
+[ 4 2 6 ]
+[ 3 8 1 ]
+cost: 10 heu: 12 in queue: 347
+
+
+
+[ 0 7 6 ]
+[ 4 5 2 ]
+[ 3 8 1 ]
+cost: 8 heu: 14 in queue: 347
+
+
+
+[ 7 2 5 ]
+[ 4 6 0 ]
+[ 3 8 1 ]
+cost: 9 heu: 13 in queue: 347
+
+
+
+[ 7 2 5 ]
+[ 4 6 1 ]
+[ 3 8 0 ]
+cost: 10 heu: 12 in queue: 348
+
+
+
+[ 7 2 5 ]
+[ 4 0 6 ]
+[ 3 8 1 ]
+cost: 10 heu: 12 in queue: 348
+
+
+
+[ 0 7 2 ]
+[ 4 6 5 ]
+[ 3 8 1 ]
+cost: 8 heu: 14 in queue: 350
+
+
+
+[ 7 6 2 ]
+[ 4 8 5 ]
+[ 3 0 1 ]
+cost: 7 heu: 15 in queue: 350
+
+
+
+[ 7 6 2 ]
+[ 4 8 5 ]
+[ 3 1 0 ]
+cost: 8 heu: 14 in queue: 351
+
+
+
+[ 7 6 2 ]
+[ 4 8 5 ]
+[ 0 3 1 ]
+cost: 8 heu: 14 in queue: 351
+
+
+
+[ 7 6 2 ]
+[ 0 4 5 ]
+[ 3 8 1 ]
+cost: 7 heu: 15 in queue: 351
+
+
+
+[ 7 6 2 ]
+[ 3 4 5 ]
+[ 0 8 1 ]
+cost: 8 heu: 14 in queue: 352
+
+
+
+[ 0 6 2 ]
+[ 7 4 5 ]
+[ 3 8 1 ]
+cost: 8 heu: 14 in queue: 352
+
+
+
+[ 7 6 2 ]
+[ 3 4 0 ]
+[ 5 8 1 ]
+cost: 7 heu: 15 in queue: 352
+
+
+
+[ 7 6 2 ]
+[ 3 0 1 ]
+[ 5 4 8 ]
+cost: 6 heu: 16 in queue: 353
+
+
+
+[ 7 6 2 ]
+[ 3 1 0 ]
+[ 5 4 8 ]
+cost: 7 heu: 15 in queue: 355
+
+
+
+[ 7 6 2 ]
+[ 0 3 1 ]
+[ 5 4 8 ]
+cost: 7 heu: 15 in queue: 356
+
+
+
+[ 7 6 2 ]
+[ 5 3 1 ]
+[ 0 4 8 ]
+cost: 8 heu: 14 in queue: 357
+
+
+
+[ 7 6 2 ]
+[ 5 3 1 ]
+[ 4 0 8 ]
+cost: 9 heu: 13 in queue: 357
+
+
+
+[ 7 6 2 ]
+[ 5 3 1 ]
+[ 4 8 0 ]
+cost: 10 heu: 12 in queue: 358
+
+
+
+[ 0 6 2 ]
+[ 7 3 1 ]
+[ 5 4 8 ]
+cost: 8 heu: 14 in queue: 358
+
+
+
+[ 7 0 2 ]
+[ 3 6 1 ]
+[ 5 4 8 ]
+cost: 7 heu: 15 in queue: 358
+
+
+
+[ 7 2 0 ]
+[ 3 6 1 ]
+[ 5 4 8 ]
+cost: 8 heu: 14 in queue: 359
+
+
+
+[ 7 2 1 ]
+[ 3 6 0 ]
+[ 5 4 8 ]
+cost: 9 heu: 13 in queue: 359
+
+
+
+[ 7 2 1 ]
+[ 3 0 6 ]
+[ 5 4 8 ]
+cost: 10 heu: 12 in queue: 360
+
+
+
+[ 7 2 1 ]
+[ 3 4 6 ]
+[ 5 0 8 ]
+cost: 11 heu: 11 in queue: 362
+
+
+
+[ 7 2 1 ]
+[ 3 4 6 ]
+[ 5 8 0 ]
+cost: 12 heu: 10 in queue: 363
+
+
+
+[ 7 2 1 ]
+[ 3 4 6 ]
+[ 0 5 8 ]
+cost: 12 heu: 10 in queue: 363
+
+
+
+[ 7 2 1 ]
+[ 0 3 6 ]
+[ 5 4 8 ]
+cost: 11 heu: 11 in queue: 363
+
+
+
+[ 7 2 1 ]
+[ 5 3 6 ]
+[ 0 4 8 ]
+cost: 12 heu: 10 in queue: 364
+
+
+
+[ 7 2 1 ]
+[ 5 3 6 ]
+[ 4 0 8 ]
+cost: 13 heu: 9 in queue: 364
+
+
+
+[ 7 2 1 ]
+[ 5 3 6 ]
+[ 4 8 0 ]
+cost: 14 heu: 8 in queue: 365
+
+
+
+[ 0 2 1 ]
+[ 7 3 6 ]
+[ 5 4 8 ]
+cost: 12 heu: 10 in queue: 365
+
+
+
+[ 6 2 1 ]
+[ 7 4 8 ]
+[ 3 5 0 ]
+cost: 8 heu: 14 in queue: 365
+
+
+
+[ 6 2 1 ]
+[ 7 0 4 ]
+[ 3 5 8 ]
+cost: 8 heu: 14 in queue: 365
+
+
+
+[ 6 2 1 ]
+[ 7 5 4 ]
+[ 3 0 8 ]
+cost: 9 heu: 13 in queue: 367
+
+
+
+[ 6 2 1 ]
+[ 7 5 4 ]
+[ 3 8 0 ]
+cost: 10 heu: 12 in queue: 368
+
+
+
+[ 6 2 1 ]
+[ 7 5 4 ]
+[ 0 3 8 ]
+cost: 10 heu: 12 in queue: 368
+
+
+
+[ 6 2 1 ]
+[ 0 5 4 ]
+[ 7 3 8 ]
+cost: 11 heu: 11 in queue: 368
+
+
+
+[ 0 2 1 ]
+[ 6 5 4 ]
+[ 7 3 8 ]
+cost: 12 heu: 10 in queue: 369
+
+
+
+[ 6 4 2 ]
+[ 7 0 1 ]
+[ 3 5 8 ]
+cost: 6 heu: 16 in queue: 369
+
+
+
+[ 6 4 2 ]
+[ 7 5 1 ]
+[ 3 0 8 ]
+cost: 7 heu: 15 in queue: 371
+
+
+
+[ 6 4 2 ]
+[ 7 5 1 ]
+[ 3 8 0 ]
+cost: 8 heu: 14 in queue: 372
+
+
+
+[ 6 4 2 ]
+[ 7 5 1 ]
+[ 0 3 8 ]
+cost: 8 heu: 14 in queue: 372
+
+
+
+[ 6 4 2 ]
+[ 0 5 1 ]
+[ 7 3 8 ]
+cost: 9 heu: 13 in queue: 372
+
+
+
+[ 0 4 2 ]
+[ 6 5 1 ]
+[ 7 3 8 ]
+cost: 10 heu: 12 in queue: 373
+
+
+
+[ 4 0 2 ]
+[ 6 5 1 ]
+[ 7 3 8 ]
+cost: 11 heu: 11 in queue: 373
+
+
+
+[ 4 2 0 ]
+[ 6 5 1 ]
+[ 7 3 8 ]
+cost: 12 heu: 10 in queue: 374
+
+
+
+[ 4 2 1 ]
+[ 6 5 0 ]
+[ 7 3 8 ]
+cost: 13 heu: 9 in queue: 374
+
+
+
+[ 6 4 2 ]
+[ 7 1 0 ]
+[ 3 5 8 ]
+cost: 7 heu: 15 in queue: 375
+
+
+
+[ 7 2 1 ]
+[ 4 5 6 ]
+[ 3 0 8 ]
+cost: 13 heu: 9 in queue: 376
+
+
+
+[ 7 2 1 ]
+[ 4 5 6 ]
+[ 0 3 8 ]
+cost: 14 heu: 8 in queue: 377
+
+
+
+[ 7 2 0 ]
+[ 4 5 1 ]
+[ 3 8 6 ]
+cost: 12 heu: 10 in queue: 377
+
+
+
+[ 7 2 1 ]
+[ 0 4 5 ]
+[ 3 8 6 ]
+cost: 11 heu: 11 in queue: 377
+
+
+
+[ 7 2 1 ]
+[ 3 4 5 ]
+[ 0 8 6 ]
+cost: 12 heu: 10 in queue: 378
+
+
+
+[ 0 2 1 ]
+[ 7 4 5 ]
+[ 3 8 6 ]
+cost: 12 heu: 10 in queue: 378
+
+
+
+[ 7 0 1 ]
+[ 4 2 5 ]
+[ 3 8 6 ]
+cost: 11 heu: 11 in queue: 378
+
+
+
+[ 7 1 0 ]
+[ 4 2 5 ]
+[ 3 8 6 ]
+cost: 12 heu: 10 in queue: 379
+
+
+
+[ 7 2 1 ]
+[ 0 8 5 ]
+[ 4 3 6 ]
+cost: 11 heu: 11 in queue: 379
+
+
+
+[ 0 2 1 ]
+[ 7 8 5 ]
+[ 4 3 6 ]
+cost: 12 heu: 10 in queue: 380
+
+
+
+[ 7 2 0 ]
+[ 4 8 1 ]
+[ 3 6 5 ]
+cost: 8 heu: 14 in queue: 380
+
+
+
+[ 7 2 1 ]
+[ 0 4 8 ]
+[ 3 6 5 ]
+cost: 7 heu: 15 in queue: 380
+
+
+
+[ 7 2 1 ]
+[ 3 4 8 ]
+[ 0 6 5 ]
+cost: 8 heu: 14 in queue: 381
+
+
+
+[ 0 2 1 ]
+[ 7 4 8 ]
+[ 3 6 5 ]
+cost: 8 heu: 14 in queue: 381
+
+
+
+[ 7 0 1 ]
+[ 4 2 8 ]
+[ 3 6 5 ]
+cost: 7 heu: 15 in queue: 381
+
+
+
+[ 7 1 0 ]
+[ 4 2 8 ]
+[ 3 6 5 ]
+cost: 8 heu: 14 in queue: 382
+
+
+
+[ 2 0 1 ]
+[ 7 6 8 ]
+[ 4 3 5 ]
+cost: 9 heu: 13 in queue: 382
+
+
+
+[ 2 1 0 ]
+[ 7 6 8 ]
+[ 4 3 5 ]
+cost: 10 heu: 12 in queue: 383
+
+
+
+[ 7 2 1 ]
+[ 6 0 8 ]
+[ 4 3 5 ]
+cost: 8 heu: 14 in queue: 383
+
+
+
+[ 7 2 1 ]
+[ 6 3 8 ]
+[ 4 0 5 ]
+cost: 9 heu: 13 in queue: 385
+
+
+
+[ 7 2 1 ]
+[ 6 3 8 ]
+[ 4 5 0 ]
+cost: 10 heu: 12 in queue: 386
+
+
+
+[ 7 2 1 ]
+[ 6 3 0 ]
+[ 4 5 8 ]
+cost: 11 heu: 11 in queue: 386
+
+
+
+[ 7 2 1 ]
+[ 6 0 3 ]
+[ 4 5 8 ]
+cost: 12 heu: 10 in queue: 387
+
+
+
+[ 7 2 1 ]
+[ 6 5 3 ]
+[ 4 0 8 ]
+cost: 13 heu: 9 in queue: 389
+
+
+
+[ 7 2 1 ]
+[ 6 5 3 ]
+[ 4 8 0 ]
+cost: 14 heu: 8 in queue: 390
+
+
+
+[ 7 2 1 ]
+[ 0 6 3 ]
+[ 4 5 8 ]
+cost: 13 heu: 9 in queue: 390
+
+
+
+[ 7 2 1 ]
+[ 4 6 3 ]
+[ 0 5 8 ]
+cost: 14 heu: 8 in queue: 391
+
+
+
+[ 0 2 1 ]
+[ 7 6 3 ]
+[ 4 5 8 ]
+cost: 14 heu: 8 in queue: 391
+
+
+
+[ 7 2 1 ]
+[ 6 8 0 ]
+[ 4 3 5 ]
+cost: 9 heu: 13 in queue: 391
+
+
+
+[ 7 2 1 ]
+[ 6 8 5 ]
+[ 4 3 0 ]
+cost: 10 heu: 12 in queue: 392
+
+
+
+[ 7 2 1 ]
+[ 6 8 5 ]
+[ 4 0 3 ]
+cost: 11 heu: 11 in queue: 392
+
+
+
+[ 7 2 1 ]
+[ 6 0 5 ]
+[ 4 8 3 ]
+cost: 12 heu: 10 in queue: 393
+
+
+
+[ 7 2 1 ]
+[ 6 5 0 ]
+[ 4 8 3 ]
+cost: 13 heu: 9 in queue: 395
+
+
+
+[ 7 2 1 ]
+[ 6 5 3 ]
+[ 4 8 0 ]
+cost: 14 heu: 8 in queue: 396
+
+
+
+[ 7 2 1 ]
+[ 0 6 5 ]
+[ 4 8 3 ]
+cost: 13 heu: 9 in queue: 396
+
+
+
+[ 7 2 1 ]
+[ 4 6 5 ]
+[ 0 8 3 ]
+cost: 14 heu: 8 in queue: 397
+
+
+
+[ 0 2 1 ]
+[ 7 6 5 ]
+[ 4 8 3 ]
+cost: 14 heu: 8 in queue: 397
+
+
+
+[ 7 1 6 ]
+[ 0 5 2 ]
+[ 4 3 8 ]
+cost: 11 heu: 11 in queue: 397
+
+
+
+[ 0 1 6 ]
+[ 7 5 2 ]
+[ 4 3 8 ]
+cost: 12 heu: 10 in queue: 398
+
+
+
+[ 1 0 6 ]
+[ 7 5 2 ]
+[ 4 3 8 ]
+cost: 13 heu: 9 in queue: 398
+
+
+
+[ 7 1 6 ]
+[ 4 5 0 ]
+[ 3 8 2 ]
+cost: 11 heu: 11 in queue: 399
+
+
+
+[ 7 1 0 ]
+[ 4 5 6 ]
+[ 3 8 2 ]
+cost: 12 heu: 10 in queue: 400
+
+
+
+[ 7 1 6 ]
+[ 0 4 2 ]
+[ 3 5 8 ]
+cost: 9 heu: 13 in queue: 400
+
+
+
+[ 7 1 6 ]
+[ 3 4 2 ]
+[ 0 5 8 ]
+cost: 10 heu: 12 in queue: 401
+
+
+
+[ 0 1 6 ]
+[ 7 4 2 ]
+[ 3 5 8 ]
+cost: 10 heu: 12 in queue: 401
+
+
+
+[ 1 0 6 ]
+[ 7 4 2 ]
+[ 3 5 8 ]
+cost: 11 heu: 11 in queue: 401
+
+
+
+[ 7 0 6 ]
+[ 4 1 2 ]
+[ 3 5 8 ]
+cost: 9 heu: 13 in queue: 402
+
+
+
+[ 7 1 6 ]
+[ 4 2 8 ]
+[ 3 0 5 ]
+cost: 9 heu: 13 in queue: 403
+
+
+
+[ 7 1 6 ]
+[ 4 2 8 ]
+[ 0 3 5 ]
+cost: 10 heu: 12 in queue: 404
+
+
+
+[ 4 7 1 ]
+[ 3 2 6 ]
+[ 5 0 8 ]
+cost: 9 heu: 13 in queue: 404
+
+
+
+[ 4 7 1 ]
+[ 3 2 6 ]
+[ 5 8 0 ]
+cost: 10 heu: 12 in queue: 405
+
+
+
+[ 4 7 1 ]
+[ 2 0 6 ]
+[ 3 5 8 ]
+cost: 8 heu: 14 in queue: 405
+
+
+
+[ 4 7 1 ]
+[ 2 5 6 ]
+[ 3 0 8 ]
+cost: 9 heu: 13 in queue: 407
+
+
+
+[ 4 7 1 ]
+[ 2 5 6 ]
+[ 3 8 0 ]
+cost: 10 heu: 12 in queue: 408
+
+
+
+[ 4 7 1 ]
+[ 2 5 6 ]
+[ 0 3 8 ]
+cost: 10 heu: 12 in queue: 408
+
+
+
+[ 4 0 1 ]
+[ 2 7 6 ]
+[ 3 5 8 ]
+cost: 9 heu: 13 in queue: 408
+
+
+
+[ 4 1 0 ]
+[ 2 7 6 ]
+[ 3 5 8 ]
+cost: 10 heu: 12 in queue: 409
+
+
+
+[ 2 4 1 ]
+[ 5 0 6 ]
+[ 7 3 8 ]
+cost: 12 heu: 10 in queue: 409
+
+
+
+[ 2 4 1 ]
+[ 5 3 6 ]
+[ 7 0 8 ]
+cost: 13 heu: 9 in queue: 411
+
+
+
+[ 2 4 1 ]
+[ 5 3 6 ]
+[ 7 8 0 ]
+cost: 14 heu: 8 in queue: 412
+
+
+
+[ 2 0 1 ]
+[ 5 4 6 ]
+[ 7 3 8 ]
+cost: 13 heu: 9 in queue: 412
+
+
+
+[ 2 1 0 ]
+[ 5 4 6 ]
+[ 7 3 8 ]
+cost: 14 heu: 8 in queue: 413
+
+
+
+[ 0 2 1 ]
+[ 5 4 6 ]
+[ 7 3 8 ]
+cost: 14 heu: 8 in queue: 413
+
+
+
+[ 0 4 1 ]
+[ 2 5 6 ]
+[ 7 3 8 ]
+cost: 12 heu: 10 in queue: 413
+
+
+
+[ 4 0 1 ]
+[ 2 5 6 ]
+[ 7 3 8 ]
+cost: 13 heu: 9 in queue: 413
+
+
+
+[ 4 1 0 ]
+[ 2 5 6 ]
+[ 7 3 8 ]
+cost: 14 heu: 8 in queue: 414
+
+
+
+[ 2 4 1 ]
+[ 7 5 0 ]
+[ 3 8 6 ]
+cost: 11 heu: 11 in queue: 414
+
+
+
+[ 2 4 1 ]
+[ 7 6 0 ]
+[ 3 5 8 ]
+cost: 9 heu: 13 in queue: 415
+
+
+
+[ 2 4 1 ]
+[ 0 7 6 ]
+[ 3 5 8 ]
+cost: 9 heu: 13 in queue: 416
+
+
+
+[ 2 4 1 ]
+[ 3 7 6 ]
+[ 0 5 8 ]
+cost: 10 heu: 12 in queue: 417
+
+
+
+[ 2 1 6 ]
+[ 7 4 8 ]
+[ 3 5 0 ]
+cost: 10 heu: 12 in queue: 417
+
+
+
+[ 2 1 6 ]
+[ 7 0 4 ]
+[ 3 5 8 ]
+cost: 10 heu: 12 in queue: 417
+
+
+
+[ 2 1 6 ]
+[ 7 5 4 ]
+[ 3 0 8 ]
+cost: 11 heu: 11 in queue: 419
+
+
+
+[ 2 1 6 ]
+[ 7 5 4 ]
+[ 3 8 0 ]
+cost: 12 heu: 10 in queue: 420
+
+
+
+[ 2 1 6 ]
+[ 7 5 4 ]
+[ 0 3 8 ]
+cost: 12 heu: 10 in queue: 420
+
+
+
+[ 2 1 6 ]
+[ 0 5 4 ]
+[ 7 3 8 ]
+cost: 13 heu: 9 in queue: 420
+
+
+
+[ 2 0 1 ]
+[ 7 3 6 ]
+[ 5 4 8 ]
+cost: 11 heu: 11 in queue: 421
+
+
+
+[ 2 3 1 ]
+[ 7 0 6 ]
+[ 5 4 8 ]
+cost: 12 heu: 10 in queue: 422
+
+
+
+[ 2 3 1 ]
+[ 7 4 6 ]
+[ 5 0 8 ]
+cost: 13 heu: 9 in queue: 424
+
+
+
+[ 2 3 1 ]
+[ 7 4 6 ]
+[ 5 8 0 ]
+cost: 14 heu: 8 in queue: 425
+
+
+
+[ 2 3 1 ]
+[ 7 4 6 ]
+[ 0 5 8 ]
+cost: 14 heu: 8 in queue: 425
+
+
+
+[ 2 3 1 ]
+[ 0 4 6 ]
+[ 7 5 8 ]
+cost: 15 heu: 7 in queue: 425
+
+
+
+[ 2 3 1 ]
+[ 4 0 6 ]
+[ 7 5 8 ]
+cost: 16 heu: 6 in queue: 426
+
+
+
+[ 2 3 1 ]
+[ 4 5 6 ]
+[ 7 0 8 ]
+cost: 17 heu: 5 in queue: 428
+
+
+
+[ 2 3 1 ]
+[ 4 5 6 ]
+[ 7 8 0 ]
+cost: 18 heu: 4 in queue: 429
+
+
+
+[ 2 1 0 ]
+[ 7 3 6 ]
+[ 5 4 8 ]
+cost: 12 heu: 10 in queue: 429
+
+
+
+[ 7 2 1 ]
+[ 5 3 0 ]
+[ 4 8 6 ]
+cost: 13 heu: 9 in queue: 429
+
+
+
+[ 7 2 1 ]
+[ 5 0 3 ]
+[ 4 8 6 ]
+cost: 14 heu: 8 in queue: 430
+
+
+
+[ 7 2 1 ]
+[ 0 5 3 ]
+[ 4 8 6 ]
+cost: 15 heu: 7 in queue: 432
+
+
+
+[ 7 2 1 ]
+[ 4 5 3 ]
+[ 0 8 6 ]
+cost: 16 heu: 6 in queue: 433
+
+
+
+[ 0 2 1 ]
+[ 7 5 3 ]
+[ 4 8 6 ]
+cost: 16 heu: 6 in queue: 433
+
+
+
+[ 7 2 1 ]
+[ 5 0 6 ]
+[ 4 3 8 ]
+cost: 12 heu: 10 in queue: 433
+
+
+
+[ 7 2 1 ]
+[ 0 5 6 ]
+[ 4 3 8 ]
+cost: 13 heu: 9 in queue: 435
+
+
+
+[ 7 2 1 ]
+[ 4 5 6 ]
+[ 0 3 8 ]
+cost: 14 heu: 8 in queue: 436
+
+
+
+[ 0 2 1 ]
+[ 7 5 6 ]
+[ 4 3 8 ]
+cost: 14 heu: 8 in queue: 436
+
+
+
+[ 7 2 1 ]
+[ 3 6 0 ]
+[ 5 4 8 ]
+cost: 9 heu: 13 in queue: 436
+
+
+
+[ 7 0 1 ]
+[ 3 2 6 ]
+[ 5 4 8 ]
+cost: 9 heu: 13 in queue: 437
+
+
+
+[ 7 1 0 ]
+[ 3 2 6 ]
+[ 5 4 8 ]
+cost: 10 heu: 12 in queue: 438
+
+
+
+[ 7 2 1 ]
+[ 3 0 4 ]
+[ 5 8 6 ]
+cost: 10 heu: 12 in queue: 438
+
+
+
+[ 7 2 1 ]
+[ 0 3 4 ]
+[ 5 8 6 ]
+cost: 11 heu: 11 in queue: 440
+
+
+
+[ 7 2 1 ]
+[ 5 3 4 ]
+[ 0 8 6 ]
+cost: 12 heu: 10 in queue: 441
+
+
+
+[ 0 2 1 ]
+[ 7 3 4 ]
+[ 5 8 6 ]
+cost: 12 heu: 10 in queue: 441
+
+
+
+[ 7 2 0 ]
+[ 3 4 1 ]
+[ 5 8 6 ]
+cost: 10 heu: 12 in queue: 441
+
+
+
+[ 7 1 5 ]
+[ 4 2 0 ]
+[ 3 8 6 ]
+cost: 11 heu: 11 in queue: 441
+
+
+
+[ 7 1 5 ]
+[ 4 2 6 ]
+[ 3 8 0 ]
+cost: 12 heu: 10 in queue: 442
+
+
+
+[ 0 7 1 ]
+[ 4 2 5 ]
+[ 3 8 6 ]
+cost: 10 heu: 12 in queue: 442
+
+
+
+[ 2 0 1 ]
+[ 7 4 5 ]
+[ 3 8 6 ]
+cost: 11 heu: 11 in queue: 442
+
+
+
+[ 2 1 0 ]
+[ 7 4 5 ]
+[ 3 8 6 ]
+cost: 12 heu: 10 in queue: 443
+
+
+
+[ 7 2 1 ]
+[ 3 4 5 ]
+[ 8 0 6 ]
+cost: 11 heu: 11 in queue: 443
+
+
+
+[ 7 2 1 ]
+[ 0 8 5 ]
+[ 4 3 6 ]
+cost: 11 heu: 11 in queue: 444
+
+
+
+[ 0 2 1 ]
+[ 7 8 5 ]
+[ 4 3 6 ]
+cost: 12 heu: 10 in queue: 445
+
+
+
+[ 7 2 1 ]
+[ 4 8 5 ]
+[ 3 6 0 ]
+cost: 10 heu: 12 in queue: 445
+
+
+
+[ 7 5 2 ]
+[ 4 0 1 ]
+[ 3 8 6 ]
+cost: 10 heu: 12 in queue: 445
+
+
+
+[ 7 5 2 ]
+[ 4 1 0 ]
+[ 3 8 6 ]
+cost: 11 heu: 11 in queue: 447
+
+
+
+[ 7 5 2 ]
+[ 4 1 6 ]
+[ 3 8 0 ]
+cost: 12 heu: 10 in queue: 448
+
+
+
+[ 0 7 2 ]
+[ 4 5 1 ]
+[ 3 8 6 ]
+cost: 10 heu: 12 in queue: 448
+
+
+
+[ 2 5 1 ]
+[ 7 3 0 ]
+[ 4 8 6 ]
+cost: 13 heu: 9 in queue: 448
+
+
+
+[ 2 5 1 ]
+[ 7 0 3 ]
+[ 4 8 6 ]
+cost: 14 heu: 8 in queue: 449
+
+
+
+[ 2 0 1 ]
+[ 7 5 3 ]
+[ 4 8 6 ]
+cost: 15 heu: 7 in queue: 451
+
+
+
+[ 2 1 0 ]
+[ 7 5 3 ]
+[ 4 8 6 ]
+cost: 16 heu: 6 in queue: 452
+
+
+
+[ 2 1 3 ]
+[ 7 5 0 ]
+[ 4 8 6 ]
+cost: 17 heu: 5 in queue: 452
+
+
+
+[ 2 1 3 ]
+[ 7 5 6 ]
+[ 4 8 0 ]
+cost: 18 heu: 4 in queue: 453
+
+
+
+[ 0 2 1 ]
+[ 7 5 3 ]
+[ 4 8 6 ]
+cost: 16 heu: 6 in queue: 453
+
+
+
+[ 2 5 1 ]
+[ 7 3 6 ]
+[ 0 4 8 ]
+cost: 12 heu: 10 in queue: 453
+
+
+
+[ 2 5 1 ]
+[ 0 3 6 ]
+[ 7 4 8 ]
+cost: 13 heu: 9 in queue: 453
+
+
+
+[ 2 5 1 ]
+[ 7 6 0 ]
+[ 4 3 8 ]
+cost: 11 heu: 11 in queue: 454
+
+
+
+[ 2 5 1 ]
+[ 0 7 6 ]
+[ 4 3 8 ]
+cost: 11 heu: 11 in queue: 455
+
+
+
+[ 2 5 1 ]
+[ 4 7 6 ]
+[ 0 3 8 ]
+cost: 12 heu: 10 in queue: 456
+
+
+
+[ 2 1 6 ]
+[ 7 5 8 ]
+[ 4 3 0 ]
+cost: 12 heu: 10 in queue: 456
+
+
+
+[ 2 1 6 ]
+[ 7 5 8 ]
+[ 4 0 3 ]
+cost: 13 heu: 9 in queue: 456
+
+
+
+[ 2 1 6 ]
+[ 7 0 5 ]
+[ 4 3 8 ]
+cost: 12 heu: 10 in queue: 457
+
+
+
+[ 2 1 6 ]
+[ 7 3 5 ]
+[ 4 0 8 ]
+cost: 13 heu: 9 in queue: 459
+
+
+
+[ 2 1 6 ]
+[ 7 3 5 ]
+[ 4 8 0 ]
+cost: 14 heu: 8 in queue: 460
+
+
+
+[ 7 1 6 ]
+[ 5 2 0 ]
+[ 4 3 8 ]
+cost: 11 heu: 11 in queue: 460
+
+
+
+[ 0 7 1 ]
+[ 5 2 6 ]
+[ 4 3 8 ]
+cost: 10 heu: 12 in queue: 461
+
+
+
+[ 7 2 1 ]
+[ 5 6 8 ]
+[ 4 3 0 ]
+cost: 10 heu: 12 in queue: 461
+
+
+
+[ 7 2 1 ]
+[ 5 6 8 ]
+[ 4 0 3 ]
+cost: 11 heu: 11 in queue: 461
+
+
+
+[ 7 2 0 ]
+[ 5 6 1 ]
+[ 4 3 8 ]
+cost: 10 heu: 12 in queue: 462
+
+
+
+[ 7 2 1 ]
+[ 0 3 6 ]
+[ 5 4 8 ]
+cost: 11 heu: 11 in queue: 462
+
+
+
+[ 0 2 1 ]
+[ 7 3 6 ]
+[ 5 4 8 ]
+cost: 12 heu: 10 in queue: 463
+
+
+
+[ 2 0 1 ]
+[ 7 5 3 ]
+[ 4 8 6 ]
+cost: 15 heu: 7 in queue: 463
+
+
+
+[ 2 1 0 ]
+[ 7 5 3 ]
+[ 4 8 6 ]
+cost: 16 heu: 6 in queue: 464
+
+
+
+[ 2 1 3 ]
+[ 7 5 0 ]
+[ 4 8 6 ]
+cost: 17 heu: 5 in queue: 464
+
+
+
+[ 2 1 3 ]
+[ 7 5 6 ]
+[ 4 8 0 ]
+cost: 18 heu: 4 in queue: 465
+
+
+
+[ 7 2 1 ]
+[ 4 5 3 ]
+[ 8 0 6 ]
+cost: 15 heu: 7 in queue: 465
+
+
+
+[ 7 2 1 ]
+[ 5 8 3 ]
+[ 4 0 6 ]
+cost: 13 heu: 9 in queue: 466
+
+
+
+[ 7 0 1 ]
+[ 5 2 3 ]
+[ 4 8 6 ]
+cost: 13 heu: 9 in queue: 467
+
+
+
+[ 7 1 0 ]
+[ 5 2 3 ]
+[ 4 8 6 ]
+cost: 14 heu: 8 in queue: 468
+
+
+
+[ 7 1 3 ]
+[ 5 2 0 ]
+[ 4 8 6 ]
+cost: 15 heu: 7 in queue: 468
+
+
+
+[ 7 1 3 ]
+[ 5 2 6 ]
+[ 4 8 0 ]
+cost: 16 heu: 6 in queue: 469
+
+
+
+[ 7 2 0 ]
+[ 5 3 1 ]
+[ 4 8 6 ]
+cost: 12 heu: 10 in queue: 469
+
+
+
+[ 7 0 2 ]
+[ 5 3 1 ]
+[ 4 8 6 ]
+cost: 13 heu: 11 in queue: 469
+
+
+
+[ 7 3 2 ]
+[ 5 0 1 ]
+[ 4 8 6 ]
+cost: 14 heu: 10 in queue: 470
+
+
+
+[ 7 3 2 ]
+[ 5 1 0 ]
+[ 4 8 6 ]
+cost: 15 heu: 9 in queue: 472
+
+
+
+[ 7 3 2 ]
+[ 5 1 6 ]
+[ 4 8 0 ]
+cost: 16 heu: 8 in queue: 473
+
+
+
+[ 7 3 2 ]
+[ 0 5 1 ]
+[ 4 8 6 ]
+cost: 15 heu: 9 in queue: 473
+
+
+
+[ 7 3 2 ]
+[ 4 5 1 ]
+[ 0 8 6 ]
+cost: 16 heu: 8 in queue: 474
+
+
+
+[ 0 3 2 ]
+[ 7 5 1 ]
+[ 4 8 6 ]
+cost: 16 heu: 8 in queue: 474
+
+
+
+[ 7 1 3 ]
+[ 5 2 6 ]
+[ 4 0 8 ]
+cost: 17 heu: 7 in queue: 474
+
+
+
+[ 7 1 3 ]
+[ 5 0 2 ]
+[ 4 8 6 ]
+cost: 16 heu: 8 in queue: 475
+
+
+
+[ 7 1 3 ]
+[ 0 5 2 ]
+[ 4 8 6 ]
+cost: 17 heu: 7 in queue: 477
+
+
+
+[ 7 1 3 ]
+[ 4 5 2 ]
+[ 0 8 6 ]
+cost: 18 heu: 6 in queue: 478
+
+
+
+[ 0 1 3 ]
+[ 7 5 2 ]
+[ 4 8 6 ]
+cost: 18 heu: 6 in queue: 478
+
+
+
+[ 1 0 3 ]
+[ 7 5 2 ]
+[ 4 8 6 ]
+cost: 19 heu: 5 in queue: 478
+
+
+
+[ 0 7 1 ]
+[ 5 2 3 ]
+[ 4 8 6 ]
+cost: 14 heu: 10 in queue: 479
+
+
+
+[ 7 2 1 ]
+[ 5 8 3 ]
+[ 4 6 0 ]
+cost: 14 heu: 10 in queue: 479
+
+
+
+[ 7 2 1 ]
+[ 5 8 3 ]
+[ 0 4 6 ]
+cost: 14 heu: 10 in queue: 479
+
+
+
+[ 7 2 1 ]
+[ 4 5 3 ]
+[ 8 6 0 ]
+cost: 16 heu: 8 in queue: 479
+
+
+
+[ 7 2 1 ]
+[ 4 0 3 ]
+[ 8 5 6 ]
+cost: 16 heu: 8 in queue: 479
+
+
+
+[ 2 1 3 ]
+[ 7 5 6 ]
+[ 4 0 8 ]
+cost: 19 heu: 5 in queue: 481
+
+
+
+[ 2 1 3 ]
+[ 7 0 5 ]
+[ 4 8 6 ]
+cost: 18 heu: 6 in queue: 482
+
+
+
+[ 2 5 1 ]
+[ 7 0 3 ]
+[ 4 8 6 ]
+cost: 16 heu: 8 in queue: 484
+
+
+
+[ 2 0 1 ]
+[ 7 3 6 ]
+[ 5 4 8 ]
+cost: 13 heu: 11 in queue: 486
+
+
+
+[ 2 3 1 ]
+[ 7 0 6 ]
+[ 5 4 8 ]
+cost: 14 heu: 10 in queue: 487
+
+
+
+[ 2 3 1 ]
+[ 7 4 6 ]
+[ 5 0 8 ]
+cost: 15 heu: 9 in queue: 489
+
+
+
+[ 2 3 1 ]
+[ 7 4 6 ]
+[ 5 8 0 ]
+cost: 16 heu: 8 in queue: 490
+
+
+
+[ 2 3 1 ]
+[ 7 4 6 ]
+[ 0 5 8 ]
+cost: 16 heu: 8 in queue: 490
+
+
+
+[ 2 3 1 ]
+[ 0 4 6 ]
+[ 7 5 8 ]
+cost: 17 heu: 7 in queue: 490
+
+
+
+[ 2 3 1 ]
+[ 4 0 6 ]
+[ 7 5 8 ]
+cost: 18 heu: 6 in queue: 491
+
+
+
+[ 2 3 1 ]
+[ 4 5 6 ]
+[ 7 0 8 ]
+cost: 19 heu: 5 in queue: 493
+
+
+
+[ 2 3 1 ]
+[ 4 5 6 ]
+[ 7 8 0 ]
+cost: 20 heu: 4 in queue: 494
+
+
+
+[ 2 1 0 ]
+[ 7 3 6 ]
+[ 5 4 8 ]
+cost: 14 heu: 10 in queue: 494
+
+
+
+[ 7 2 1 ]
+[ 3 0 6 ]
+[ 5 4 8 ]
+cost: 12 heu: 12 in queue: 494
+
+
+
+[ 7 2 1 ]
+[ 3 4 6 ]
+[ 5 0 8 ]
+cost: 13 heu: 11 in queue: 496
+
+
+
+[ 7 2 1 ]
+[ 3 4 6 ]
+[ 5 8 0 ]
+cost: 14 heu: 10 in queue: 497
+
+
+
+[ 7 2 1 ]
+[ 3 4 6 ]
+[ 0 5 8 ]
+cost: 14 heu: 10 in queue: 497
+
+
+
+[ 7 0 2 ]
+[ 5 6 1 ]
+[ 4 3 8 ]
+cost: 11 heu: 13 in queue: 497
+
+
+
+[ 7 2 1 ]
+[ 5 6 8 ]
+[ 0 4 3 ]
+cost: 12 heu: 12 in queue: 498
+
+
+
+[ 7 2 1 ]
+[ 5 0 8 ]
+[ 4 6 3 ]
+cost: 12 heu: 12 in queue: 498
+
+
+
+[ 7 2 1 ]
+[ 5 8 0 ]
+[ 4 6 3 ]
+cost: 13 heu: 11 in queue: 500
+
+
+
+[ 7 2 1 ]
+[ 5 8 3 ]
+[ 4 6 0 ]
+cost: 14 heu: 10 in queue: 501
+
+
+
+[ 7 2 1 ]
+[ 5 8 3 ]
+[ 4 0 6 ]
+cost: 15 heu: 9 in queue: 501
+
+
+
+[ 7 2 1 ]
+[ 5 0 3 ]
+[ 4 8 6 ]
+cost: 16 heu: 8 in queue: 502
+
+
+
+[ 7 2 1 ]
+[ 0 5 3 ]
+[ 4 8 6 ]
+cost: 17 heu: 7 in queue: 504
+
+
+
+[ 7 2 1 ]
+[ 4 5 3 ]
+[ 0 8 6 ]
+cost: 18 heu: 6 in queue: 505
+
+
+
+[ 0 2 1 ]
+[ 7 5 3 ]
+[ 4 8 6 ]
+cost: 18 heu: 6 in queue: 505
+
+
+
+[ 7 2 1 ]
+[ 0 5 8 ]
+[ 4 6 3 ]
+cost: 13 heu: 11 in queue: 505
+
+
+
+[ 7 2 1 ]
+[ 4 5 8 ]
+[ 0 6 3 ]
+cost: 14 heu: 10 in queue: 506
+
+
+
+[ 0 2 1 ]
+[ 7 5 8 ]
+[ 4 6 3 ]
+cost: 14 heu: 10 in queue: 506
+
+
+
+[ 5 7 1 ]
+[ 0 2 6 ]
+[ 4 3 8 ]
+cost: 11 heu: 13 in queue: 506
+
+
+
+[ 5 7 1 ]
+[ 4 2 6 ]
+[ 0 3 8 ]
+cost: 12 heu: 12 in queue: 507
+
+
+
+[ 7 1 6 ]
+[ 5 2 8 ]
+[ 4 3 0 ]
+cost: 12 heu: 12 in queue: 507
+
+
+
+[ 7 1 6 ]
+[ 5 2 8 ]
+[ 4 0 3 ]
+cost: 13 heu: 11 in queue: 507
+
+
+
+[ 7 1 6 ]
+[ 5 0 2 ]
+[ 4 3 8 ]
+cost: 12 heu: 12 in queue: 508
+
+
+
+[ 7 1 6 ]
+[ 5 3 2 ]
+[ 4 0 8 ]
+cost: 13 heu: 11 in queue: 510
+
+
+
+[ 7 1 6 ]
+[ 5 3 2 ]
+[ 4 8 0 ]
+cost: 14 heu: 10 in queue: 511
+
+
+
+[ 7 1 6 ]
+[ 0 5 2 ]
+[ 4 3 8 ]
+cost: 13 heu: 11 in queue: 511
+
+
+
+[ 7 1 6 ]
+[ 4 5 2 ]
+[ 0 3 8 ]
+cost: 14 heu: 10 in queue: 512
+
+
+
+[ 0 1 6 ]
+[ 7 5 2 ]
+[ 4 3 8 ]
+cost: 14 heu: 10 in queue: 512
+
+
+
+[ 1 0 6 ]
+[ 7 5 2 ]
+[ 4 3 8 ]
+cost: 15 heu: 9 in queue: 512
+
+
+
+[ 2 1 6 ]
+[ 7 3 0 ]
+[ 4 8 5 ]
+cost: 15 heu: 9 in queue: 513
+
+
+
+[ 2 1 6 ]
+[ 7 0 3 ]
+[ 4 8 5 ]
+cost: 16 heu: 8 in queue: 514
+
+
+
+[ 2 1 0 ]
+[ 7 3 6 ]
+[ 4 8 5 ]
+cost: 16 heu: 8 in queue: 516
+
+
+
+[ 2 1 6 ]
+[ 7 3 5 ]
+[ 0 4 8 ]
+cost: 14 heu: 10 in queue: 516
+
+
+
+[ 2 1 6 ]
+[ 0 3 5 ]
+[ 7 4 8 ]
+cost: 15 heu: 9 in queue: 516
+
+
+
+[ 2 1 6 ]
+[ 0 7 5 ]
+[ 4 3 8 ]
+cost: 13 heu: 11 in queue: 517
+
+
+
+[ 2 1 6 ]
+[ 4 7 5 ]
+[ 0 3 8 ]
+cost: 14 heu: 10 in queue: 518
+
+
+
+[ 2 0 6 ]
+[ 7 1 5 ]
+[ 4 3 8 ]
+cost: 13 heu: 11 in queue: 518
+
+
+
+[ 0 2 6 ]
+[ 7 1 5 ]
+[ 4 3 8 ]
+cost: 14 heu: 10 in queue: 519
+
+
+
+[ 2 1 6 ]
+[ 7 5 8 ]
+[ 0 4 3 ]
+cost: 14 heu: 10 in queue: 519
+
+
+
+[ 2 1 6 ]
+[ 0 5 8 ]
+[ 7 4 3 ]
+cost: 15 heu: 9 in queue: 519
+
+
+
+[ 2 1 6 ]
+[ 7 0 8 ]
+[ 4 5 3 ]
+cost: 14 heu: 10 in queue: 520
+
+
+
+[ 2 1 6 ]
+[ 7 8 0 ]
+[ 4 5 3 ]
+cost: 15 heu: 9 in queue: 522
+
+
+
+[ 2 1 6 ]
+[ 7 8 3 ]
+[ 4 5 0 ]
+cost: 16 heu: 8 in queue: 523
+
+
+
+[ 2 1 0 ]
+[ 7 8 6 ]
+[ 4 5 3 ]
+cost: 16 heu: 8 in queue: 523
+
+
+
+[ 2 5 1 ]
+[ 4 7 6 ]
+[ 3 0 8 ]
+cost: 13 heu: 11 in queue: 523
+
+
+
+[ 2 5 1 ]
+[ 4 7 6 ]
+[ 3 8 0 ]
+cost: 14 heu: 10 in queue: 524
+
+
+
+[ 2 5 1 ]
+[ 4 0 6 ]
+[ 3 7 8 ]
+cost: 14 heu: 10 in queue: 524
+
+
+
+[ 2 0 1 ]
+[ 4 5 6 ]
+[ 3 7 8 ]
+cost: 15 heu: 9 in queue: 526
+
+
+
+[ 2 1 0 ]
+[ 4 5 6 ]
+[ 3 7 8 ]
+cost: 16 heu: 8 in queue: 527
+
+
+
+[ 0 2 1 ]
+[ 4 5 6 ]
+[ 3 7 8 ]
+cost: 16 heu: 8 in queue: 527
+
+
+
+[ 0 5 1 ]
+[ 2 7 6 ]
+[ 4 3 8 ]
+cost: 12 heu: 12 in queue: 527
+
+
+
+[ 2 5 1 ]
+[ 7 6 8 ]
+[ 4 3 0 ]
+cost: 12 heu: 12 in queue: 527
+
+
+
+[ 2 5 1 ]
+[ 7 6 8 ]
+[ 4 0 3 ]
+cost: 13 heu: 11 in queue: 527
+
+
+
+[ 2 5 0 ]
+[ 7 6 1 ]
+[ 4 3 8 ]
+cost: 12 heu: 12 in queue: 528
+
+
+
+[ 2 5 1 ]
+[ 3 0 6 ]
+[ 7 4 8 ]
+cost: 14 heu: 10 in queue: 528
+
+
+
+[ 2 5 1 ]
+[ 3 4 6 ]
+[ 7 0 8 ]
+cost: 15 heu: 9 in queue: 530
+
+
+
+[ 2 5 1 ]
+[ 3 4 6 ]
+[ 7 8 0 ]
+cost: 16 heu: 8 in queue: 531
+
+
+
+[ 2 0 1 ]
+[ 3 5 6 ]
+[ 7 4 8 ]
+cost: 15 heu: 9 in queue: 531
+
+
+
+[ 2 1 0 ]
+[ 3 5 6 ]
+[ 7 4 8 ]
+cost: 16 heu: 8 in queue: 532
+
+
+
+[ 0 2 1 ]
+[ 3 5 6 ]
+[ 7 4 8 ]
+cost: 16 heu: 8 in queue: 532
+
+
+
+[ 3 2 1 ]
+[ 0 5 6 ]
+[ 7 4 8 ]
+cost: 17 heu: 7 in queue: 532
+
+
+
+[ 0 5 1 ]
+[ 2 3 6 ]
+[ 7 4 8 ]
+cost: 14 heu: 10 in queue: 533
+
+
+
+[ 7 2 1 ]
+[ 0 5 3 ]
+[ 4 8 6 ]
+cost: 17 heu: 7 in queue: 533
+
+
+
+[ 7 2 1 ]
+[ 4 5 3 ]
+[ 0 8 6 ]
+cost: 18 heu: 6 in queue: 534
+
+
+
+[ 2 1 3 ]
+[ 7 5 6 ]
+[ 4 0 8 ]
+cost: 19 heu: 5 in queue: 534
+
+
+
+[ 2 1 3 ]
+[ 7 0 5 ]
+[ 4 8 6 ]
+cost: 18 heu: 6 in queue: 535
+
+
+
+[ 2 5 1 ]
+[ 7 8 3 ]
+[ 4 0 6 ]
+cost: 15 heu: 9 in queue: 537
+
+
+
+[ 2 5 1 ]
+[ 0 7 3 ]
+[ 4 8 6 ]
+cost: 15 heu: 9 in queue: 538
+
+
+
+[ 2 5 1 ]
+[ 4 7 3 ]
+[ 0 8 6 ]
+cost: 16 heu: 8 in queue: 539
+
+
+
+[ 2 5 0 ]
+[ 7 3 1 ]
+[ 4 8 6 ]
+cost: 14 heu: 10 in queue: 539
+
+
+
+[ 4 7 2 ]
+[ 0 5 1 ]
+[ 3 8 6 ]
+cost: 11 heu: 13 in queue: 539
+
+
+
+[ 4 7 2 ]
+[ 3 5 1 ]
+[ 0 8 6 ]
+cost: 12 heu: 12 in queue: 540
+
+
+
+[ 7 5 2 ]
+[ 4 1 6 ]
+[ 3 0 8 ]
+cost: 13 heu: 11 in queue: 540
+
+
+
+[ 7 5 2 ]
+[ 4 1 6 ]
+[ 0 3 8 ]
+cost: 14 heu: 10 in queue: 541
+
+
+
+[ 7 5 0 ]
+[ 4 1 2 ]
+[ 3 8 6 ]
+cost: 12 heu: 12 in queue: 541
+
+
+
+[ 7 5 2 ]
+[ 4 8 1 ]
+[ 3 0 6 ]
+cost: 11 heu: 13 in queue: 541
+
+
+
+[ 7 5 2 ]
+[ 4 8 1 ]
+[ 0 3 6 ]
+cost: 12 heu: 12 in queue: 542
+
+
+
+[ 7 5 2 ]
+[ 0 4 1 ]
+[ 3 8 6 ]
+cost: 11 heu: 13 in queue: 542
+
+
+
+[ 7 5 2 ]
+[ 3 4 1 ]
+[ 0 8 6 ]
+cost: 12 heu: 12 in queue: 543
+
+
+
+[ 0 5 2 ]
+[ 7 4 1 ]
+[ 3 8 6 ]
+cost: 12 heu: 12 in queue: 543
+
+
+
+[ 7 2 1 ]
+[ 4 8 0 ]
+[ 3 6 5 ]
+cost: 11 heu: 13 in queue: 543
+
+
+
+[ 2 0 1 ]
+[ 7 8 5 ]
+[ 4 3 6 ]
+cost: 13 heu: 11 in queue: 544
+
+
+
+[ 2 1 0 ]
+[ 7 8 5 ]
+[ 4 3 6 ]
+cost: 14 heu: 10 in queue: 545
+
+
+
+[ 7 2 1 ]
+[ 8 0 5 ]
+[ 4 3 6 ]
+cost: 12 heu: 12 in queue: 545
+
+
+
+[ 7 2 1 ]
+[ 8 3 5 ]
+[ 4 0 6 ]
+cost: 13 heu: 11 in queue: 547
+
+
+
+[ 7 2 1 ]
+[ 8 5 0 ]
+[ 4 3 6 ]
+cost: 13 heu: 11 in queue: 548
+
+
+
+[ 7 2 1 ]
+[ 8 5 6 ]
+[ 4 3 0 ]
+cost: 14 heu: 10 in queue: 549
+
+
+
+[ 7 2 1 ]
+[ 8 5 6 ]
+[ 4 0 3 ]
+cost: 15 heu: 9 in queue: 549
+
+
+
+[ 7 2 1 ]
+[ 3 4 5 ]
+[ 8 6 0 ]
+cost: 12 heu: 12 in queue: 550
+
+
+
+[ 7 2 1 ]
+[ 3 0 5 ]
+[ 8 4 6 ]
+cost: 12 heu: 12 in queue: 550
+
+
+
+[ 7 2 1 ]
+[ 3 5 0 ]
+[ 8 4 6 ]
+cost: 13 heu: 11 in queue: 552
+
+
+
+[ 7 2 1 ]
+[ 3 5 6 ]
+[ 8 4 0 ]
+cost: 14 heu: 10 in queue: 553
+
+
+
+[ 7 2 1 ]
+[ 0 3 5 ]
+[ 8 4 6 ]
+cost: 13 heu: 11 in queue: 553
+
+
+
+[ 0 2 1 ]
+[ 7 3 5 ]
+[ 8 4 6 ]
+cost: 14 heu: 10 in queue: 554
+
+
+
+[ 2 1 5 ]
+[ 7 4 0 ]
+[ 3 8 6 ]
+cost: 13 heu: 11 in queue: 554
+
+
+
+[ 2 1 5 ]
+[ 7 4 6 ]
+[ 3 8 0 ]
+cost: 14 heu: 10 in queue: 555
+
+
+
+[ 2 4 1 ]
+[ 7 0 5 ]
+[ 3 8 6 ]
+cost: 12 heu: 12 in queue: 555
+
+
+
+[ 2 4 1 ]
+[ 7 5 0 ]
+[ 3 8 6 ]
+cost: 13 heu: 11 in queue: 557
+
+
+
+[ 2 4 1 ]
+[ 7 5 6 ]
+[ 3 8 0 ]
+cost: 14 heu: 10 in queue: 558
+
+
+
+[ 4 7 1 ]
+[ 0 2 5 ]
+[ 3 8 6 ]
+cost: 11 heu: 13 in queue: 558
+
+
+
+[ 4 7 1 ]
+[ 3 2 5 ]
+[ 0 8 6 ]
+cost: 12 heu: 12 in queue: 559
+
+
+
+[ 7 1 5 ]
+[ 4 2 6 ]
+[ 3 0 8 ]
+cost: 13 heu: 11 in queue: 559
+
+
+
+[ 7 1 5 ]
+[ 4 2 6 ]
+[ 0 3 8 ]
+cost: 14 heu: 10 in queue: 560
+
+
+
+[ 7 1 5 ]
+[ 4 0 2 ]
+[ 3 8 6 ]
+cost: 12 heu: 12 in queue: 560
+
+
+
+[ 7 0 2 ]
+[ 3 4 1 ]
+[ 5 8 6 ]
+cost: 11 heu: 13 in queue: 562
+
+
+
+[ 2 0 1 ]
+[ 7 3 4 ]
+[ 5 8 6 ]
+cost: 13 heu: 11 in queue: 563
+
+
+
+[ 2 3 1 ]
+[ 7 0 4 ]
+[ 5 8 6 ]
+cost: 14 heu: 10 in queue: 564
+
+
+
+[ 2 3 1 ]
+[ 7 4 0 ]
+[ 5 8 6 ]
+cost: 15 heu: 9 in queue: 566
+
+
+
+[ 2 3 1 ]
+[ 7 4 6 ]
+[ 5 8 0 ]
+cost: 16 heu: 8 in queue: 567
+
+
+
+[ 2 1 0 ]
+[ 7 3 4 ]
+[ 5 8 6 ]
+cost: 14 heu: 10 in queue: 567
+
+
+
+[ 7 2 1 ]
+[ 5 3 4 ]
+[ 8 0 6 ]
+cost: 13 heu: 11 in queue: 567
+
+
+
+[ 7 2 1 ]
+[ 3 8 4 ]
+[ 5 0 6 ]
+cost: 11 heu: 13 in queue: 568
+
+
+
+[ 7 2 1 ]
+[ 3 8 4 ]
+[ 0 5 6 ]
+cost: 12 heu: 12 in queue: 569
+
+
+
+[ 7 0 1 ]
+[ 3 2 4 ]
+[ 5 8 6 ]
+cost: 11 heu: 13 in queue: 569
+
+
+
+[ 7 1 0 ]
+[ 3 2 4 ]
+[ 5 8 6 ]
+cost: 12 heu: 12 in queue: 570
+
+
+
+[ 7 1 6 ]
+[ 3 2 0 ]
+[ 5 4 8 ]
+cost: 11 heu: 13 in queue: 570
+
+
+
+[ 0 7 1 ]
+[ 3 2 6 ]
+[ 5 4 8 ]
+cost: 10 heu: 14 in queue: 571
+
+
+
+[ 3 7 1 ]
+[ 0 2 6 ]
+[ 5 4 8 ]
+cost: 11 heu: 13 in queue: 571
+
+
+
+[ 3 7 1 ]
+[ 5 2 6 ]
+[ 0 4 8 ]
+cost: 12 heu: 12 in queue: 572
+
+
+
+[ 3 7 1 ]
+[ 5 2 6 ]
+[ 4 0 8 ]
+cost: 13 heu: 11 in queue: 572
+
+
+
+[ 3 7 1 ]
+[ 5 2 6 ]
+[ 4 8 0 ]
+cost: 14 heu: 10 in queue: 573
+
+
+
+[ 7 2 1 ]
+[ 3 6 8 ]
+[ 5 4 0 ]
+cost: 10 heu: 14 in queue: 573
+
+
+
+[ 7 2 0 ]
+[ 3 6 1 ]
+[ 5 4 8 ]
+cost: 10 heu: 14 in queue: 573
+
+
+
+[ 2 0 1 ]
+[ 7 5 6 ]
+[ 4 3 8 ]
+cost: 15 heu: 9 in queue: 573
+
+
+
+[ 2 1 0 ]
+[ 7 5 6 ]
+[ 4 3 8 ]
+cost: 16 heu: 8 in queue: 574
+
+
+
+[ 7 2 1 ]
+[ 4 5 6 ]
+[ 3 0 8 ]
+cost: 15 heu: 9 in queue: 574
+
+
+
+[ 7 2 1 ]
+[ 4 5 6 ]
+[ 3 8 0 ]
+cost: 16 heu: 8 in queue: 575
+
+
+
+[ 7 2 1 ]
+[ 5 6 0 ]
+[ 4 3 8 ]
+cost: 13 heu: 11 in queue: 575
+
+
+
+[ 7 0 1 ]
+[ 5 2 6 ]
+[ 4 3 8 ]
+cost: 13 heu: 11 in queue: 576
+
+
+
+[ 7 1 0 ]
+[ 5 2 6 ]
+[ 4 3 8 ]
+cost: 14 heu: 10 in queue: 577
+
+
+
+[ 2 0 1 ]
+[ 7 5 3 ]
+[ 4 8 6 ]
+cost: 17 heu: 7 in queue: 577
+
+
+
+[ 2 1 0 ]
+[ 7 5 3 ]
+[ 4 8 6 ]
+cost: 18 heu: 6 in queue: 578
+
+
+
+[ 2 1 3 ]
+[ 7 5 0 ]
+[ 4 8 6 ]
+cost: 19 heu: 5 in queue: 578
+
+
+
+[ 2 1 3 ]
+[ 7 5 6 ]
+[ 4 8 0 ]
+cost: 20 heu: 4 in queue: 579
+
+
+
+[ 7 2 1 ]
+[ 4 5 3 ]
+[ 8 0 6 ]
+cost: 17 heu: 7 in queue: 579
+
+
+
+[ 7 2 1 ]
+[ 5 8 3 ]
+[ 4 0 6 ]
+cost: 15 heu: 9 in queue: 580
+
+
+
+[ 7 0 1 ]
+[ 5 2 3 ]
+[ 4 8 6 ]
+cost: 15 heu: 9 in queue: 581
+
+
+
+[ 7 1 0 ]
+[ 5 2 3 ]
+[ 4 8 6 ]
+cost: 16 heu: 8 in queue: 582
+
+
+
+[ 7 1 3 ]
+[ 5 2 0 ]
+[ 4 8 6 ]
+cost: 17 heu: 7 in queue: 582
+
+
+
+[ 7 1 3 ]
+[ 5 2 6 ]
+[ 4 8 0 ]
+cost: 18 heu: 6 in queue: 583
+
+
+
+[ 7 2 0 ]
+[ 5 3 1 ]
+[ 4 8 6 ]
+cost: 14 heu: 10 in queue: 583
+
+
+
+[ 2 1 6 ]
+[ 7 3 0 ]
+[ 5 4 8 ]
+cost: 13 heu: 11 in queue: 583
+
+
+
+[ 2 1 6 ]
+[ 7 0 3 ]
+[ 5 4 8 ]
+cost: 14 heu: 10 in queue: 584
+
+
+
+[ 2 1 6 ]
+[ 7 4 3 ]
+[ 5 0 8 ]
+cost: 15 heu: 9 in queue: 586
+
+
+
+[ 2 1 6 ]
+[ 7 4 3 ]
+[ 5 8 0 ]
+cost: 16 heu: 8 in queue: 587
+
+
+
+[ 2 1 6 ]
+[ 7 4 3 ]
+[ 0 5 8 ]
+cost: 16 heu: 8 in queue: 587
+
+
+
+[ 2 1 6 ]
+[ 0 4 3 ]
+[ 7 5 8 ]
+cost: 17 heu: 7 in queue: 587
+
+
+
+[ 2 1 6 ]
+[ 4 0 3 ]
+[ 7 5 8 ]
+cost: 18 heu: 6 in queue: 588
+
+
+
+[ 2 1 6 ]
+[ 4 5 3 ]
+[ 7 0 8 ]
+cost: 19 heu: 5 in queue: 590
+
+
+
+[ 2 1 6 ]
+[ 4 5 3 ]
+[ 7 8 0 ]
+cost: 20 heu: 4 in queue: 591
+
+
+
+[ 2 3 1 ]
+[ 4 5 0 ]
+[ 7 8 6 ]
+cost: 19 heu: 5 in queue: 591
+
+
+
+[ 2 3 1 ]
+[ 4 5 6 ]
+[ 0 7 8 ]
+cost: 18 heu: 6 in queue: 592
+
+
+
+[ 2 3 1 ]
+[ 4 6 0 ]
+[ 7 5 8 ]
+cost: 17 heu: 7 in queue: 592
+
+
+
+[ 2 0 1 ]
+[ 4 3 6 ]
+[ 7 5 8 ]
+cost: 17 heu: 7 in queue: 593
+
+
+
+[ 2 1 0 ]
+[ 4 3 6 ]
+[ 7 5 8 ]
+cost: 18 heu: 6 in queue: 594
+
+
+
+[ 0 2 1 ]
+[ 4 3 6 ]
+[ 7 5 8 ]
+cost: 18 heu: 6 in queue: 594
+
+
+
+[ 0 3 1 ]
+[ 2 4 6 ]
+[ 7 5 8 ]
+cost: 16 heu: 8 in queue: 594
+
+
+
+[ 2 3 1 ]
+[ 7 4 0 ]
+[ 5 8 6 ]
+cost: 15 heu: 9 in queue: 594
+
+
+
+[ 2 3 1 ]
+[ 7 6 0 ]
+[ 5 4 8 ]
+cost: 13 heu: 11 in queue: 595
+
+
+
+[ 2 3 1 ]
+[ 0 7 6 ]
+[ 5 4 8 ]
+cost: 13 heu: 11 in queue: 596
+
+
+
+[ 2 3 1 ]
+[ 5 7 6 ]
+[ 0 4 8 ]
+cost: 14 heu: 10 in queue: 597
+
+
+
+[ 2 3 1 ]
+[ 5 7 6 ]
+[ 4 0 8 ]
+cost: 15 heu: 9 in queue: 597
+
+
+
+[ 2 3 1 ]
+[ 5 7 6 ]
+[ 4 8 0 ]
+cost: 16 heu: 8 in queue: 598
+
+
+
+[ 2 3 1 ]
+[ 5 0 6 ]
+[ 4 7 8 ]
+cost: 16 heu: 8 in queue: 598
+
+
+
+[ 2 3 1 ]
+[ 0 5 6 ]
+[ 4 7 8 ]
+cost: 17 heu: 7 in queue: 600
+
+
+
+[ 2 3 1 ]
+[ 4 5 6 ]
+[ 0 7 8 ]
+cost: 18 heu: 6 in queue: 601
+
+
+
+[ 2 3 1 ]
+[ 4 5 6 ]
+[ 7 0 8 ]
+cost: 19 heu: 5 in queue: 601
+
+
+
+[ 2 3 1 ]
+[ 4 5 6 ]
+[ 7 8 0 ]
+cost: 20 heu: 4 in queue: 602
+
+
+
+[ 2 1 6 ]
+[ 5 0 4 ]
+[ 7 3 8 ]
+cost: 14 heu: 10 in queue: 602
+
+
+
+[ 2 1 6 ]
+[ 5 3 4 ]
+[ 7 0 8 ]
+cost: 15 heu: 9 in queue: 604
+
+
+
+[ 2 1 6 ]
+[ 5 3 4 ]
+[ 7 8 0 ]
+cost: 16 heu: 8 in queue: 605
+
+
+
+[ 2 1 6 ]
+[ 5 4 0 ]
+[ 7 3 8 ]
+cost: 15 heu: 9 in queue: 605
+
+
+
+[ 2 1 0 ]
+[ 5 4 6 ]
+[ 7 3 8 ]
+cost: 16 heu: 8 in queue: 606
+
+
+
+[ 0 1 6 ]
+[ 2 5 4 ]
+[ 7 3 8 ]
+cost: 14 heu: 10 in queue: 606
+
+
+
+[ 1 0 6 ]
+[ 2 5 4 ]
+[ 7 3 8 ]
+cost: 15 heu: 9 in queue: 606
+
+
+
+[ 2 1 6 ]
+[ 7 5 0 ]
+[ 3 8 4 ]
+cost: 13 heu: 11 in queue: 607
+
+
+
+[ 2 1 0 ]
+[ 7 5 6 ]
+[ 3 8 4 ]
+cost: 14 heu: 10 in queue: 608
+
+
+
+[ 2 1 6 ]
+[ 0 7 4 ]
+[ 3 5 8 ]
+cost: 11 heu: 13 in queue: 608
+
+
+
+[ 2 1 6 ]
+[ 3 7 4 ]
+[ 0 5 8 ]
+cost: 12 heu: 12 in queue: 609
+
+
+
+[ 2 0 6 ]
+[ 7 1 4 ]
+[ 3 5 8 ]
+cost: 11 heu: 13 in queue: 609
+
+
+
+[ 0 2 6 ]
+[ 7 1 4 ]
+[ 3 5 8 ]
+cost: 12 heu: 12 in queue: 610
+
+
+
+[ 2 1 6 ]
+[ 7 4 8 ]
+[ 3 0 5 ]
+cost: 11 heu: 13 in queue: 610
+
+
+
+[ 2 1 6 ]
+[ 7 4 8 ]
+[ 0 3 5 ]
+cost: 12 heu: 12 in queue: 611
+
+
+
+[ 2 1 6 ]
+[ 0 4 8 ]
+[ 7 3 5 ]
+cost: 13 heu: 11 in queue: 611
+
+
+
+[ 2 1 6 ]
+[ 4 0 8 ]
+[ 7 3 5 ]
+cost: 14 heu: 10 in queue: 612
+
+
+
+[ 2 1 6 ]
+[ 4 3 8 ]
+[ 7 0 5 ]
+cost: 15 heu: 9 in queue: 614
+
+
+
+[ 2 1 6 ]
+[ 4 3 8 ]
+[ 7 5 0 ]
+cost: 16 heu: 8 in queue: 615
+
+
+
+[ 2 1 6 ]
+[ 4 3 0 ]
+[ 7 5 8 ]
+cost: 17 heu: 7 in queue: 615
+
+
+
+[ 2 1 6 ]
+[ 4 0 3 ]
+[ 7 5 8 ]
+cost: 18 heu: 6 in queue: 616
+
+
+
+[ 2 1 6 ]
+[ 4 5 3 ]
+[ 7 0 8 ]
+cost: 19 heu: 5 in queue: 618
+
+
+
+[ 2 1 6 ]
+[ 4 5 3 ]
+[ 7 8 0 ]
+cost: 20 heu: 4 in queue: 619
+
+
+
+[ 2 1 0 ]
+[ 4 3 6 ]
+[ 7 5 8 ]
+cost: 18 heu: 6 in queue: 619
+
+
+
+[ 2 1 6 ]
+[ 4 8 0 ]
+[ 7 3 5 ]
+cost: 15 heu: 9 in queue: 619
+
+
+
+[ 2 1 6 ]
+[ 4 8 5 ]
+[ 7 3 0 ]
+cost: 16 heu: 8 in queue: 620
+
+
+
+[ 2 1 6 ]
+[ 4 8 5 ]
+[ 7 0 3 ]
+cost: 17 heu: 7 in queue: 620
+
+
+
+[ 2 1 6 ]
+[ 4 0 5 ]
+[ 7 8 3 ]
+cost: 18 heu: 6 in queue: 621
+
+
+
+[ 2 1 6 ]
+[ 4 5 0 ]
+[ 7 8 3 ]
+cost: 19 heu: 5 in queue: 623
+
+
+
+[ 2 1 6 ]
+[ 4 5 3 ]
+[ 7 8 0 ]
+cost: 20 heu: 4 in queue: 624
+
+
+
+[ 2 1 0 ]
+[ 4 5 6 ]
+[ 7 8 3 ]
+cost: 20 heu: 4 in queue: 624
+
+
+
+[ 2 1 0 ]
+[ 4 8 6 ]
+[ 7 3 5 ]
+cost: 16 heu: 8 in queue: 624
+
+
+
+[ 2 4 1 ]
+[ 3 7 6 ]
+[ 5 0 8 ]
+cost: 11 heu: 13 in queue: 624
+
+
+
+[ 2 4 1 ]
+[ 3 7 6 ]
+[ 5 8 0 ]
+cost: 12 heu: 12 in queue: 625
+
+
+
+[ 2 4 1 ]
+[ 3 0 6 ]
+[ 5 7 8 ]
+cost: 12 heu: 12 in queue: 625
+
+
+
+[ 2 4 1 ]
+[ 0 3 6 ]
+[ 5 7 8 ]
+cost: 13 heu: 11 in queue: 627
+
+
+
+[ 2 4 1 ]
+[ 5 3 6 ]
+[ 0 7 8 ]
+cost: 14 heu: 10 in queue: 628
+
+
+
+[ 2 4 1 ]
+[ 5 3 6 ]
+[ 7 0 8 ]
+cost: 15 heu: 9 in queue: 628
+
+
+
+[ 2 4 1 ]
+[ 5 3 6 ]
+[ 7 8 0 ]
+cost: 16 heu: 8 in queue: 629
+
+
+
+[ 2 0 1 ]
+[ 3 4 6 ]
+[ 5 7 8 ]
+cost: 13 heu: 11 in queue: 629
+
+
+
+[ 2 1 0 ]
+[ 3 4 6 ]
+[ 5 7 8 ]
+cost: 14 heu: 10 in queue: 630
+
+
+
+[ 0 2 1 ]
+[ 3 4 6 ]
+[ 5 7 8 ]
+cost: 14 heu: 10 in queue: 630
+
+
+
+[ 3 2 1 ]
+[ 0 4 6 ]
+[ 5 7 8 ]
+cost: 15 heu: 9 in queue: 630
+
+
+
+[ 3 2 1 ]
+[ 5 4 6 ]
+[ 0 7 8 ]
+cost: 16 heu: 8 in queue: 631
+
+
+
+[ 3 2 1 ]
+[ 5 4 6 ]
+[ 7 0 8 ]
+cost: 17 heu: 7 in queue: 631
+
+
+
+[ 3 2 1 ]
+[ 5 4 6 ]
+[ 7 8 0 ]
+cost: 18 heu: 6 in queue: 632
+
+
+
+[ 3 2 1 ]
+[ 4 0 6 ]
+[ 5 7 8 ]
+cost: 16 heu: 8 in queue: 632
+
+
+
+[ 0 4 1 ]
+[ 2 7 6 ]
+[ 3 5 8 ]
+cost: 10 heu: 14 in queue: 634
+
+
+
+[ 4 0 1 ]
+[ 2 7 6 ]
+[ 3 5 8 ]
+cost: 11 heu: 13 in queue: 634
+
+
+
+[ 4 1 0 ]
+[ 2 7 6 ]
+[ 3 5 8 ]
+cost: 12 heu: 12 in queue: 635
+
+
+
+[ 2 4 1 ]
+[ 7 6 8 ]
+[ 3 5 0 ]
+cost: 10 heu: 14 in queue: 635
+
+
+
+[ 2 4 0 ]
+[ 7 6 1 ]
+[ 3 5 8 ]
+cost: 10 heu: 14 in queue: 635
+
+
+
+[ 2 4 1 ]
+[ 7 0 5 ]
+[ 3 8 6 ]
+cost: 12 heu: 12 in queue: 635
+
+
+
+[ 2 0 1 ]
+[ 7 4 5 ]
+[ 3 8 6 ]
+cost: 13 heu: 11 in queue: 637
+
+
+
+[ 2 1 0 ]
+[ 7 4 5 ]
+[ 3 8 6 ]
+cost: 14 heu: 10 in queue: 638
+
+
+
+[ 0 2 1 ]
+[ 7 4 5 ]
+[ 3 8 6 ]
+cost: 14 heu: 10 in queue: 638
+
+
+
+[ 2 4 0 ]
+[ 7 5 1 ]
+[ 3 8 6 ]
+cost: 12 heu: 12 in queue: 638
+
+
+
+[ 4 1 6 ]
+[ 2 5 0 ]
+[ 7 3 8 ]
+cost: 15 heu: 9 in queue: 638
+
+
+
+[ 4 5 1 ]
+[ 2 0 6 ]
+[ 7 3 8 ]
+cost: 14 heu: 10 in queue: 639
+
+
+
+[ 4 5 1 ]
+[ 2 3 6 ]
+[ 7 0 8 ]
+cost: 15 heu: 9 in queue: 641
+
+
+
+[ 4 5 1 ]
+[ 2 3 6 ]
+[ 7 8 0 ]
+cost: 16 heu: 8 in queue: 642
+
+
+
+[ 4 5 1 ]
+[ 0 2 6 ]
+[ 7 3 8 ]
+cost: 15 heu: 9 in queue: 642
+
+
+
+[ 0 5 1 ]
+[ 4 2 6 ]
+[ 7 3 8 ]
+cost: 16 heu: 8 in queue: 643
+
+
+
+[ 5 2 1 ]
+[ 0 4 6 ]
+[ 7 3 8 ]
+cost: 15 heu: 9 in queue: 643
+
+
+
+[ 5 2 1 ]
+[ 4 0 6 ]
+[ 7 3 8 ]
+cost: 16 heu: 8 in queue: 644
+
+
+
+[ 5 2 1 ]
+[ 4 3 6 ]
+[ 7 0 8 ]
+cost: 17 heu: 7 in queue: 646
+
+
+
+[ 5 2 1 ]
+[ 4 3 6 ]
+[ 7 8 0 ]
+cost: 18 heu: 6 in queue: 647
+
+
+
+[ 2 1 6 ]
+[ 5 4 0 ]
+[ 7 3 8 ]
+cost: 15 heu: 9 in queue: 647
+
+
+
+[ 2 4 1 ]
+[ 5 3 0 ]
+[ 7 8 6 ]
+cost: 15 heu: 9 in queue: 648
+
+
+
+[ 2 4 1 ]
+[ 5 0 3 ]
+[ 7 8 6 ]
+cost: 16 heu: 8 in queue: 649
+
+
+
+[ 2 4 1 ]
+[ 0 5 3 ]
+[ 7 8 6 ]
+cost: 17 heu: 7 in queue: 651
+
+
+
+[ 2 0 1 ]
+[ 5 4 3 ]
+[ 7 8 6 ]
+cost: 17 heu: 7 in queue: 652
+
+
+
+[ 2 1 0 ]
+[ 5 4 3 ]
+[ 7 8 6 ]
+cost: 18 heu: 6 in queue: 653
+
+
+
+[ 2 1 3 ]
+[ 5 4 0 ]
+[ 7 8 6 ]
+cost: 19 heu: 5 in queue: 653
+
+
+
+[ 2 1 3 ]
+[ 5 4 6 ]
+[ 7 8 0 ]
+cost: 20 heu: 4 in queue: 654
+
+
+
+[ 0 2 1 ]
+[ 5 4 3 ]
+[ 7 8 6 ]
+cost: 18 heu: 6 in queue: 654
+
+
+
+[ 2 4 1 ]
+[ 5 3 6 ]
+[ 0 7 8 ]
+cost: 14 heu: 10 in queue: 654
+
+
+
+[ 2 4 1 ]
+[ 5 6 0 ]
+[ 7 3 8 ]
+cost: 13 heu: 11 in queue: 654
+
+
+
+[ 4 1 6 ]
+[ 2 7 0 ]
+[ 3 5 8 ]
+cost: 11 heu: 13 in queue: 655
+
+
+
+[ 0 4 1 ]
+[ 2 7 6 ]
+[ 3 5 8 ]
+cost: 10 heu: 14 in queue: 656
+
+
+
+[ 2 4 1 ]
+[ 0 7 6 ]
+[ 3 5 8 ]
+cost: 11 heu: 13 in queue: 656
+
+
+
+[ 2 4 1 ]
+[ 3 7 6 ]
+[ 0 5 8 ]
+cost: 12 heu: 12 in queue: 657
+
+
+
+[ 2 4 1 ]
+[ 7 0 6 ]
+[ 3 5 8 ]
+cost: 12 heu: 12 in queue: 657
+
+
+
+[ 2 4 1 ]
+[ 7 5 6 ]
+[ 3 0 8 ]
+cost: 13 heu: 11 in queue: 659
+
+
+
+[ 2 4 1 ]
+[ 7 5 6 ]
+[ 3 8 0 ]
+cost: 14 heu: 10 in queue: 660
+
+
+
+[ 2 4 1 ]
+[ 7 5 6 ]
+[ 0 3 8 ]
+cost: 14 heu: 10 in queue: 660
+
+
+
+[ 2 4 1 ]
+[ 0 5 6 ]
+[ 7 3 8 ]
+cost: 15 heu: 9 in queue: 660
+
+
+
+[ 2 0 1 ]
+[ 7 4 6 ]
+[ 3 5 8 ]
+cost: 13 heu: 11 in queue: 661
+
+
+
+[ 2 1 0 ]
+[ 7 4 6 ]
+[ 3 5 8 ]
+cost: 14 heu: 10 in queue: 662
+
+
+
+[ 0 2 1 ]
+[ 7 4 6 ]
+[ 3 5 8 ]
+cost: 14 heu: 10 in queue: 662
+
+
+
+[ 4 7 1 ]
+[ 0 5 6 ]
+[ 2 3 8 ]
+cost: 11 heu: 13 in queue: 662
+
+
+
+[ 0 7 1 ]
+[ 4 5 6 ]
+[ 2 3 8 ]
+cost: 12 heu: 12 in queue: 663
+
+
+
+[ 7 0 1 ]
+[ 4 5 6 ]
+[ 2 3 8 ]
+cost: 13 heu: 11 in queue: 663
+
+
+
+[ 7 1 0 ]
+[ 4 5 6 ]
+[ 2 3 8 ]
+cost: 14 heu: 10 in queue: 664
+
+
+
+[ 4 7 1 ]
+[ 2 5 0 ]
+[ 3 8 6 ]
+cost: 11 heu: 13 in queue: 664
+
+
+
+[ 4 7 1 ]
+[ 2 6 0 ]
+[ 3 5 8 ]
+cost: 9 heu: 15 in queue: 665
+
+
+
+[ 4 7 1 ]
+[ 3 2 0 ]
+[ 5 8 6 ]
+cost: 11 heu: 13 in queue: 666
+
+
+
+[ 4 7 1 ]
+[ 3 0 6 ]
+[ 5 2 8 ]
+cost: 10 heu: 14 in queue: 667
+
+
+
+[ 4 7 1 ]
+[ 0 3 6 ]
+[ 5 2 8 ]
+cost: 11 heu: 13 in queue: 669
+
+
+
+[ 4 7 1 ]
+[ 5 3 6 ]
+[ 0 2 8 ]
+cost: 12 heu: 12 in queue: 670
+
+
+
+[ 0 7 1 ]
+[ 4 3 6 ]
+[ 5 2 8 ]
+cost: 12 heu: 12 in queue: 670
+
+
+
+[ 7 0 1 ]
+[ 4 3 6 ]
+[ 5 2 8 ]
+cost: 13 heu: 11 in queue: 670
+
+
+
+[ 7 3 1 ]
+[ 4 0 6 ]
+[ 5 2 8 ]
+cost: 14 heu: 10 in queue: 671
+
+
+
+[ 7 3 1 ]
+[ 4 2 6 ]
+[ 5 0 8 ]
+cost: 15 heu: 9 in queue: 673
+
+
+
+[ 7 3 1 ]
+[ 4 2 6 ]
+[ 5 8 0 ]
+cost: 16 heu: 8 in queue: 674
+
+
+
+[ 7 3 1 ]
+[ 4 2 6 ]
+[ 0 5 8 ]
+cost: 16 heu: 8 in queue: 674
+
+
+
+[ 7 1 0 ]
+[ 4 3 6 ]
+[ 5 2 8 ]
+cost: 14 heu: 10 in queue: 674
+
+
+
+[ 4 0 1 ]
+[ 3 7 6 ]
+[ 5 2 8 ]
+cost: 11 heu: 13 in queue: 674
+
+
+
+[ 4 1 0 ]
+[ 3 7 6 ]
+[ 5 2 8 ]
+cost: 12 heu: 12 in queue: 675
+
+
+
+[ 7 1 6 ]
+[ 0 2 8 ]
+[ 4 3 5 ]
+cost: 11 heu: 13 in queue: 675
+
+
+
+[ 0 1 6 ]
+[ 7 2 8 ]
+[ 4 3 5 ]
+cost: 12 heu: 12 in queue: 676
+
+
+
+[ 1 0 6 ]
+[ 7 2 8 ]
+[ 4 3 5 ]
+cost: 13 heu: 11 in queue: 676
+
+
+
+[ 1 2 6 ]
+[ 7 0 8 ]
+[ 4 3 5 ]
+cost: 14 heu: 10 in queue: 677
+
+
+
+[ 1 2 6 ]
+[ 7 3 8 ]
+[ 4 0 5 ]
+cost: 15 heu: 9 in queue: 679
+
+
+
+[ 1 2 6 ]
+[ 7 3 8 ]
+[ 4 5 0 ]
+cost: 16 heu: 8 in queue: 680
+
+
+
+[ 1 2 6 ]
+[ 7 3 0 ]
+[ 4 5 8 ]
+cost: 17 heu: 7 in queue: 680
+
+
+
+[ 1 2 6 ]
+[ 7 0 3 ]
+[ 4 5 8 ]
+cost: 18 heu: 6 in queue: 681
+
+
+
+[ 1 2 6 ]
+[ 7 5 3 ]
+[ 4 0 8 ]
+cost: 19 heu: 5 in queue: 683
+
+
+
+[ 1 2 6 ]
+[ 7 5 3 ]
+[ 4 8 0 ]
+cost: 20 heu: 4 in queue: 684
+
+
+
+[ 1 2 0 ]
+[ 7 3 6 ]
+[ 4 5 8 ]
+cost: 18 heu: 6 in queue: 684
+
+
+
+[ 1 2 6 ]
+[ 7 8 0 ]
+[ 4 3 5 ]
+cost: 15 heu: 9 in queue: 684
+
+
+
+[ 1 2 6 ]
+[ 7 8 5 ]
+[ 4 3 0 ]
+cost: 16 heu: 8 in queue: 685
+
+
+
+[ 1 2 6 ]
+[ 7 8 5 ]
+[ 4 0 3 ]
+cost: 17 heu: 7 in queue: 685
+
+
+
+[ 1 2 6 ]
+[ 7 0 5 ]
+[ 4 8 3 ]
+cost: 18 heu: 6 in queue: 686
+
+
+
+[ 1 2 6 ]
+[ 7 5 0 ]
+[ 4 8 3 ]
+cost: 19 heu: 5 in queue: 688
+
+
+
+[ 1 2 6 ]
+[ 7 5 3 ]
+[ 4 8 0 ]
+cost: 20 heu: 4 in queue: 689
+
+
+
+[ 1 2 0 ]
+[ 7 5 6 ]
+[ 4 8 3 ]
+cost: 20 heu: 4 in queue: 689
+
+
+
+[ 1 2 0 ]
+[ 7 8 6 ]
+[ 4 3 5 ]
+cost: 16 heu: 8 in queue: 689
+
+
+
+[ 7 1 6 ]
+[ 4 0 8 ]
+[ 3 2 5 ]
+cost: 10 heu: 14 in queue: 689
+
+
+
+[ 7 1 6 ]
+[ 4 8 0 ]
+[ 3 2 5 ]
+cost: 11 heu: 13 in queue: 691
+
+
+
+[ 7 1 6 ]
+[ 4 8 5 ]
+[ 3 2 0 ]
+cost: 12 heu: 12 in queue: 692
+
+
+
+[ 7 1 0 ]
+[ 4 8 6 ]
+[ 3 2 5 ]
+cost: 12 heu: 12 in queue: 692
+
+
+
+[ 7 6 0 ]
+[ 4 1 2 ]
+[ 3 5 8 ]
+cost: 10 heu: 14 in queue: 692
+
+
+
+[ 7 6 2 ]
+[ 4 1 0 ]
+[ 3 5 8 ]
+cost: 11 heu: 13 in queue: 692
+
+
+
+[ 0 7 6 ]
+[ 4 1 2 ]
+[ 3 5 8 ]
+cost: 10 heu: 14 in queue: 693
+
+
+
+[ 1 4 6 ]
+[ 7 0 2 ]
+[ 3 5 8 ]
+cost: 12 heu: 12 in queue: 693
+
+
+
+[ 1 4 6 ]
+[ 7 5 2 ]
+[ 3 0 8 ]
+cost: 13 heu: 11 in queue: 695
+
+
+
+[ 1 4 6 ]
+[ 7 5 2 ]
+[ 3 8 0 ]
+cost: 14 heu: 10 in queue: 696
+
+
+
+[ 1 4 6 ]
+[ 7 5 2 ]
+[ 0 3 8 ]
+cost: 14 heu: 10 in queue: 696
+
+
+
+[ 1 4 6 ]
+[ 0 5 2 ]
+[ 7 3 8 ]
+cost: 15 heu: 9 in queue: 696
+
+
+
+[ 1 4 6 ]
+[ 7 2 0 ]
+[ 3 5 8 ]
+cost: 13 heu: 11 in queue: 697
+
+
+
+[ 1 4 0 ]
+[ 7 2 6 ]
+[ 3 5 8 ]
+cost: 14 heu: 10 in queue: 698
+
+
+
+[ 1 6 0 ]
+[ 7 4 2 ]
+[ 3 5 8 ]
+cost: 12 heu: 12 in queue: 698
+
+
+
+[ 1 6 2 ]
+[ 7 4 0 ]
+[ 3 5 8 ]
+cost: 13 heu: 11 in queue: 698
+
+
+
+[ 7 1 6 ]
+[ 3 4 2 ]
+[ 5 0 8 ]
+cost: 11 heu: 13 in queue: 699
+
+
+
+[ 7 1 6 ]
+[ 3 4 2 ]
+[ 5 8 0 ]
+cost: 12 heu: 12 in queue: 700
+
+
+
+[ 7 0 1 ]
+[ 4 5 6 ]
+[ 3 8 2 ]
+cost: 13 heu: 11 in queue: 700
+
+
+
+[ 7 1 6 ]
+[ 4 0 5 ]
+[ 3 8 2 ]
+cost: 12 heu: 12 in queue: 701
+
+
+
+[ 1 5 6 ]
+[ 7 0 2 ]
+[ 4 3 8 ]
+cost: 14 heu: 10 in queue: 703
+
+
+
+[ 1 5 6 ]
+[ 7 3 2 ]
+[ 4 0 8 ]
+cost: 15 heu: 9 in queue: 705
+
+
+
+[ 1 5 6 ]
+[ 7 3 2 ]
+[ 4 8 0 ]
+cost: 16 heu: 8 in queue: 706
+
+
+
+[ 1 5 6 ]
+[ 7 2 0 ]
+[ 4 3 8 ]
+cost: 15 heu: 9 in queue: 706
+
+
+
+[ 1 5 0 ]
+[ 7 2 6 ]
+[ 4 3 8 ]
+cost: 16 heu: 8 in queue: 707
+
+
+
+[ 1 6 0 ]
+[ 7 5 2 ]
+[ 4 3 8 ]
+cost: 14 heu: 10 in queue: 707
+
+
+
+[ 1 6 2 ]
+[ 7 5 0 ]
+[ 4 3 8 ]
+cost: 15 heu: 9 in queue: 707
+
+
+
+[ 7 1 6 ]
+[ 5 0 2 ]
+[ 4 3 8 ]
+cost: 12 heu: 12 in queue: 708
+
+
+
+[ 7 1 6 ]
+[ 5 3 2 ]
+[ 4 0 8 ]
+cost: 13 heu: 11 in queue: 710
+
+
+
+[ 7 1 6 ]
+[ 5 3 2 ]
+[ 4 8 0 ]
+cost: 14 heu: 10 in queue: 711
+
+
+
+[ 7 1 6 ]
+[ 5 2 0 ]
+[ 4 3 8 ]
+cost: 13 heu: 11 in queue: 711
+
+
+
+[ 7 1 0 ]
+[ 5 2 6 ]
+[ 4 3 8 ]
+cost: 14 heu: 10 in queue: 712
+
+
+
+[ 2 0 1 ]
+[ 7 6 5 ]
+[ 4 8 3 ]
+cost: 15 heu: 9 in queue: 712
+
+
+
+[ 2 1 0 ]
+[ 7 6 5 ]
+[ 4 8 3 ]
+cost: 16 heu: 8 in queue: 713
+
+
+
+[ 7 2 1 ]
+[ 4 6 5 ]
+[ 8 0 3 ]
+cost: 15 heu: 9 in queue: 713
+
+
+
+[ 7 2 1 ]
+[ 6 5 3 ]
+[ 4 0 8 ]
+cost: 15 heu: 9 in queue: 714
+
+
+
+[ 7 2 0 ]
+[ 6 5 1 ]
+[ 4 8 3 ]
+cost: 14 heu: 10 in queue: 715
+
+
+
+[ 7 0 1 ]
+[ 6 2 5 ]
+[ 4 8 3 ]
+cost: 13 heu: 11 in queue: 715
+
+
+
+[ 7 1 0 ]
+[ 6 2 5 ]
+[ 4 8 3 ]
+cost: 14 heu: 10 in queue: 716
+
+
+
+[ 7 2 1 ]
+[ 6 8 5 ]
+[ 0 4 3 ]
+cost: 12 heu: 12 in queue: 716
+
+
+
+[ 7 2 0 ]
+[ 6 8 1 ]
+[ 4 3 5 ]
+cost: 10 heu: 14 in queue: 716
+
+
+
+[ 2 0 1 ]
+[ 7 6 3 ]
+[ 4 5 8 ]
+cost: 15 heu: 9 in queue: 716
+
+
+
+[ 2 1 0 ]
+[ 7 6 3 ]
+[ 4 5 8 ]
+cost: 16 heu: 8 in queue: 717
+
+
+
+[ 2 1 3 ]
+[ 7 6 0 ]
+[ 4 5 8 ]
+cost: 17 heu: 7 in queue: 717
+
+
+
+[ 2 1 3 ]
+[ 7 0 6 ]
+[ 4 5 8 ]
+cost: 18 heu: 6 in queue: 718
+
+
+
+[ 2 1 3 ]
+[ 7 5 6 ]
+[ 4 0 8 ]
+cost: 19 heu: 5 in queue: 720
+
+
+
+[ 2 1 3 ]
+[ 7 5 6 ]
+[ 4 8 0 ]
+cost: 20 heu: 4 in queue: 721
+
+
+
+[ 7 2 1 ]
+[ 4 6 3 ]
+[ 5 0 8 ]
+cost: 15 heu: 9 in queue: 721
+
+
+
+[ 7 2 1 ]
+[ 4 6 3 ]
+[ 5 8 0 ]
+cost: 16 heu: 8 in queue: 722
+
+
+
+[ 7 2 1 ]
+[ 6 5 0 ]
+[ 4 8 3 ]
+cost: 15 heu: 9 in queue: 722
+
+
+
+[ 7 2 1 ]
+[ 6 5 3 ]
+[ 0 4 8 ]
+cost: 14 heu: 10 in queue: 723
+
+
+
+[ 7 0 1 ]
+[ 6 2 3 ]
+[ 4 5 8 ]
+cost: 13 heu: 11 in queue: 723
+
+
+
+[ 7 1 0 ]
+[ 6 2 3 ]
+[ 4 5 8 ]
+cost: 14 heu: 10 in queue: 724
+
+
+
+[ 7 1 3 ]
+[ 6 2 0 ]
+[ 4 5 8 ]
+cost: 15 heu: 9 in queue: 724
+
+
+
+[ 7 2 0 ]
+[ 6 3 1 ]
+[ 4 5 8 ]
+cost: 12 heu: 12 in queue: 725
+
+
+
+[ 7 2 1 ]
+[ 6 3 8 ]
+[ 0 4 5 ]
+cost: 10 heu: 14 in queue: 725
+
+
+
+[ 7 0 1 ]
+[ 6 2 8 ]
+[ 4 3 5 ]
+cost: 9 heu: 15 in queue: 725
+
+
+
+[ 7 1 0 ]
+[ 6 2 8 ]
+[ 4 3 5 ]
+cost: 10 heu: 14 in queue: 726
+
+
+
+[ 2 1 8 ]
+[ 7 6 0 ]
+[ 4 3 5 ]
+cost: 11 heu: 13 in queue: 726
+
+
+
+[ 2 1 8 ]
+[ 7 6 5 ]
+[ 4 3 0 ]
+cost: 12 heu: 12 in queue: 727
+
+
+
+[ 2 1 8 ]
+[ 7 6 5 ]
+[ 4 0 3 ]
+cost: 13 heu: 11 in queue: 727
+
+
+
+[ 2 1 8 ]
+[ 7 0 6 ]
+[ 4 3 5 ]
+cost: 12 heu: 12 in queue: 728
+
+
+
+[ 2 1 8 ]
+[ 7 3 6 ]
+[ 4 0 5 ]
+cost: 13 heu: 11 in queue: 730
+
+
+
+[ 2 1 8 ]
+[ 7 3 6 ]
+[ 4 5 0 ]
+cost: 14 heu: 10 in queue: 731
+
+
+
+[ 2 6 1 ]
+[ 7 0 8 ]
+[ 4 3 5 ]
+cost: 10 heu: 14 in queue: 731
+
+
+
+[ 2 6 1 ]
+[ 7 3 8 ]
+[ 4 0 5 ]
+cost: 11 heu: 13 in queue: 733
+
+
+
+[ 2 6 1 ]
+[ 7 3 8 ]
+[ 4 5 0 ]
+cost: 12 heu: 12 in queue: 734
+
+
+
+[ 2 6 1 ]
+[ 7 3 0 ]
+[ 4 5 8 ]
+cost: 13 heu: 11 in queue: 734
+
+
+
+[ 2 6 1 ]
+[ 7 0 3 ]
+[ 4 5 8 ]
+cost: 14 heu: 10 in queue: 735
+
+
+
+[ 2 6 1 ]
+[ 7 5 3 ]
+[ 4 0 8 ]
+cost: 15 heu: 9 in queue: 737
+
+
+
+[ 2 6 1 ]
+[ 7 5 3 ]
+[ 4 8 0 ]
+cost: 16 heu: 8 in queue: 738
+
+
+
+[ 2 0 1 ]
+[ 7 6 3 ]
+[ 4 5 8 ]
+cost: 15 heu: 9 in queue: 738
+
+
+
+[ 2 1 0 ]
+[ 7 6 3 ]
+[ 4 5 8 ]
+cost: 16 heu: 8 in queue: 739
+
+
+
+[ 2 1 3 ]
+[ 7 6 0 ]
+[ 4 5 8 ]
+cost: 17 heu: 7 in queue: 739
+
+
+
+[ 2 1 3 ]
+[ 7 0 6 ]
+[ 4 5 8 ]
+cost: 18 heu: 6 in queue: 740
+
+
+
+[ 2 1 3 ]
+[ 7 5 6 ]
+[ 4 0 8 ]
+cost: 19 heu: 5 in queue: 742
+
+
+
+[ 2 1 3 ]
+[ 7 5 6 ]
+[ 4 8 0 ]
+cost: 20 heu: 4 in queue: 743
+
+
+
+[ 0 2 1 ]
+[ 7 6 3 ]
+[ 4 5 8 ]
+cost: 16 heu: 8 in queue: 743
+
+
+
+[ 2 6 1 ]
+[ 7 8 0 ]
+[ 4 3 5 ]
+cost: 11 heu: 13 in queue: 743
+
+
+
+[ 2 6 1 ]
+[ 7 8 5 ]
+[ 4 3 0 ]
+cost: 12 heu: 12 in queue: 744
+
+
+
+[ 2 6 1 ]
+[ 7 8 5 ]
+[ 4 0 3 ]
+cost: 13 heu: 11 in queue: 744
+
+
+
+[ 2 6 1 ]
+[ 7 0 5 ]
+[ 4 8 3 ]
+cost: 14 heu: 10 in queue: 745
+
+
+
+[ 2 6 1 ]
+[ 7 5 0 ]
+[ 4 8 3 ]
+cost: 15 heu: 9 in queue: 747
+
+
+
+[ 2 6 1 ]
+[ 7 5 3 ]
+[ 4 8 0 ]
+cost: 16 heu: 8 in queue: 748
+
+
+
+[ 2 0 1 ]
+[ 7 6 5 ]
+[ 4 8 3 ]
+cost: 15 heu: 9 in queue: 748
+
+
+
+[ 2 1 0 ]
+[ 7 6 5 ]
+[ 4 8 3 ]
+cost: 16 heu: 8 in queue: 749
+
+
+
+[ 0 2 1 ]
+[ 7 6 5 ]
+[ 4 8 3 ]
+cost: 16 heu: 8 in queue: 749
+
+
+
+[ 7 1 8 ]
+[ 4 2 0 ]
+[ 3 6 5 ]
+cost: 9 heu: 15 in queue: 749
+
+
+
+[ 7 1 8 ]
+[ 4 2 5 ]
+[ 3 6 0 ]
+cost: 10 heu: 14 in queue: 750
+
+
+
+[ 7 1 8 ]
+[ 4 2 5 ]
+[ 3 0 6 ]
+cost: 11 heu: 13 in queue: 750
+
+
+
+[ 7 1 8 ]
+[ 4 2 5 ]
+[ 0 3 6 ]
+cost: 12 heu: 12 in queue: 751
+
+
+
+[ 0 7 1 ]
+[ 4 2 8 ]
+[ 3 6 5 ]
+cost: 8 heu: 16 in queue: 751
+
+
+
+[ 2 0 1 ]
+[ 7 4 8 ]
+[ 3 6 5 ]
+cost: 9 heu: 15 in queue: 751
+
+
+
+[ 2 1 0 ]
+[ 7 4 8 ]
+[ 3 6 5 ]
+cost: 10 heu: 14 in queue: 752
+
+
+
+[ 7 2 1 ]
+[ 3 4 8 ]
+[ 6 0 5 ]
+cost: 9 heu: 15 in queue: 752
+
+
+
+[ 7 2 1 ]
+[ 3 4 8 ]
+[ 6 5 0 ]
+cost: 10 heu: 14 in queue: 753
+
+
+
+[ 7 2 1 ]
+[ 3 4 0 ]
+[ 6 5 8 ]
+cost: 11 heu: 13 in queue: 753
+
+
+
+[ 7 0 2 ]
+[ 4 8 1 ]
+[ 3 6 5 ]
+cost: 9 heu: 15 in queue: 754
+
+
+
+[ 2 0 1 ]
+[ 7 8 5 ]
+[ 4 3 6 ]
+cost: 13 heu: 11 in queue: 755
+
+
+
+[ 2 1 0 ]
+[ 7 8 5 ]
+[ 4 3 6 ]
+cost: 14 heu: 10 in queue: 756
+
+
+
+[ 7 2 1 ]
+[ 8 0 5 ]
+[ 4 3 6 ]
+cost: 12 heu: 12 in queue: 756
+
+
+
+[ 7 2 1 ]
+[ 8 3 5 ]
+[ 4 0 6 ]
+cost: 13 heu: 11 in queue: 758
+
+
+
+[ 7 2 1 ]
+[ 8 5 0 ]
+[ 4 3 6 ]
+cost: 13 heu: 11 in queue: 759
+
+
+
+[ 7 2 1 ]
+[ 8 5 6 ]
+[ 4 3 0 ]
+cost: 14 heu: 10 in queue: 760
+
+
+
+[ 7 2 1 ]
+[ 8 5 6 ]
+[ 4 0 3 ]
+cost: 15 heu: 9 in queue: 760
+
+
+
+[ 7 1 5 ]
+[ 4 2 0 ]
+[ 3 8 6 ]
+cost: 13 heu: 11 in queue: 761
+
+
+
+[ 7 1 5 ]
+[ 4 2 6 ]
+[ 3 8 0 ]
+cost: 14 heu: 10 in queue: 762
+
+
+
+[ 0 7 1 ]
+[ 4 2 5 ]
+[ 3 8 6 ]
+cost: 12 heu: 12 in queue: 762
+
+
+
+[ 2 0 1 ]
+[ 7 4 5 ]
+[ 3 8 6 ]
+cost: 13 heu: 11 in queue: 762
+
+
+
+[ 2 1 0 ]
+[ 7 4 5 ]
+[ 3 8 6 ]
+cost: 14 heu: 10 in queue: 763
+
+
+
+[ 7 2 1 ]
+[ 3 4 5 ]
+[ 8 0 6 ]
+cost: 13 heu: 11 in queue: 763
+
+
+
+[ 7 0 2 ]
+[ 4 5 1 ]
+[ 3 8 6 ]
+cost: 13 heu: 11 in queue: 764
+
+
+
+[ 7 2 1 ]
+[ 0 5 6 ]
+[ 4 3 8 ]
+cost: 15 heu: 9 in queue: 765
+
+
+
+[ 0 2 1 ]
+[ 7 5 6 ]
+[ 4 3 8 ]
+cost: 16 heu: 8 in queue: 766
+
+
+
+[ 7 2 1 ]
+[ 4 0 6 ]
+[ 3 5 8 ]
+cost: 14 heu: 10 in queue: 766
+
+
+
+[ 6 4 2 ]
+[ 7 1 8 ]
+[ 3 5 0 ]
+cost: 8 heu: 16 in queue: 768
+
+
+
+[ 6 4 0 ]
+[ 7 1 2 ]
+[ 3 5 8 ]
+cost: 8 heu: 16 in queue: 768
+
+
+
+[ 4 2 1 ]
+[ 6 5 8 ]
+[ 7 3 0 ]
+cost: 14 heu: 10 in queue: 768
+
+
+
+[ 4 2 1 ]
+[ 6 5 8 ]
+[ 7 0 3 ]
+cost: 15 heu: 9 in queue: 768
+
+
+
+[ 4 2 1 ]
+[ 6 0 5 ]
+[ 7 3 8 ]
+cost: 14 heu: 10 in queue: 769
+
+
+
+[ 4 2 1 ]
+[ 6 3 5 ]
+[ 7 0 8 ]
+cost: 15 heu: 9 in queue: 771
+
+
+
+[ 4 2 1 ]
+[ 6 3 5 ]
+[ 7 8 0 ]
+cost: 16 heu: 8 in queue: 772
+
+
+
+[ 4 2 1 ]
+[ 0 6 5 ]
+[ 7 3 8 ]
+cost: 15 heu: 9 in queue: 772
+
+
+
+[ 0 2 1 ]
+[ 4 6 5 ]
+[ 7 3 8 ]
+cost: 16 heu: 8 in queue: 773
+
+
+
+[ 4 5 2 ]
+[ 6 0 1 ]
+[ 7 3 8 ]
+cost: 12 heu: 12 in queue: 773
+
+
+
+[ 4 5 2 ]
+[ 6 3 1 ]
+[ 7 0 8 ]
+cost: 13 heu: 11 in queue: 775
+
+
+
+[ 4 5 2 ]
+[ 6 3 1 ]
+[ 7 8 0 ]
+cost: 14 heu: 10 in queue: 776
+
+
+
+[ 4 5 2 ]
+[ 6 1 0 ]
+[ 7 3 8 ]
+cost: 13 heu: 11 in queue: 776
+
+
+
+[ 4 5 2 ]
+[ 0 6 1 ]
+[ 7 3 8 ]
+cost: 13 heu: 11 in queue: 777
+
+
+
+[ 0 5 2 ]
+[ 4 6 1 ]
+[ 7 3 8 ]
+cost: 14 heu: 10 in queue: 778
+
+
+
+[ 6 4 2 ]
+[ 5 0 1 ]
+[ 7 3 8 ]
+cost: 10 heu: 14 in queue: 778
+
+
+
+[ 6 4 2 ]
+[ 5 3 1 ]
+[ 7 0 8 ]
+cost: 11 heu: 13 in queue: 780
+
+
+
+[ 6 4 2 ]
+[ 5 3 1 ]
+[ 7 8 0 ]
+cost: 12 heu: 12 in queue: 781
+
+
+
+[ 6 4 2 ]
+[ 5 1 0 ]
+[ 7 3 8 ]
+cost: 11 heu: 13 in queue: 781
+
+
+
+[ 6 0 2 ]
+[ 5 4 1 ]
+[ 7 3 8 ]
+cost: 11 heu: 13 in queue: 782
+
+
+
+[ 6 2 0 ]
+[ 5 4 1 ]
+[ 7 3 8 ]
+cost: 12 heu: 12 in queue: 783
+
+
+
+[ 6 2 1 ]
+[ 5 4 0 ]
+[ 7 3 8 ]
+cost: 13 heu: 11 in queue: 783
+
+
+
+[ 0 6 2 ]
+[ 5 4 1 ]
+[ 7 3 8 ]
+cost: 12 heu: 12 in queue: 784
+
+
+
+[ 6 4 2 ]
+[ 7 5 0 ]
+[ 3 8 1 ]
+cost: 9 heu: 15 in queue: 784
+
+
+
+[ 6 4 2 ]
+[ 0 7 1 ]
+[ 3 5 8 ]
+cost: 7 heu: 17 in queue: 785
+
+
+
+[ 6 4 2 ]
+[ 3 7 1 ]
+[ 0 5 8 ]
+cost: 8 heu: 16 in queue: 786
+
+
+
+[ 0 4 2 ]
+[ 6 7 1 ]
+[ 3 5 8 ]
+cost: 8 heu: 16 in queue: 786
+
+
+
+[ 4 0 2 ]
+[ 6 7 1 ]
+[ 3 5 8 ]
+cost: 9 heu: 15 in queue: 786
+
+
+
+[ 4 2 0 ]
+[ 6 7 1 ]
+[ 3 5 8 ]
+cost: 10 heu: 14 in queue: 787
+
+
+
+[ 4 2 1 ]
+[ 6 7 0 ]
+[ 3 5 8 ]
+cost: 11 heu: 13 in queue: 787
+
+
+
+[ 2 0 1 ]
+[ 6 5 4 ]
+[ 7 3 8 ]
+cost: 13 heu: 11 in queue: 788
+
+
+
+[ 2 1 0 ]
+[ 6 5 4 ]
+[ 7 3 8 ]
+cost: 14 heu: 10 in queue: 789
+
+
+
+[ 6 2 1 ]
+[ 5 0 4 ]
+[ 7 3 8 ]
+cost: 12 heu: 12 in queue: 789
+
+
+
+[ 6 2 1 ]
+[ 5 3 4 ]
+[ 7 0 8 ]
+cost: 13 heu: 11 in queue: 791
+
+
+
+[ 6 2 1 ]
+[ 5 3 4 ]
+[ 7 8 0 ]
+cost: 14 heu: 10 in queue: 792
+
+
+
+[ 6 2 1 ]
+[ 5 4 0 ]
+[ 7 3 8 ]
+cost: 13 heu: 11 in queue: 792
+
+
+
+[ 6 2 1 ]
+[ 7 5 0 ]
+[ 3 8 4 ]
+cost: 11 heu: 13 in queue: 793
+
+
+
+[ 6 2 1 ]
+[ 0 7 4 ]
+[ 3 5 8 ]
+cost: 9 heu: 15 in queue: 794
+
+
+
+[ 6 2 1 ]
+[ 3 7 4 ]
+[ 0 5 8 ]
+cost: 10 heu: 14 in queue: 795
+
+
+
+[ 0 2 1 ]
+[ 6 7 4 ]
+[ 3 5 8 ]
+cost: 10 heu: 14 in queue: 795
+
+
+
+[ 6 0 1 ]
+[ 7 2 4 ]
+[ 3 5 8 ]
+cost: 9 heu: 15 in queue: 795
+
+
+
+[ 6 1 0 ]
+[ 7 2 4 ]
+[ 3 5 8 ]
+cost: 10 heu: 14 in queue: 796
+
+
+
+[ 0 6 1 ]
+[ 7 2 4 ]
+[ 3 5 8 ]
+cost: 10 heu: 14 in queue: 796
+
+
+
+[ 6 2 1 ]
+[ 7 4 8 ]
+[ 3 0 5 ]
+cost: 9 heu: 15 in queue: 796
+
+
+
+[ 6 2 1 ]
+[ 7 4 8 ]
+[ 0 3 5 ]
+cost: 10 heu: 14 in queue: 797
+
+
+
+[ 6 2 1 ]
+[ 0 4 8 ]
+[ 7 3 5 ]
+cost: 11 heu: 13 in queue: 797
+
+
+
+[ 6 2 1 ]
+[ 4 0 8 ]
+[ 7 3 5 ]
+cost: 12 heu: 12 in queue: 798
+
+
+
+[ 6 2 1 ]
+[ 4 3 8 ]
+[ 7 0 5 ]
+cost: 13 heu: 11 in queue: 800
+
+
+
+[ 6 2 1 ]
+[ 4 3 8 ]
+[ 7 5 0 ]
+cost: 14 heu: 10 in queue: 801
+
+
+
+[ 6 2 1 ]
+[ 4 3 0 ]
+[ 7 5 8 ]
+cost: 15 heu: 9 in queue: 801
+
+
+
+[ 6 2 1 ]
+[ 4 0 3 ]
+[ 7 5 8 ]
+cost: 16 heu: 8 in queue: 802
+
+
+
+[ 6 2 1 ]
+[ 4 5 3 ]
+[ 7 0 8 ]
+cost: 17 heu: 7 in queue: 804
+
+
+
+[ 6 2 1 ]
+[ 4 5 3 ]
+[ 7 8 0 ]
+cost: 18 heu: 6 in queue: 805
+
+
+
+[ 6 2 1 ]
+[ 4 8 0 ]
+[ 7 3 5 ]
+cost: 13 heu: 11 in queue: 805
+
+
+
+[ 6 2 1 ]
+[ 4 8 5 ]
+[ 7 3 0 ]
+cost: 14 heu: 10 in queue: 806
+
+
+
+[ 6 2 1 ]
+[ 4 8 5 ]
+[ 7 0 3 ]
+cost: 15 heu: 9 in queue: 806
+
+
+
+[ 6 2 1 ]
+[ 4 0 5 ]
+[ 7 8 3 ]
+cost: 16 heu: 8 in queue: 807
+
+
+
+[ 6 2 1 ]
+[ 4 5 0 ]
+[ 7 8 3 ]
+cost: 17 heu: 7 in queue: 809
+
+
+
+[ 6 2 1 ]
+[ 4 5 3 ]
+[ 7 8 0 ]
+cost: 18 heu: 6 in queue: 810
+
+
+
+[ 0 2 1 ]
+[ 6 4 8 ]
+[ 7 3 5 ]
+cost: 12 heu: 12 in queue: 810
+
+
+
+[ 2 0 1 ]
+[ 7 3 6 ]
+[ 5 4 8 ]
+cost: 13 heu: 11 in queue: 810
+
+
+
+[ 2 3 1 ]
+[ 7 0 6 ]
+[ 5 4 8 ]
+cost: 14 heu: 10 in queue: 811
+
+
+
+[ 2 3 1 ]
+[ 7 4 6 ]
+[ 5 0 8 ]
+cost: 15 heu: 9 in queue: 813
+
+
+
+[ 2 3 1 ]
+[ 7 4 6 ]
+[ 5 8 0 ]
+cost: 16 heu: 8 in queue: 814
+
+
+
+[ 2 3 1 ]
+[ 7 4 6 ]
+[ 0 5 8 ]
+cost: 16 heu: 8 in queue: 814
+
+
+
+[ 2 3 1 ]
+[ 0 4 6 ]
+[ 7 5 8 ]
+cost: 17 heu: 7 in queue: 814
+
+
+
+[ 2 3 1 ]
+[ 4 0 6 ]
+[ 7 5 8 ]
+cost: 18 heu: 6 in queue: 815
+
+
+
+[ 2 3 1 ]
+[ 4 5 6 ]
+[ 7 0 8 ]
+cost: 19 heu: 5 in queue: 817
+
+
+
+[ 2 3 1 ]
+[ 4 5 6 ]
+[ 7 8 0 ]
+cost: 20 heu: 4 in queue: 818
+
+
+
+[ 2 1 0 ]
+[ 7 3 6 ]
+[ 5 4 8 ]
+cost: 14 heu: 10 in queue: 818
+
+
+
+[ 7 2 1 ]
+[ 5 3 0 ]
+[ 4 8 6 ]
+cost: 15 heu: 9 in queue: 818
+
+
+
+[ 7 2 1 ]
+[ 5 0 3 ]
+[ 4 8 6 ]
+cost: 16 heu: 8 in queue: 819
+
+
+
+[ 7 2 1 ]
+[ 0 5 3 ]
+[ 4 8 6 ]
+cost: 17 heu: 7 in queue: 821
+
+
+
+[ 7 2 1 ]
+[ 4 5 3 ]
+[ 0 8 6 ]
+cost: 18 heu: 6 in queue: 822
+
+
+
+[ 0 2 1 ]
+[ 7 5 3 ]
+[ 4 8 6 ]
+cost: 18 heu: 6 in queue: 822
+
+
+
+[ 7 2 1 ]
+[ 5 0 6 ]
+[ 4 3 8 ]
+cost: 14 heu: 10 in queue: 822
+
+
+
+[ 7 2 1 ]
+[ 0 5 6 ]
+[ 4 3 8 ]
+cost: 15 heu: 9 in queue: 824
+
+
+
+[ 7 2 1 ]
+[ 4 5 6 ]
+[ 0 3 8 ]
+cost: 16 heu: 8 in queue: 825
+
+
+
+[ 0 2 1 ]
+[ 7 5 6 ]
+[ 4 3 8 ]
+cost: 16 heu: 8 in queue: 825
+
+
+
+[ 7 2 1 ]
+[ 0 4 6 ]
+[ 3 5 8 ]
+cost: 13 heu: 11 in queue: 825
+
+
+
+[ 7 2 1 ]
+[ 4 0 6 ]
+[ 3 5 8 ]
+cost: 14 heu: 10 in queue: 826
+
+
+
+[ 7 2 1 ]
+[ 4 5 6 ]
+[ 3 0 8 ]
+cost: 15 heu: 9 in queue: 828
+
+
+
+[ 7 2 1 ]
+[ 4 5 6 ]
+[ 3 8 0 ]
+cost: 16 heu: 8 in queue: 829
+
+
+
+[ 7 2 1 ]
+[ 4 5 6 ]
+[ 0 3 8 ]
+cost: 16 heu: 8 in queue: 829
+
+
+
+[ 0 2 1 ]
+[ 7 4 6 ]
+[ 3 5 8 ]
+cost: 14 heu: 10 in queue: 829
+
+
+
+[ 7 2 1 ]
+[ 3 4 0 ]
+[ 5 8 6 ]
+cost: 13 heu: 11 in queue: 829
+
+
+
+[ 7 0 1 ]
+[ 3 2 6 ]
+[ 5 4 8 ]
+cost: 11 heu: 13 in queue: 830
+
+
+
+[ 7 1 0 ]
+[ 3 2 6 ]
+[ 5 4 8 ]
+cost: 12 heu: 12 in queue: 831
+
+
+
+[ 7 2 1 ]
+[ 3 6 8 ]
+[ 5 4 0 ]
+cost: 10 heu: 14 in queue: 831
+
+
+
+[ 0 7 2 ]
+[ 3 6 1 ]
+[ 5 4 8 ]
+cost: 8 heu: 16 in queue: 831
+
+
+
+[ 3 7 2 ]
+[ 0 6 1 ]
+[ 5 4 8 ]
+cost: 9 heu: 15 in queue: 831
+
+
+
+[ 3 7 2 ]
+[ 5 6 1 ]
+[ 0 4 8 ]
+cost: 10 heu: 14 in queue: 832
+
+
+
+[ 3 7 2 ]
+[ 5 6 1 ]
+[ 4 0 8 ]
+cost: 11 heu: 13 in queue: 832
+
+
+
+[ 3 7 2 ]
+[ 5 6 1 ]
+[ 4 8 0 ]
+cost: 12 heu: 12 in queue: 833
+
+
+
+[ 6 0 2 ]
+[ 7 3 1 ]
+[ 5 4 8 ]
+cost: 9 heu: 15 in queue: 833
+
+
+
+[ 6 3 2 ]
+[ 7 0 1 ]
+[ 5 4 8 ]
+cost: 10 heu: 14 in queue: 834
+
+
+
+[ 6 3 2 ]
+[ 7 4 1 ]
+[ 5 0 8 ]
+cost: 11 heu: 13 in queue: 836
+
+
+
+[ 6 3 2 ]
+[ 7 4 1 ]
+[ 5 8 0 ]
+cost: 12 heu: 12 in queue: 837
+
+
+
+[ 6 3 2 ]
+[ 7 4 1 ]
+[ 0 5 8 ]
+cost: 12 heu: 12 in queue: 837
+
+
+
+[ 6 3 2 ]
+[ 0 4 1 ]
+[ 7 5 8 ]
+cost: 13 heu: 11 in queue: 837
+
+
+
+[ 6 3 2 ]
+[ 4 0 1 ]
+[ 7 5 8 ]
+cost: 14 heu: 10 in queue: 838
+
+
+
+[ 6 3 2 ]
+[ 4 5 1 ]
+[ 7 0 8 ]
+cost: 15 heu: 9 in queue: 840
+
+
+
+[ 6 3 2 ]
+[ 4 5 1 ]
+[ 7 8 0 ]
+cost: 16 heu: 8 in queue: 841
+
+
+
+[ 6 3 2 ]
+[ 4 1 0 ]
+[ 7 5 8 ]
+cost: 15 heu: 9 in queue: 841
+
+
+
+[ 0 3 2 ]
+[ 6 4 1 ]
+[ 7 5 8 ]
+cost: 14 heu: 10 in queue: 842
+
+
+
+[ 6 3 2 ]
+[ 7 1 0 ]
+[ 5 4 8 ]
+cost: 11 heu: 13 in queue: 842
+
+
+
+[ 6 2 0 ]
+[ 7 3 1 ]
+[ 5 4 8 ]
+cost: 10 heu: 14 in queue: 843
+
+
+
+[ 6 2 1 ]
+[ 7 3 0 ]
+[ 5 4 8 ]
+cost: 11 heu: 13 in queue: 843
+
+
+
+[ 6 2 1 ]
+[ 7 0 3 ]
+[ 5 4 8 ]
+cost: 12 heu: 12 in queue: 844
+
+
+
+[ 6 2 1 ]
+[ 7 4 3 ]
+[ 5 0 8 ]
+cost: 13 heu: 11 in queue: 846
+
+
+
+[ 6 2 1 ]
+[ 7 4 3 ]
+[ 5 8 0 ]
+cost: 14 heu: 10 in queue: 847
+
+
+
+[ 6 2 1 ]
+[ 7 4 3 ]
+[ 0 5 8 ]
+cost: 14 heu: 10 in queue: 847
+
+
+
+[ 6 2 1 ]
+[ 0 4 3 ]
+[ 7 5 8 ]
+cost: 15 heu: 9 in queue: 847
+
+
+
+[ 6 2 1 ]
+[ 4 0 3 ]
+[ 7 5 8 ]
+cost: 16 heu: 8 in queue: 848
+
+
+
+[ 6 2 1 ]
+[ 4 5 3 ]
+[ 7 0 8 ]
+cost: 17 heu: 7 in queue: 850
+
+
+
+[ 6 2 1 ]
+[ 4 5 3 ]
+[ 7 8 0 ]
+cost: 18 heu: 6 in queue: 851
+
+
+
+[ 0 2 1 ]
+[ 6 4 3 ]
+[ 7 5 8 ]
+cost: 16 heu: 8 in queue: 851
+
+
+
+[ 7 6 2 ]
+[ 5 3 0 ]
+[ 4 8 1 ]
+cost: 11 heu: 13 in queue: 851
+
+
+
+[ 7 6 2 ]
+[ 5 0 3 ]
+[ 4 8 1 ]
+cost: 12 heu: 12 in queue: 852
+
+
+
+[ 7 6 2 ]
+[ 0 5 3 ]
+[ 4 8 1 ]
+cost: 13 heu: 11 in queue: 854
+
+
+
+[ 7 6 2 ]
+[ 4 5 3 ]
+[ 0 8 1 ]
+cost: 14 heu: 10 in queue: 855
+
+
+
+[ 0 6 2 ]
+[ 7 5 3 ]
+[ 4 8 1 ]
+cost: 14 heu: 10 in queue: 855
+
+
+
+[ 7 0 2 ]
+[ 5 6 3 ]
+[ 4 8 1 ]
+cost: 13 heu: 11 in queue: 855
+
+
+
+[ 7 2 0 ]
+[ 5 6 3 ]
+[ 4 8 1 ]
+cost: 14 heu: 10 in queue: 856
+
+
+
+[ 7 2 3 ]
+[ 5 6 0 ]
+[ 4 8 1 ]
+cost: 15 heu: 9 in queue: 856
+
+
+
+[ 7 2 3 ]
+[ 5 6 1 ]
+[ 4 8 0 ]
+cost: 16 heu: 8 in queue: 857
+
+
+
+[ 7 2 3 ]
+[ 5 0 6 ]
+[ 4 8 1 ]
+cost: 16 heu: 8 in queue: 857
+
+
+
+[ 7 2 3 ]
+[ 0 5 6 ]
+[ 4 8 1 ]
+cost: 17 heu: 7 in queue: 859
+
+
+
+[ 7 2 3 ]
+[ 4 5 6 ]
+[ 0 8 1 ]
+cost: 18 heu: 6 in queue: 860
+
+
+
+[ 0 2 3 ]
+[ 7 5 6 ]
+[ 4 8 1 ]
+cost: 18 heu: 6 in queue: 860
+
+
+
+[ 7 6 2 ]
+[ 5 0 1 ]
+[ 4 3 8 ]
+cost: 10 heu: 14 in queue: 860
+
+
+
+[ 7 6 2 ]
+[ 5 1 0 ]
+[ 4 3 8 ]
+cost: 11 heu: 13 in queue: 862
+
+
+
+[ 7 6 2 ]
+[ 0 5 1 ]
+[ 4 3 8 ]
+cost: 11 heu: 13 in queue: 863
+
+
+
+[ 7 6 2 ]
+[ 4 5 1 ]
+[ 0 3 8 ]
+cost: 12 heu: 12 in queue: 864
+
+
+
+[ 0 6 2 ]
+[ 7 5 1 ]
+[ 4 3 8 ]
+cost: 12 heu: 12 in queue: 864
+
+
+
+[ 7 0 2 ]
+[ 5 6 1 ]
+[ 4 3 8 ]
+cost: 11 heu: 13 in queue: 864
+
+
+
+[ 7 2 0 ]
+[ 5 6 1 ]
+[ 4 3 8 ]
+cost: 12 heu: 12 in queue: 865
+
+
+
+[ 7 2 1 ]
+[ 5 6 0 ]
+[ 4 3 8 ]
+cost: 13 heu: 11 in queue: 865
+
+
+
+[ 7 2 1 ]
+[ 5 0 6 ]
+[ 4 3 8 ]
+cost: 14 heu: 10 in queue: 866
+
+
+
+[ 7 2 1 ]
+[ 5 3 6 ]
+[ 4 0 8 ]
+cost: 15 heu: 9 in queue: 868
+
+
+
+[ 7 2 1 ]
+[ 5 3 6 ]
+[ 4 8 0 ]
+cost: 16 heu: 8 in queue: 869
+
+
+
+[ 7 2 1 ]
+[ 0 5 6 ]
+[ 4 3 8 ]
+cost: 15 heu: 9 in queue: 869
+
+
+
+[ 7 2 1 ]
+[ 4 5 6 ]
+[ 0 3 8 ]
+cost: 16 heu: 8 in queue: 870
+
+
+
+[ 0 2 1 ]
+[ 7 5 6 ]
+[ 4 3 8 ]
+cost: 16 heu: 8 in queue: 870
+
+
+
+[ 7 6 2 ]
+[ 3 1 8 ]
+[ 5 4 0 ]
+cost: 8 heu: 16 in queue: 870
+
+
+
+[ 7 6 0 ]
+[ 3 1 2 ]
+[ 5 4 8 ]
+cost: 8 heu: 16 in queue: 870
+
+
+
+[ 7 0 6 ]
+[ 3 1 2 ]
+[ 5 4 8 ]
+cost: 9 heu: 15 in queue: 870
+
+
+
+[ 7 1 6 ]
+[ 3 0 2 ]
+[ 5 4 8 ]
+cost: 10 heu: 14 in queue: 871
+
+
+
+[ 7 1 6 ]
+[ 3 4 2 ]
+[ 5 0 8 ]
+cost: 11 heu: 13 in queue: 873
+
+
+
+[ 7 1 6 ]
+[ 3 4 2 ]
+[ 5 8 0 ]
+cost: 12 heu: 12 in queue: 874
+
+
+
+[ 7 1 6 ]
+[ 3 4 2 ]
+[ 0 5 8 ]
+cost: 12 heu: 12 in queue: 874
+
+
+
+[ 7 1 6 ]
+[ 3 2 0 ]
+[ 5 4 8 ]
+cost: 11 heu: 13 in queue: 874
+
+
+
+[ 7 1 0 ]
+[ 3 2 6 ]
+[ 5 4 8 ]
+cost: 12 heu: 12 in queue: 875
+
+
+
+[ 7 1 6 ]
+[ 0 3 2 ]
+[ 5 4 8 ]
+cost: 11 heu: 13 in queue: 875
+
+
+
+[ 7 1 6 ]
+[ 5 3 2 ]
+[ 0 4 8 ]
+cost: 12 heu: 12 in queue: 876
+
+
+
+[ 7 1 6 ]
+[ 5 3 2 ]
+[ 4 0 8 ]
+cost: 13 heu: 11 in queue: 876
+
+
+
+[ 7 1 6 ]
+[ 5 3 2 ]
+[ 4 8 0 ]
+cost: 14 heu: 10 in queue: 877
+
+
+
+[ 0 1 6 ]
+[ 7 3 2 ]
+[ 5 4 8 ]
+cost: 12 heu: 12 in queue: 877
+
+
+
+[ 1 0 6 ]
+[ 7 3 2 ]
+[ 5 4 8 ]
+cost: 13 heu: 11 in queue: 877
+
+
+
+[ 1 3 6 ]
+[ 7 0 2 ]
+[ 5 4 8 ]
+cost: 14 heu: 10 in queue: 878
+
+
+
+[ 1 3 6 ]
+[ 7 4 2 ]
+[ 5 0 8 ]
+cost: 15 heu: 9 in queue: 880
+
+
+
+[ 1 3 6 ]
+[ 7 4 2 ]
+[ 5 8 0 ]
+cost: 16 heu: 8 in queue: 881
+
+
+
+[ 1 3 6 ]
+[ 7 4 2 ]
+[ 0 5 8 ]
+cost: 16 heu: 8 in queue: 881
+
+
+
+[ 1 3 6 ]
+[ 0 4 2 ]
+[ 7 5 8 ]
+cost: 17 heu: 7 in queue: 881
+
+
+
+[ 1 3 6 ]
+[ 4 0 2 ]
+[ 7 5 8 ]
+cost: 18 heu: 6 in queue: 882
+
+
+
+[ 1 3 6 ]
+[ 4 5 2 ]
+[ 7 0 8 ]
+cost: 19 heu: 5 in queue: 884
+
+
+
+[ 1 3 6 ]
+[ 4 5 2 ]
+[ 7 8 0 ]
+cost: 20 heu: 4 in queue: 885
+
+
+
+[ 1 3 6 ]
+[ 4 2 0 ]
+[ 7 5 8 ]
+cost: 19 heu: 5 in queue: 885
+
+
+
+[ 1 3 0 ]
+[ 4 2 6 ]
+[ 7 5 8 ]
+cost: 20 heu: 4 in queue: 886
+
+
+
+[ 1 0 3 ]
+[ 4 2 6 ]
+[ 7 5 8 ]
+cost: 21 heu: 3 in queue: 886
+
+
+
+[ 1 2 3 ]
+[ 4 0 6 ]
+[ 7 5 8 ]
+cost: 22 heu: 2 in queue: 887
+
+
+
+[ 1 2 3 ]
+[ 4 5 6 ]
+[ 7 0 8 ]
+cost: 23 heu: 1 in queue: 889
+
+
+
+[ 1 2 3 ]
+[ 4 5 6 ]
+[ 7 8 0 ]
+cost: 24 heu: 0 in queue: 890
+
