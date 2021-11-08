@@ -14,4 +14,5 @@ How to use: download repository or individual executables that match your operat
 
 IMPORTANT:
 idelTilePzl.exe: windows executable
+
 idelTilePzl.out: linux executable
