@@ -8,15 +8,15 @@
 #include "algorithms.h"
 #include "puzzleMaker.h"
 
-
+// runs all three algorithms on a precoded version of the test cases
 void testCaseManager(){
     cout << "Which test would you like to do?\n\n 0, 2, 4, 8, 12, 16, 20, 24\n" << endl;
     unsigned choice = 32;
     cin >> choice;
-    switch (choice){
+    switch (choice){ // interpret choice
         case 0:
             {
-            unsigned depthZeroInit [9] = {1,2,3,4,5,6,7,8,0};
+            unsigned depthZeroInit [9] = {1,2,3,4,5,6,7,8,0}; // array that can be read into puzzle
             // cout << pzlTest << endl << pzlTest.zeroPos[0] << ", " << pzlTest.zeroPos[1] << endl;
             {
                 Puzzle pzlToUse(depthZeroInit);
@@ -195,15 +195,16 @@ void testCaseManager(){
     }
 }
 
+// allows a string with no spaces to be put in and made initial state
 void customTest(bool printOut){
     cout << "Please enter a string of 9 values, from 0 to 8.\nIncorrect configurations will be discarded\n" << endl;
     char n = 'a';
     unsigned initArr[9];
-    for(unsigned i = 0; i < 9; i++){
-        cin >> n;
+    for(unsigned i = 0; i < 9; i++){ // read 9 times
+        cin >> n; // read 1 char
         // cout << static_cast<unsigned>(n) - 48;
-        if(!isalpha(n) && (static_cast<unsigned>(n) > 47) && (static_cast<unsigned>(n) < 57)){
-            initArr[i] = static_cast<unsigned>(n) - 48;
+        if(!isalpha(n) && (static_cast<unsigned>(n) > 47) && (static_cast<unsigned>(n) < 57)){ // valid number?
+            initArr[i] = static_cast<unsigned>(n) - 48; // push into array
         }
         else{
             cout << "\nYour input was impropper. Please only include numbers with no spaces (ex: 012345678)\n" << endl;
@@ -213,7 +214,7 @@ void customTest(bool printOut){
         }
     }
 
-    Puzzle customPuzzle(initArr);
+    Puzzle customPuzzle(initArr); // make puzzle using array, display it
     cout << "\n\n8 puzzle you have made:\n" << customPuzzle;
     cout << "Zero is at: " << customPuzzle.zeroPos[0] << ", " << customPuzzle.zeroPos[1] << endl;
     cout << "\nWhich method would you like to use to solve?\n0.Misplaced Tile\n1.Manhattan\n2.Uniform Cost Search\n" << endl; 
@@ -221,7 +222,7 @@ void customTest(bool printOut){
     cin >> type;
     cin.clear();
     cin.ignore(10000, '\n');
-    switch (type){
+    switch (type){ // allow for choice of algorithm
     case 0:
         generalSearch(customPuzzle, 0, printOut);
         break;
@@ -240,22 +241,23 @@ void customTest(bool printOut){
     cout << "\nDone." << endl;
 }
 
-void reportData(){
-    ofstream wrt;
-    wrt.open("reportData.txt");
-    if(!wrt.is_open()){
-        cout << "error opening file" << endl;
-        exit(1);
-    }
+void reportData(){ // not used
+    // ofstream wrt;
+    // wrt.open("reportData.txt");
+    // if(!wrt.is_open()){
+    //     cout << "error opening file" << endl;
+    //     exit(1);
+    // }
 
 
 
-    wrt.close();
+    // wrt.close();
 }
 
-void mainMenu(){    
+void mainMenu(){   // loop to output main options 
     int menuIn = -1;
     while (menuIn){
+        // main output
         cout << "\n8 Puzzle Solver- idelc\n" << endl;
         cout << "Main Menu" << endl;
         cout << "1. Use Test Cases\n";
@@ -265,7 +267,7 @@ void mainMenu(){
         cout << "0. Exit\n" << endl;
         cin >> menuIn;
         cout << endl;
-
+        // read option from user, call appropriate function
         switch (menuIn){
             case 0:
                 break;

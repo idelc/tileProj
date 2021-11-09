@@ -24,6 +24,7 @@ class Puzzle{
         // cout << "done filling in" << endl;
     };
 
+    // constructor that can use an array (works only for size 3, hardcoded, can be mod)
     Puzzle(unsigned initArr[9]): size(3){
         unsigned n = 0;
         for(unsigned i = 0; i < this->size; i++){

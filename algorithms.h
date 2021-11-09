@@ -24,26 +24,35 @@ Puzzle SOLVED_PUZZLE(3);
 
 class Node{ // struct to hold node info
  public:
+    // Constructor, requires puzzle, cost, heuristic, and the last move made/ move made by the parent
     Node(Puzzle& pzl, unsigned cst, unsigned heu, unsigned lastM):nodePzl(pzl),cost(cst),heuristic(heu), lastMove(lastM){};
+    // Copy Constructor using constant node referance
     Node(const Node& nd): nodePzl(nd.nodePzl), cost(nd.cost), heuristic(nd.heuristic), lastMove(nd.lastMove){};
+    // Copy Constructor using pointer
     Node(Node* nd): nodePzl(nd->nodePzl), cost(nd->cost), heuristic(nd->heuristic), lastMove(nd->lastMove){};
+    //Destructor
     ~Node(){}
+
+    // Puzzle at the node
     Puzzle nodePzl;
+    // Cost so far, or amount of moves made so far in an 8-puzzle
     unsigned cost; 
+    // The value returned by the heuristic function for the puzzle
     unsigned heuristic;
-    unsigned lastMove; // store last move and dont make a node undoing it
+    // store last move and dont make a node undoing it
+    unsigned lastMove; 
 };
 
+// comparitor function for nodes, adapted from list sort reference above
 bool smallerNode(const Node& node1, const Node& node2){
     return ((node1.cost+node1.heuristic)<(node2.cost+node2.heuristic));
 }
 
+// takes in two puzzles, finds the amount of misplaced tiles in the first one compared to the second
 unsigned misplacedTile(Puzzle& currPz, Puzzle& otherPz){
     unsigned mT = 0;
     for(unsigned i = 0; i < currPz.size; i++){
             for(unsigned j = 0; j < currPz.size; j++){
-                // is the temp node puzzle at the current value the same as the solved puzzle at that value?
-                // asume true, if find one discrepancy set flag to false for remainder of loop
                 if(currPz.pzlBoard[i][j] != otherPz.pzlBoard[i][j]){
                     mT++;
                 }
@@ -52,6 +61,8 @@ unsigned misplacedTile(Puzzle& currPz, Puzzle& otherPz){
     return mT;    
 }
 
+// takes in puzzle, initializes array of correct positions 
+// verifies how far away the tile is from the correct position
 unsigned manhattan(const Puzzle& currPz){
     unsigned sz = currPz.size;
     unsigned manhArr [(sz*sz)][2];
@@ -69,7 +80,8 @@ unsigned manhattan(const Puzzle& currPz){
     for(unsigned i = 0; i < sz; i++){ //check curr array pos
         for(unsigned j = 0; j < sz; j++){
             tempNum1 = currPz.pzlBoard[i][j]; 
-            if(tempNum1){
+            if(tempNum1){ // if number is not 0, check how far away it is from right position
+                // finds difference between current position and final position
                 mhNum = mhNum + abs(static_cast<int>(manhArr[tempNum1][0]) - static_cast<int>(i)) + abs(static_cast<int>(manhArr[tempNum1][1]) - static_cast<int>(j));
             }
         }
@@ -80,14 +92,15 @@ unsigned manhattan(const Puzzle& currPz){
 
 void generalSearch(Puzzle& pzl, const unsigned heu, bool print){
     // priority_queue<Node*, vector <Node*>, std::greater<Node*> > nodes; // min priority queue 
+    // var to keep track of ticks
     clock_t timeS = clock();
-    list<Node*> nodes;
-    unsigned mostExpanded = 0;
-    unsigned sizeTemp = 0;
-    unsigned totalExp = 0; 
+    list<Node*> nodes;          // list of nodes 
+    unsigned mostExpanded = 0;  // largest size of the queue
+    unsigned sizeTemp = 0;      // used to store size of queue every time 
+    unsigned totalExp = 0;      // increments when a node is expanded
     nodes.push_front(new Node(pzl,0,0,4)); //First node, no cost, no heuristic, last move is invalid
-    bool solved = false; // loop condition
-    ofstream write;
+    bool solved = false;        // loop condition
+    ofstream write;             // write stream for tracing file
     write.open("Trace.txt");
     if(!write.is_open()){
         cout << "error opening file" << endl;
@@ -95,15 +108,15 @@ void generalSearch(Puzzle& pzl, const unsigned heu, bool print){
     }
     while(!solved){
         if(nodes.empty()){
-            cout << "Failed to solve the puzzle" << endl;
+            cout << "Failed to solve the puzzle" << endl; // node list empty, no solution 
             return;
         }
-        nodes.sort(smallerNode);
+        nodes.sort(smallerNode); // sort node list every loop execution
         Node temp = *nodes.front(); // make a copy so as to not need top directly
         nodes.pop_front(); // delete top
-        sizeTemp = nodes.size();
-        totalExp++;
-        mostExpanded = max(mostExpanded, sizeTemp);
+        sizeTemp = nodes.size(); // store size temporarily
+        totalExp++;             // increment number of nodes expanded
+        mostExpanded = max(mostExpanded, sizeTemp); // compare what the max size of the list was to the current size, 
 
         if(print){ write << "\n\n" << temp.nodePzl << "cost: " << temp.cost << " heu: " << temp.heuristic <<" in queue: " << nodes.size() << "\n" << endl;}
         bool match = true;
@@ -117,7 +130,7 @@ void generalSearch(Puzzle& pzl, const unsigned heu, bool print){
                 }
             }
         }
-        if(match){
+        if(match){ // output the data needed for the report
             cout << "Solution found at depth: " << temp.cost; 
             cout << "\nTotal nodes expanded: " << totalExp;
             cout << "\nMax size of queue: "<< mostExpanded;
@@ -126,19 +139,19 @@ void generalSearch(Puzzle& pzl, const unsigned heu, bool print){
             write.close();
             return;
         }
-        else{
-            Node tempMoves = temp;
+        else{ // expand nodes
+            Node tempMoves = temp; // dummy variable
             unsigned int validMove = 0;
-            for(unsigned i = 0; i < 4; i++){
+            for(unsigned i = 0; i < 4; i++){ //run the loop 4 times, 1 for each direction
                 tempMoves = temp;
                 validMove = false;
-                switch (i){
+                switch (i){ // go through each direction. Break if invalid or redundant move
                     case 0:
-                        if(tempMoves.lastMove == 3) {break;}
-                        if(!(tempMoves.nodePzl.moveUp())) {break;}
+                        if(tempMoves.lastMove == 3) {break;} // last move was down, dont make one that goes up
+                        if(!(tempMoves.nodePzl.moveUp())) {break;} // invalid
                         tempMoves.lastMove = 0;
                         tempMoves.cost = tempMoves.cost + 1;
-                        switch (heu){
+                        switch (heu){ // what heuristic? misplaced, manhattan, or none of UC
                             case 0:
                                 // misplaced tile
                                 tempMoves.heuristic = misplacedTile(tempMoves.nodePzl, SOLVED_PUZZLE);

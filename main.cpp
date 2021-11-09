@@ -8,7 +8,7 @@ using namespace std;
 
 int main(){
 
-    mainMenu();
+    mainMenu(); // call main menu
     
     return 0;
 }
